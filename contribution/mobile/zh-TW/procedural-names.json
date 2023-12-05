@@ -1,0 +1,108 @@
+{
+	"IMPORTANT": {
+		"TRANSLATION_INSTRUCTION": "When translating this file, please delete English entries from list, and there is no need to do a exact translation, we prefer lore & culture friendly translation :)",
+		"TRANSLATION_INSTRUCTION_2": "Feel free to add more entries, base on your language culture",
+		"TRANSLATION_INSTRUCTION_3": "Also translate instructions above so more people will understand (remove this line if already translated)",
+		"TRANSLATION_INSTRUCTION_4": "the names will only get activated if it has enough entries, otherwise english version will be used"
+	},
+	"TIERS": {
+		"TRASH": {
+			"prefixes": ["爛掉的", "生鏽的", "損壞的", "腐蝕的"]
+		},
+		"COMMON": {
+			"prefixes": ["常規", "普通"]
+		},
+		"HIGH_QUALITY": {
+			"prefixes": ["高級"]
+		},
+		"RARE": {
+			"prefixes": ["稀有"]
+		},
+		"LEGENDARY": {
+			"prefixes": ["傳奇"]
+		},
+		"EPIC": {
+			"prefixes": ["史詩"]
+		}
+	},
+	"WEAPON_COMMON_PARTS_INSTRUCTIONS": "Requires minimum of 30 parts to activate",
+	"WEAPON_COMMON_PARTS": ["反坦克", "破壞者", "破壞", "反物質", "激光"],
+	"EQUIPMENT_TYPES_INSTRUCTIONS": "Requires minimum of 10 parts to activate",
+	"EQUIPMENT_TYPES": {
+		"PRIMARY_WEAPON": {
+			"names": [
+				"手槍",
+				"移相器",
+				"衝擊波",
+				"槍",
+				"火槍",
+				"雷射槍",
+				"小槍",
+				"發射器"
+			]
+		},
+		"SECONDARY_WEAPON": {
+			"names": [
+				"萊福槍",
+				"手槍",
+				"移相器",
+				"衝擊波",
+				"槍",
+				"火槍",
+				"雷射槍",
+				"小槍"
+			]
+		},
+		"TERTIARY_WEAPON": {
+			"names": ["大砲", "火箭", "火箭炮", "分裂者", "發射器"]
+		},
+		"HELMET": {
+			"names": [
+				"崗山駭客帽",
+				"黑色針織帽",
+				"戰術眼鏡",
+				"攝像頭電子眼",
+				"猛禽防毒面具",
+				"合成皮塑料護目鏡",
+				"青虎加強超夢頭環",
+				"全息警用護目鏡",
+				"實驗室信息面罩"
+			]
+		},
+		"UPPER_ARMOR": {
+			"names": [
+				"黑色駭客服",
+				"重型增強警用大衣",
+				"狼學派夾克",
+				"阿得卡多防彈背心",
+				"衝擊獨狼夾克",
+				"老舊的風衣",
+				"激光朋克夾克",
+				"致命合成絲裝甲"
+			]
+		},
+		"LOWER_ARMOR": {
+			"names": [
+				"防突刺戰術褲",
+				"耐穿駭客長褲",
+				"雙層技術工裝褲",
+				"獨狼長褲",
+				"流浪者長褲",
+				"豹紋小短褲",
+				"戰鬥短褲"
+			]
+		},
+		"BOOTS": {
+			"names": [
+				"增強縫合便鞋",
+				"防刺搖滾松岡靴",
+				"防水警用作戰靴",
+				"猛鋼獨狼靴子",
+				"駭客複合內搭鞋",
+				"皮革流浪者西部靴",
+				"耐磨鞋底晚裝鞋",
+				"戰鬥外骨骼長筒靴"
+			]
+		}
+	}
+}
