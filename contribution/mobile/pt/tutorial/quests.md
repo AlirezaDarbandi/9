@@ -1,0 +1,2 @@
+## Missões
+As missões podem ser encontradas na guia Quest na parte inferior da tela. Aqui é onde você recebe tarefas específicas que lhe darão pontos de experiência extras e BitCoins. Há uma variedade de tarefas disponíveis, como imprimir equipamentos, matar inimigos e ganhar experiência ou BitCoins. Depois de concluir uma missão, clique nela para reivindicar as recompensas. Na maioria dos casos, você também receberá uma nova missão. Você também pode adquirir missões dentro de masmorras falando com o doador de missões, que está marcado com um '?'.
