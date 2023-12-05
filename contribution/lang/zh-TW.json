@@ -1,0 +1,5804 @@
+{
+ 	"tabs": {
+ 	 	"inventory": {
+ 	 	 	"trans": "背包",
+ 	 	 	"eng": "Inventory"
+ 	 	},
+ 	 	"quest": {
+ 	 	 	"trans": "任務",
+ 	 	 	"eng": "Quest"
+ 	 	},
+ 	 	"chat": {
+ 	 	 	"trans": "聊天",
+ 	 	 	"eng": "Chat"
+ 	 	},
+ 	 	"profile": {
+ 	 	 	"trans": "個人檔案",
+ 	 	 	"eng": "Profile"
+ 	 	},
+ 	 	"map": {
+ 	 	 	"trans": "地圖",
+ 	 	 	"eng": "Map"
+ 	 	}
+ 	},
+ 	"npc": {
+ 	 	"unitExchange": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "荒坂貨幣換匯",
+ 	 	 	 	"eng": "Arasaka Unit Exchange"
+ 	 	 	},
+ 	 	 	"tut": {
+ 	 	 	 	"trans": "你可以在此購買全球加成",
+ 	 	 	 	"eng": "You can purchase global buff items here"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "你至少需要3級才能訪問荒坂貨幣換匯",
+ 	 	 	 	"eng": "You need to be at least level 3 to access unit exchange"
+ 	 	 	},
+ 	 	 	"defaultLines": {
+ 	 	 	 	"trans": [
+ 	 	 	 	 	"你想要買點Units，還是使用你的Units？",
+ 	 	 	 	 	"Thanks for checking the store out.",
+ 	 	 	 	 	"Did you know that the S.A.T. was in a developmental phase for a long time?",
+ 	 	 	 	 	"We just got a new stock of S.A.T.'s. Interested in getting one?",
+ 	 	 	 	 	"Welcome to the Arasaka Unit Exchange.",
+ 	 	 	 	 	"Did you know the current S.A.T.'s are actually version 2.0?",
+ 	 	 	 	 	"Remember: Rare S.A.T.'s and Normal grade S.A.T.'s arent compatible.",
+ 	 	 	 	 	"BTC? No, we only deal in UNITs here.",
+ 	 	 	 	 	"Do you know Rossi from the bank? We went to school together.",
+ 	 	 	 	 	"Have you visited Doc at Trinoky Mart? You don't look too well.",
+ 	 	 	 	 	"Most folks around here are nice. I stress most.",
+ 	 	 	 	 	"Been anywhere interesting lately? I just got back from Neo-Japan.",
+ 	 	 	 	 	"There's nothing like a hot cup of tea on a cold day, won't you agree?",
+ 	 	 	 	 	"We got more S.A.T.'s on the way. Want to take a look in the mean time?",
+ 	 	 	 	 	"Global S.A.T.'s signals tend to go up at random. Be sure to pay attention.",
+ 	 	 	 	 	"My radio jammed up pretty bad the other day. Turns out it was the 3Helix Network.",
+ 	 	 	 	 	"You want to really make everyone's day? Buy some units and use 'em for EXP boosts!",
+ 	 	 	 	 	"Buying units and spending them benefits everyone, you know?",
+ 	 	 	 	 	"A game that isn't pay to win. Fancy that!",
+ 	 	 	 	 	"Everyone gets something out of your purchase, even the dev!",
+ 	 	 	 	 	"Noise complaint?"
+ 	 	 	 	],
+ 	 	 	 	"eng": [
+ 	 	 	 	 	"Do you want to buy Units, or use your Units?"
+ 	 	 	 	]
+ 	 	 	}
+ 	 	},
+ 	 	"cosmetic": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "電馭裝飾",
+ 	 	 	 	"eng": "Cosmetic Cyberwear"
+ 	 	 	},
+ 	 	 	"tut": {
+ 	 	 	 	"trans": "喜歡這個遊戲的話，請多多贊助支持作者喔 :)",
+ 	 	 	 	"eng": "If you liked the game, please consider donation :)"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "你至少需要達到3級才能訪問電馭裝飾",
+ 	 	 	 	"eng": "You need to be at least level 3 to access cosmetic merchant"
+ 	 	 	},
+ 	 	 	"defaultLines": {
+ 	 	 	 	"trans": [
+ 	 	 	 	 	"哈囉！提供一點贊助，你就能獲得裝飾品，同時也能支持像這款遊戲一樣堅定拒絕付費取勝（P2W）的遊戲！",
+ 	 	 	 	 	"Have you considered making a monthly donation?",
+ 	 	 	 	 	"Nice to see you, what is it you require?",
+ 	 	 	 	 	"Want to stand out from the crowd? Maybe grab a subscription.",
+ 	 	 	 	 	"I can apply a profile photo to your profile if you buy a subscription. What do you say?",
+ 	 	 	 	 	"Want a colorful border for online chatting? Why don't you subscribe?",
+ 	 	 	 	 	"The cost of the lowest subscription is only a cup of coffee. Think you could spare me some caffeine?",
+ 	 	 	 	 	"Donating makes you pretty and helps the development of the game.",
+ 	 	 	 	 	"Want to make a scene? Make yourself shine brighter than the sun with a new look!",
+ 	 	 	 	 	"I can't offer you any pay-to-win content, but I can defnitely make you look dazzling!",
+ 	 	 	 	 	"Colorful is the new cool! I can give you a color... for a price.",
+ 	 	 	 	 	"You like pictures, I like pictures, we all like pictures. For a price, anyone can have one!",
+ 	 	 	 	 	"Donations keep the game development going. I buy coffee with it so I can keep on making content!",
+ 	 	 	 	 	"Coding is exhausting. A good coffee is only 2 dollars!",
+ 	 	 	 	 	"With a donation, you can help support the game and look cool doing it! Color, pictures, and animations!",
+ 	 	 	 	 	"Money makes the world go 'round! You donating means I can make this a full time job!",
+ 	 	 	 	 	"Fancy a cool profile, do ye?",
+ 	 	 	 	 	"You look like a person who knows their style! Tell you what, I'll give you style for a price.",
+ 	 	 	 	 	"Beauty tip #1: Color is half of what makes the world so amazing!"
+ 	 	 	 	],
+ 	 	 	 	"eng": [
+ 	 	 	 	 	"Hi! Donate to get cosmetic perks and to help support Free-to-Win games like this one!"
+ 	 	 	 	]
+ 	 	 	}
+ 	 	},
+ 	 	"printer": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "3D分子列印機",
+ 	 	 	 	"eng": "Molecular 3d Printer"
+ 	 	 	},
+ 	 	 	"tut": {
+ 	 	 	 	"trans": "你可以在這裡使用快取記憶體製作新裝備",
+ 	 	 	 	"eng": "You can use your Cache to print new equipment here"
+ 	 	 	},
+ 	 	 	"defaultLines": {
+ 	 	 	 	"trans": [
+ 	 	 	 	 	"我會列印出任何你想要的玩意兒 ── 只要你有那玩意兒的快取記憶體！",
+ 	 	 	 	 	"給我快取記憶體，我就給你成品！",
+ 	 	 	 	 	"請告訴我，你帶了一些史詩級的快取記憶體。",
+ 	 	 	 	 	"Please, tell me you have some Epic cache with you.",
+ 	 	 	 	 	"歡迎。我希望你是真的來消費的顧客...",
+ 	 	 	 	 	"如果你有快取記憶體，我可以列印它們！",
+ 	 	 	 	 	"很高興我們不再使用墨水列印，我可以穿我最好的衣服去工作",
+ 	 	 	 	 	"不知道為什麼，我們從來不用我們的複製器來列印食物。",
+ 	 	 	 	 	"茶，格雷伯爵茶，熱的。也許還有泡沫。😋",
+ 	 	 	 	 	"讓我看看你的快取記憶體。",
+ 	 	 	 	 	"活得長，活得好。🖖",
+ 	 	 	 	 	"每次看到顧客我都會很興奮；也許他們有史詩級的快取記憶體！",
+ 	 	 	 	 	"我有時會感到孤獨。有一天我會買一個戀愛機器人或 Android 機器人來陪伴我。",
+ 	 	 	 	 	"電腦是優秀而高效的僕人，但我不希望在它們手下服務。",
+ 	 	 	 	 	"別擔心，我們的墨水不會用完的。",
+ 	 	 	 	 	"有時我想知道外面的世界是什麼樣子的。當你成名時，你會回來告訴我嗎？",
+ 	 	 	 	 	"繼續列印吧，繼續列印吧。",
+ 	 	 	 	 	"我被困在這裡了，但你沒有。用你的新裝備為我贏得戰爭！",
+ 	 	 	 	 	"我拿你的快取記憶體，你拿裝備！",
+ 	 	 	 	 	"你的新裝備看起來不錯！",
+ 	 	 	 	 	"我希望有人能幫我印一些腿！我很想看看這個房間外面有什麼...",
+ 	 	 	 	 	"我可以列印槍枝，但我卻不能給自己列印一雙手臂來迎接你。多麼諷刺...",
+ 	 	 	 	 	"如果你看中了新裝備，那就多帶點錢。我會讓你夢想成真。",
+ 	 	 	 	 	"我一直在想是誰被打倒了，讓你們都有這麼多錢。",
+ 	 	 	 	 	"我只做俗氣的雙關語，因為沒有人願意給我印一些腿，這樣我就能找到更好的事情做。",
+ 	 	 	 	 	"我只是個印表機，但我能做出的東西會幫助你們獲得更多的快取記憶體。",
+ 	 	 	 	 	"我聽說荒坂銀行是一個儲存藏品的好地方，如果你還沒有能力列印它們的話。",
+ 	 	 	 	 	"我列印的裝備越多，我的資料就越多。我每天都會在列印方面變得更好！",
+ 	 	 	 	 	"你能為我列印一杯咖啡嗎？所有這些印刷都很累人。",
+ 	 	 	 	 	"你選擇哪一個：雷射還是噴墨？",
+ 	 	 	 	 	"你不會又是來列印色色的圖片吧？",
+ 	 	 	 	 	"列印一隻小黃鴨",
+ 	 	 	 	 	"請告訴我你帶了一些白色史詩級的快取記憶體。",
+ 	 	 	 	 	"剛用完彩色墨水。希望你喜歡黑白列印！",
+ 	 	 	 	 	"為什麼我還沒有列印一份自己的照片？",
+ 	 	 	 	 	"對不起，伙伴，沒有免費列印！",
+ 	 	 	 	 	"好在我不能列印 Bitcoin。",
+ 	 	 	 	 	"拜...拜託，請...請不要再列印一些愚蠢的東西。",
+ 	 	 	 	 	"今天我多花了一微秒的時間來開機。",
+ 	 	 	 	 	"列印使我快樂！",
+ 	 	 	 	 	"🎵我只是一個孤獨的印表機~ 🎶沒有人會給我列印一個朋友~ 🎵",
+ 	 	 	 	 	"請不要再嘗試列印披薩了。醬汁堵塞了機器的噴嘴"
+ 	 	 	 	],
+ 	 	 	 	"eng": [
+ 	 	 	 	 	"I'll print whatever you want if you have the cache!"
+ 	 	 	 	]
+ 	 	 	}
+ 	 	},
+ 	 	"weaponSmith": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "裝備商人",
+ 	 	 	 	"eng": "Weapon Smith"
+ 	 	 	},
+ 	 	 	"defaultLines": {
+ 	 	 	 	"trans": [
+ 	 	 	 	 	"相信我，你在這兒只會找到上等貨。",
+ 	 	 	 	 	"I can help you if you give me some BitCoin.",
+ 	 	 	 	 	"I can repair your equipment... for a price.",
+ 	 	 	 	 	"What do you want, stranger?",
+ 	 	 	 	 	"Check out what I have scavenged today.",
+ 	 	 	 	 	"Won't find anything better around these parts.",
+ 	 	 	 	 	"Have a look at what I've got today.",
+ 	 	 	 	 	"Fresh wares plundered from the wasteland.",
+ 	 	 	 	 	"What can I get you today?",
+ 	 	 	 	 	"Buy something already. I haven't got all day.",
+ 	 	 	 	 	"You break it, you buy it. Global policy.",
+ 	 	 	 	 	"Interested in anything we got today?",
+ 	 	 	 	 	"Welcome to my shop. Have a look around.",
+ 	 	 	 	 	"Can I help you find something, stranger?",
+ 	 	 	 	 	"Quality weapons only at this Smithy.",
+ 	 	 	 	 	"Care to buy one to protect yourself?",
+ 	 	 	 	 	"The finest weapon smith in Shangri-La at your service.",
+ 	 	 	 	 	"It's dangerous to go alone.... nevermind.",
+ 	 	 	 	 	"I was an adventurer like you. Until I established this shop.",
+ 	 	 	 	 	"No returns or exchanges. What you pay is what you get.",
+ 	 	 	 	 	"Haven't had enough of me yet, have ya?",
+ 	 	 	 	 	"The finest weapons and armor.",
+ 	 	 	 	 	"Hmm... guns, helmets, etc. Pretty much anything to suit your needs.",
+ 	 	 	 	 	"Looking to protect yourself or deal some damage?",
+ 	 	 	 	 	"Oh? A bit of this and a bit of that.",
+ 	 	 	 	 	"Trinkets, odds-and-ends. You know... That sort of thing.",
+ 	 	 	 	 	"Some may call this junk. Me? I call it treasure.",
+ 	 	 	 	 	"Have you ever met the Worldslayer?",
+ 	 	 	 	 	"Tell the President I said hi!",
+ 	 	 	 	 	"I wonder what Lucille's up to...",
+ 	 	 	 	 	"Don't just window-shop. Buy something!",
+ 	 	 	 	 	"Anything in particular that you're looking for?",
+ 	 	 	 	 	"You look like you know a bargain when you see one!",
+ 	 	 	 	 	"I used to be an adventurer like you, but then I took a bullet to the knee",
+ 	 	 	 	 	"LEDs, ropes, explosives. You want it? It's yours, my friend. As long as you have enough Bitcoin.",
+ 	 	 	 	 	"I always collect the finest blasters I can.",
+ 	 	 	 	 	"Nice weapon you've got there. Compensating for something?",
+ 	 	 	 	 	"I once saw someone kill three men in a bar... with a pencil.",
+ 	 	 	 	 	"Welcome, Baba Yaga.",
+ 	 	 	 	 	"The Boogeyman?!"
+ 	 	 	 	],
+ 	 	 	 	"eng": [
+ 	 	 	 	 	"You will find the best gear here, trust me."
+ 	 	 	 	]
+ 	 	 	}
+ 	 	},
+ 	 	"terminal": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "終端機",
+ 	 	 	 	"eng": "Terminal"
+ 	 	 	},
+ 	 	 	"tut": {
+ 	 	 	 	"trans": "請從地下城中獲取共3個密鑰碎片，接著至[終端機]進行暴力破解，以取得完整密鑰來進入下個區域",
+ 	 	 	 	"eng": "To progress to the next area, you need to get Secret Key Fragments from dungeons, \r\n        and use the Terminal to Brute Force the key for next area"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "這是你的電腦，雖然有點舊，但只要有足夠的耐心就可以完成工作",
+ 	 	 	 	"eng": "Your personal computer, although it's a little outdated, it can get the job done with enough patience"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "你至少需要達到5級才能訪問終端機",
+ 	 	 	 	"eng": "You need to be at least level 5 to access terminal"
+ 	 	 	},
+ 	 	 	"defaultLines": {
+ 	 	 	 	"trans": [
+ 	 	 	 	 	"我會協助你前往下一個區域！",
+ 	 	 	 	 	"I can tap on the knowledge of the whole world... and yet I'm treated as a cookbook.",
+ 	 	 	 	 	"My daughter's name is not Mithra! Stop making fun of her!",
+ 	 	 	 	 	"Are you prepared?",
+ 	 	 	 	 	"The key is nothing without the container.",
+ 	 	 	 	 	"Which weighs more, traveller? Your guns, or your past?",
+ 	 	 	 	 	"The key above all things... except a good drink.",
+ 	 	 	 	 	"One key, one purpose."
+ 	 	 	 	],
+ 	 	 	 	"eng": [
+ 	 	 	 	 	"I'll help you to progress to the next area!"
+ 	 	 	 	]
+ 	 	 	}
+ 	 	},
+ 	 	"store": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "藥商",
+ 	 	 	 	"eng": "Trinoky Mart"
+ 	 	 	},
+ 	 	 	"defaultLines": {
+ 	 	 	 	"trans": [
+ 	 	 	 	 	"嘿，小子 ... 過來瞧瞧我手頭的貨。",
+ 	 	 	 	 	"Hurting? You've come to the right place.",
+ 	 	 	 	 	"We've got the cheap stuff and the good stuff, kid.",
+ 	 	 	 	 	"Have you heard about the street angel?",
+ 	 	 	 	 	"Welcome to Trinoky Mart. You can call me Doc.",
+ 	 	 	 	 	"We are open 24/7. Unless we aren't.",
+ 	 	 	 	 	"Don't cause any trouble and don't bring any trouble.",
+ 	 	 	 	 	"Try to steal anything and I will have a new mannequin.",
+ 	 	 	 	 	"The least you could do is stop bleeding before you come in.",
+ 	 	 	 	 	"No refunds and no exchanges. I don't run a charity here.",
+ 	 	 	 	 	"Hey kid. How are you today?",
+ 	 	 	 	 	"Don't stop at Grade 7, or else you'll be slaving away here forever like me.",
+ 	 	 	 	 	"The finest medical supply mart in all of Shangri-La.",
+ 	 	 	 	 	"SLPD causing a racket again. I hope the council puts them in their place.",
+ 	 	 	 	 	"Hey kid, ever heard of The 3Helix Network?",
+ 	 	 	 	 	"Hey kid, ever run into anyone called the Worldslayer?",
+ 	 	 	 	 	"Did you hear about the restaurant on the moon? Great food but no atmosphere!",
+ 	 	 	 	 	"A cheese factory exploded in France. There was da brie everywhere!",
+ 	 	 	 	 	"Geology rocks but Geography is where it’s at!",
+ 	 	 	 	 	"I hate how funerals are always at 9 a.m. I’m not really a mourning person.",
+ 	 	 	 	 	"Why did Adele cross the road? To say hello from the other side.",
+ 	 	 	 	 	"I don’t trust stairs. They’re always up to something.",
+ 	 	 	 	 	"What did the sushi say to the bee? Wasabee!",
+ 	 	 	 	 	"The past, the present, and the future walk into a bar. It was tense!",
+ 	 	 	 	 	"Why should you never trust a train? They have loco motives.",
+ 	 	 	 	 	"I was wondering why the ball was getting bigger. Then it hit me.",
+ 	 	 	 	 	"I used to work in a shoe-recycling shop. It was sole destroying!",
+ 	 	 	 	 	"Come to Quark's! Quark's is fun! Come right now – and don't walk – run!",
+ 	 	 	 	 	"I've got the best gear you'll find anywhere!",
+ 	 	 	 	 	"I used to collect colored Legendary Special Weapon, but now everything's just white",
+ 	 	 	 	 	"The changing rooms are over there…",
+ 	 	 	 	 	"Let's close the deal before I wet myself!",
+ 	 	 	 	 	"Please take a look! We surely have something that tickles your fancy..."
+ 	 	 	 	],
+ 	 	 	 	"eng": [
+ 	 	 	 	 	"Hey kid... Come check out my goods."
+ 	 	 	 	]
+ 	 	 	}
+ 	 	},
+ 	 	"bank": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "荒坂銀行",
+ 	 	 	 	"eng": "Bank of Arasaka"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "你至少需要達到5級才能訪問荒坂銀行",
+ 	 	 	 	"eng": "You need to be at least level 5 to access bank"
+ 	 	 	},
+ 	 	 	"defaultLines": {
+ 	 	 	 	"trans": [
+ 	 	 	 	 	"歡迎。你需要存放什麼東西嗎？",
+ 	 	 	 	 	"Hello. This is the safest place for your most precious items.",
+ 	 	 	 	 	"Lucky you! Here your items are in the safest place.",
+ 	 	 	 	 	"Welcome. Do you have something to deposit?",
+ 	 	 	 	 	"Welcome to the Shangri-La branch. How can I help you today?",
+ 	 	 	 	 	"I lift things up and put them down. Kidding, but also, not really.",
+ 	 	 	 	 	"Bank of Arasaka for all your banking needs.",
+ 	 	 	 	 	"Welcome. What service are you using today?",
+ 	 	 	 	 	"24/7 for all your banking needs.",
+ 	 	 	 	 	"This is the most secure place in the city.",
+ 	 	 	 	 	"Hello there. My name is Rossi. What can I do for you?",
+ 	 	 	 	 	"Tellers to the left. Deposit stations to the right.",
+ 	 	 	 	 	"Thanks for visting today. Need any favors?",
+ 	 	 	 	 	"Not you again... What do you want?",
+ 	 	 	 	 	"I trust you're not planning any trouble. What can I do for you, friend?",
+ 	 	 	 	 	"Look over there. You'll see that Misaki offers the best interest loans, if that interests you.",
+ 	 	 	 	 	"Ever run into an adventuring nomad named Finel?",
+ 	 	 	 	 	"Our bank is the most secure in the world. Nevermind the only one...",
+ 	 	 	 	 	"Would you also like to open a savings account?",
+ 	 	 	 	 	"You need to deposit one White Legendary Special Weapon to open a savings account.",
+ 	 	 	 	 	"Alpha was just here asking about any epics in your locker!",
+ 	 	 	 	 	"There's a problem with your ID. Please pay 1 BTC."
+ 	 	 	 	],
+ 	 	 	 	"eng": [
+ 	 	 	 	 	"Welcome. What can I store for you?"
+ 	 	 	 	]
+ 	 	 	}
+ 	 	},
+ 	 	"equipmentUpgrade": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "校準站",
+ 	 	 	 	"eng": "Calibration Station"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "一個工具齊全的工作台可以強化你的裝備",
+ 	 	 	 	"eng": "A workbench with the necessary tools allows you to tinker with your equipment."
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "你至少需要達到10級才能訪問校準站",
+ 	 	 	 	"eng": "You need to be at least level 10 to access Calibration Station"
+ 	 	 	},
+ 	 	 	"defaultLines": {
+ 	 	 	 	"trans": [
+ 	 	 	 	 	"插入一個校準核心到這台機器裡頭，我就能校準你的任何裝備。",
+ 	 	 	 	 	"我會幫你校準你的裝置，但如果它在這個過程中被破壞了，那就不是我的問題了。",
+ 	 	 	 	 	"我的眼睛在上面，兄弟，我的槍也在上面。",
+ 	 	 	 	 	"你覺得自己很幸運嗎？來吧，試一試這台機器。",
+ 	 	 	 	 	"所有商品售後概不退換，所有的校準都是在你同意風險之後進行的，如果你想跟經理說......你就看著她吧。",
+ 	 	 	 	 	"我叫 Kamiko。那邊的美女是 Cali。她有點......脾氣暴躁。",
+ 	 	 	 	 	"你的裝備看起來有點......嗯，它可以更好。我可以幫你解決這個問題。",
+ 	 	 	 	 	"Cali 需要一點時間來解密你帶來的核心。",
+ 	 	 	 	 	"一旦你彈出校準核心，這將需要......呃，30分鐘左右。你可以在這裡等，但我真的希望你不要這樣做。",
+ 	 	 	 	 	"不，我們這裡不賣校準核心。我提供機器，你提供核心。這就是這裡的運作方式。",
+ 	 	 	 	 	"Cali 有可能會粉碎你的裝備嗎？當然，但這值得一賭嗎？絕對值得。",
+ 	 	 	 	 	"你今天要給什麼供電？",
+ 	 	 	 	 	"是時候校準一些裝備了！"
+ 	 	 	 	],
+ 	 	 	 	"eng": [
+ 	 	 	 	 	"Insert a Calibration Core into the machine, and I shall help you calibrate any of your equipment."
+ 	 	 	 	]
+ 	 	 	}
+ 	 	},
+ 	 	"storageMerchant": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "李先生的貿易站",
+ 	 	 	 	"eng": "Lee's Trading Post"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "由一個家庭經營的商店，你可以與他們交易他們在搜索時發現的東西",
+ 	 	 	 	"eng": "A family run trading shop that lets you trade with what they have found while scavenging"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "你至少需要達到10級才能訪問李先生的貿易站",
+ 	 	 	 	"eng": "You need to be at least level 10 to access merchant"
+ 	 	 	},
+ 	 	 	"defaultLines": {
+ 	 	 	 	"trans": [
+ 	 	 	 	 	"嗨，小伙子。我是李先生。記住，別總是把所有身家都帶在身上。",
+ 	 	 	 	 	"我們來做個交易吧。",
+ 	 	 	 	 	"你想要的，我都有。",
+ 	 	 	 	 	"那麼，你怎麼說？願意做個小交換嗎？",
+ 	 	 	 	 	"現在不是你交易的時候嗎？",
+ 	 	 	 	 	"歡迎來到我簡陋的貿易站。",
+ 	 	 	 	 	"讓我們來看看你帶了什麼來。",
+ 	 	 	 	 	"這不是你的普通商店。",
+ 	 	 	 	 	"你給我帶了什麼？",
+ 	 	 	 	 	"腰部和背部的小包和大包！",
+ 	 	 	 	 	"我在追求數量而不是質量。",
+ 	 	 	 	 	"怎麼樣？你要不要交易？",
+ 	 	 	 	 	"看起來你可以用更多的空間來儲存東西。",
+ 	 	 	 	 	"你這樣拖著你所有的東西，難道不累嗎？",
+ 	 	 	 	 	"看來有人需要一個新的背包。",
+ 	 	 	 	 	"如果你喜歡它，就把它裝進袋子裡！",
+ 	 	 	 	 	"你的口袋似乎滿了。我可以幫你減輕這個負擔。",
+ 	 	 	 	 	"你的手臂上裝滿了東西，怎麼能打仗呢？",
+ 	 	 	 	 	"你知道，你不必把你的所有東西都裝在你的口袋裡。",
+ 	 	 	 	 	"這樣吧，你把你的舊背包給我，我給你一個新背包。",
+ 	 	 	 	 	"你走路的樣子讓我覺得你負荷太重。",
+ 	 	 	 	 	"當你想保證背包的安全時，你可以來跟我說。"					
+ 	 	 	 	],
+ 	 	 	 	"eng": [
+ 	 	 	 	 	"Hey kid, I'm Lee, You know, you don't have to carry everything you own in your pockets."
+ 	 	 	 	]
+ 	 	 	}
+ 	 	},
+ 	 	"recycleMachine": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "自動回收器",
+ 	 	 	 	"eng": "Automatic Recycler"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "全自動回收器，能夠將物品回收成科技碎片",
+ 	 	 	 	"eng": "Fully automated recycler, capable of recycling items to their basic scrap form"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"receive": {
+ 	 	"item": {
+ 	 	 	"vars": [
+ 	 	 	 	"amount",
+ 	 	 	 	"itemName"
+ 	 	 	],
+ 	 	 	"trans": "你獲得了${amount}個${itemName}",
+ 	 	 	"eng": "You received ${amount} ${itemName}"
+ 	 	},
+ 	 	"money": {
+ 	 	 	"vars": [
+ 	 	 	 	"money"
+ 	 	 	],
+ 	 	 	"trans": "你獲得了${money}比特幣",
+ 	 	 	"eng": "You received ${money} BTC"
+ 	 	},
+ 	 	"exp": {
+ 	 	 	"vars": [
+ 	 	 	 	"amount",
+ 	 	 	 	"levelName"
+ 	 	 	],
+ 	 	 	"trans": "你獲得了${amount}點${levelName}經驗值",
+ 	 	 	"eng": "You received ${amount} ${levelName} experience points"
+ 	 	}
+ 	},
+ 	"levelType": {
+ 	 	"normal": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "等級",
+ 	 	 	 	"eng": "level"
+ 	 	 	}
+ 	 	},
+ 	 	"print": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "分子列印等級",
+ 	 	 	 	"eng": "printing rank"
+ 	 	 	}
+ 	 	},
+ 	 	"medical": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "醫學等級",
+ 	 	 	 	"eng": "medical science"
+ 	 	 	}
+ 	 	},
+ 	 	"ammo": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "彈藥製作等級",
+ 	 	 	 	"eng": "ammo crafting"
+ 	 	 	}
+ 	 	},
+ 	 	"scavenge": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "搜索等級",
+ 	 	 	 	"eng": "scavenge skill"
+ 	 	 	}
+ 	 	},
+ 	 	"mining": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "挖礦等級",
+ 	 	 	 	"eng": "mining skill"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"location": {
+ 	 	"mainHub": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "香格里拉市中心",
+ 	 	 	 	"eng": "Shangri-La City center"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "[市中心]\r\n        這片大陸上最繁忙的城市之一，在這可以看到來自世界各地、形形色色的人。",
+ 	 	 	 	"eng": "[Central Hub]\r\n        One of the busiest cities in the continent. Here you can find all sorts of people from around the globe."
+ 	 	 	},
+ 	 	 	"toStation": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "前往超迴路列車總站",
+ 	 	 	 	 	"eng": "Go to Hyper Train Central Station"
+ 	 	 	 	},
+ 	 	 	 	"tut": {
+ 	 	 	 	 	"trans": "從這裡開始你的史詩級冒險",
+ 	 	 	 	 	"eng": "Start your adventure for epic loot here"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "前往超迴路列車總站",
+ 	 	 	 	 	"eng": "Go to Hyper Train Central Station"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"toJob": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "前往香格里拉商業區",
+ 	 	 	 	 	"eng": "Go to Shangri-La Commercial Area"
+ 	 	 	 	},
+ 	 	 	 	"tut": {
+ 	 	 	 	 	"trans": "你可以在這裡完成掛機工作來提升你的技能等級",
+ 	 	 	 	 	"eng": "You can complete AFK jobs to increase your skills here"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"toMarket": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "前往香格里拉市集",
+ 	 	 	 	 	"eng": "Go to Shangri-La Market Street"
+ 	 	 	 	},
+ 	 	 	 	"tut": {
+ 	 	 	 	 	"trans": "在這裡可以與其他玩家進行交易",
+ 	 	 	 	 	"eng": "You can sell or buy items from other players here"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"toGang": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "前往公會總部",
+ 	 	 	 	 	"eng": "Go to gang headquarters"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"job": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "香格里拉商業區",
+ 	 	 	 	"eng": "Shangri-La Commercial Area"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "[職缺中心]\r\n        這裡有許多商家及公司，非常適合精進各種技能。",
+ 	 	 	 	"eng": "[Job Hub]\r\n        Here are many shops and businesses reside. The perfect location to hone and refine your skills."
+ 	 	 	},
+ 	 	 	"toMainHub": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "返回香格里拉市中心",
+ 	 	 	 	 	"eng": "Return to Shangri-La City Center"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"market": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "香格里拉市集",
+ 	 	 	 	"eng": "Shangri-La Market Street"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "[玩家市集]\r\n        在香格里拉非常知名的市集，有各式各樣的攤販，在這或許可以找到你想要的東西或者販售物品。",
+ 	 	 	 	"eng": "[Player Market]\r\n        The famous market street in Shangri-La. Loads of market stalls fill the street.\r\n        Maybe you can find something you need or set up shop yourself."
+ 	 	 	},
+ 	 	 	"toMainHub": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "返回香格里拉市中心",
+ 	 	 	 	 	"eng": "Return to Shangri-La City Center"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"station": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "超迴路列車總站",
+ 	 	 	 	"eng": "Hyper Train Central Station"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "[冒險]\r\n        搭乘超迴路列車，以超音速輕鬆前往大陸上各個地方。",
+ 	 	 	 	"eng": "[Adventure]\r\n        Using the hyperloop, you can travel at supersonic speed across the continent with ease."
+ 	 	 	}
+ 	 	},
+ 	 	"zone": {
+ 	 	 	"backToMainHub": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "回到市中心",
+ 	 	 	 	 	"eng": "Back to city center",
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"mainHubName"
+ 	 	 	 	 	]
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"mainHubName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "返回${mainHubName}",
+ 	 	 	 	 	"eng": "Return to ${mainHubName}"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"toSegment": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"segmentStationName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "回到${segmentStationName}",
+ 	 	 	 	 	"eng": "back to ${segmentStationName}"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"segmentStationName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "返回${segmentStationName}",
+ 	 	 	 	 	"eng": "return to ${segmentStationName}"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"toStation": {
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "返回超迴路列車總站",
+ 	 	 	 	 	"eng": "Return to Hyper Train Station"
+ 	 	 	 	},
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "回到超迴路列車總站",
+ 	 	 	 	 	"eng": "back to Hyper Train Station"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"segment": {
+ 	 	 	"locked": {
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "請從上個地區的地下城中獲取共3個密鑰碎片，\r\n然後至[市中心]使用[終端機]暴力破解以獲取完整密鑰來解鎖此地區",
+ 	 	 	 	 	"eng": "Gather all 3 different Key Fragments from Dungeons in each 3 zones in previous station, \r\n                    then go to [Terminal] at City Center [Hub] to brute-force (Craft) the key required to unlock this area"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"tut": {
+ 	 	 	 	"trans": "從等級1至10等的區域開始",
+ 	 	 	 	"eng": "Start with level 1 to 10 area"
+ 	 	 	},
+ 	 	 	"toZone": {
+ 	 	 	 	"tut": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"segmentStationName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "點擊這裡與1等敵人戰鬥",
+ 	 	 	 	 	"eng": "Continue here to fight level 1 enemy"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"zoneName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "前往${zoneName}",
+ 	 	 	 	 	"eng": "Go to ${zoneName}"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"segmentDisplayName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${segmentDisplayName} 站",
+ 	 	 	 	"eng": "${segmentDisplayName} station"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"segment",
+ 	 	 	 	 	"segmentMaxLevel"
+ 	 	 	 	],
+ 	 	 	 	"trans": "等級 ${segment} 至 ${segmentMaxLevel}",
+ 	 	 	 	"eng": "Level ${segment} to ${segmentMaxLevel}"
+ 	 	 	},
+ 	 	 	"goTo": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"segmentStationName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "轉到${segmentStationName}",
+ 	 	 	 	"eng": "go to ${segmentStationName}"
+ 	 	 	}
+ 	 	},
+ 	 	"gang": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "公會總部",
+ 	 	 	 	"eng": "Gang Headquarters"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "[公會] \r\n         同公會成員一起規劃和執行下一次行動的總部",
+ 	 	 	 	"eng": "[Gang]\r\n        The headquarters for you and your gang members to plan and execute your next operation"
+ 	 	 	},
+ 	 	 	"cantEnterError": {
+ 	 	 	 	"trans": "你需要加入公會才能進入此區域",
+ 	 	 	 	"eng": "You need to join a gang to enter this area"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"item": {
+ 	 	"experienceShard": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"levelName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "經驗碎片[${levelName}]",
+ 	 	 	 	"eng": "Experience Shard [${levelName}]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"levelName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "一個包含某人記憶及經驗的碎片，使用它可以獲得${levelName}點經驗值",
+ 	 	 	 	"eng": "A shard that contains someone's memory and experience. If used you may gain ${levelName} experience from this"
+ 	 	 	}
+ 	 	},
+ 	 	"keyFragment": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"segmentDisplayName",
+ 	 	 	 	 	"fragmentNum"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${segmentDisplayName}密鑰碎片 ${fragmentNum}",
+ 	 	 	 	"eng": "${segmentDisplayName} Key Fragment ${fragmentNum}"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"segmentDisplayName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "用來暴力破解完整密鑰的密鑰碎片。\r\n                                使用[市中心]的[終端機]來暴力破解${segmentDisplayName}密鑰\r\n                                你可以在地下城中獲取3個必需的密鑰碎片（一般或挑戰等級皆可），\r\n                                當你獲得3個密鑰碎片，你需要使用[終端機]來暴力破解（合成），取得完整密鑰以進入下個地區",
+ 	 	 	 	"eng": "A secret key Fragment used to brute-force a secret key.\r\n                                Use the Terminal at city center [Hub] to brute-force a ${segmentDisplayName} secret key.\r\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\r\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area"
+ 	 	 	}
+ 	 	},
+ 	 	"cache": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"tierName",
+ 	 	 	 	 	"typeName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${tierName} ${typeName} 快取記憶體",
+ 	 	 	 	"eng": "${tierName} ${typeName} cache"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"typeName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${typeName} 快取記憶體內含分子列印的相關資訊，\r\n                    你可以在[市中心]的[3D分子列印機]製作${typeName}\r\n                    \r\n                    小提醒：你從列印機中獲得的物品等級取決於你的列印等級，\r\n                    所以記得優先合成[廢棄]品質的物品，因為它們耗費少且適合用來提升列印等級",
+ 	 	 	 	"eng": "A ${typeName} cache contains information used for Molecular 3D Printing, \r\n                    You can create a ${typeName} with the [Molecular 3d Printer] at [Central Hub].\r\n                    \r\n                    Pro tip: The level of item you get from printing is determined by your Printing Rank,\r\n                    so always print the trash ones first, as they cost less and useful to level up your Printing Rank"
+ 	 	 	}
+ 	 	},
+ 	 	"helmet": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "頭盔",
+ 	 	 	 	"eng": "helmet"
+ 	 	 	}
+ 	 	},
+ 	 	"upperArmor": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "上身裝甲",
+ 	 	 	 	"eng": "upper armor"
+ 	 	 	}
+ 	 	},
+ 	 	"lowerArmor": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "下身裝甲",
+ 	 	 	 	"eng": "lower armor"
+ 	 	 	}
+ 	 	},
+ 	 	"boots": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "靴子",
+ 	 	 	 	"eng": "boots"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeModule": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "升級模組",
+ 	 	 	 	"eng": "upgrade module"
+ 	 	 	}
+ 	 	},
+ 	 	"healing1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "止痛藥",
+ 	 	 	 	"eng": "Pain Away"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "你有頭痛嗎？使用止痛藥來緩解你的疼痛！",
+ 	 	 	 	"eng": "Do you have headache? Use Pain Away™ to relieve your pain!"
+ 	 	 	}
+ 	 	},
+ 	 	"healing2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "舊式奈米修復機器人",
+ 	 	 	 	"eng": "Degraded Nano Repair Bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "舊式的奈米修復機器人，時常用來修復小型科技裝置。",
+ 	 	 	 	"eng": "An old nano repair bot, usually used to repair small tech devices."
+ 	 	 	}
+ 	 	},
+ 	 	"healing3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "舊式奈米醫療機器人",
+ 	 	 	 	"eng": "Degraded Nano Medic Bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "舊式的奈米醫療機器人，注射它來治療任何傷口(*包括狀態異常)！",
+ 	 	 	 	"eng": "Old nano medic bot is used to cure any (*conditions apply) injury!"
+ 	 	 	}
+ 	 	},
+ 	 	"healing4": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "奈米醫療機器人",
+ 	 	 	 	"eng": "Nano Medic Bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "注射它來治療任何傷口(*包括狀態異常)！",
+ 	 	 	 	"eng": "Inject it to cure any(*conditions apply) injury!"
+ 	 	 	}
+ 	 	},
+ 	 	"healing5": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "軍用奈米醫療機器人",
+ 	 	 	 	"eng": "Military Nano Medic Bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "可注射的奈米機器人，屬於軍用標準配備，可在戰鬥中恢復傷口。",
+ 	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They are capable of patching injuries while in combat."
+ 	 	 	}
+ 	 	},
+ 	 	"healing6": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "進階奈米醫療機器人",
+ 	 	 	 	"eng": "Advanced Nano Medic Bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "可注射的奈米機器人，屬於軍用標準配備，可在戰鬥中恢復傷口。",
+ 	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
+ 	 	 	}
+ 	 	},
+ 	 	"healing7": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "高級奈米醫療機器人",
+ 	 	 	 	"eng": "High Quality Nano Medic Bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "可注射的奈米機器人，屬於軍用標準配備，可在戰鬥中恢復傷口",
+ 	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
+ 	 	 	}
+ 	 	},
+ 	 	"healing8": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "稀有奈米醫療機器人",
+ 	 	 	 	"eng": "Rare Nano Medic Bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "可注射的奈米機器人，屬於軍用標準配備，可在戰鬥中恢復傷口。",
+ 	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
+ 	 	 	}
+ 	 	},
+ 	 	"healingArea1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "止痛噴劑",
+ 	 	 	 	"eng": "Pain Away Spray"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "你和朋友都有頭痛嗎？使用止痛噴劑來緩解你們的疼痛。",
+ 	 	 	 	"eng": "Do you and your friends both have headaches? Use Pain Away Spray™ to relief your pain!"
+ 	 	 	}
+ 	 	},
+ 	 	"healingArea2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "舊式修復無人機",
+ 	 	 	 	"eng": "Degraded Repair drone"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "舊式的修復無人機，可以用來修復或治療附近的玩家。",
+ 	 	 	 	"eng": "Old repair drone, capable of repairing or heal nearby players"
+ 	 	 	}
+ 	 	},
+ 	 	"healingArea3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "舊式奈米醫療無人機",
+ 	 	 	 	"eng": "Degraded nano medic drone"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "舊式的奈米無人機，可以派遣數千台奈米無人機來治療附近的玩家。",
+ 	 	 	 	"eng": "Old nano drone, capable of dispatching thousands of nano machines to heal nearby players"
+ 	 	 	}
+ 	 	},
+ 	 	"healingArea4": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "奈米醫療無人機",
+ 	 	 	 	"eng": "Nano medic drone"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "可以派遣數千台奈米無人機來治療附近的玩家。",
+ 	 	 	 	"eng": "capable of dispatching thousands of nano machines to heal nearby players"
+ 	 	 	}
+ 	 	},
+ 	 	"healingArea5": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "軍用奈米醫療無人機",
+ 	 	 	 	"eng": "Military Nano medic drone"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "可以派遣數千台軍用奈米無人機來治療附近的玩家。",
+ 	 	 	 	"eng": "capable of dispatching thousands of military nano machines to heal nearby players"
+ 	 	 	}
+ 	 	},
+ 	 	"healingArea6": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "進階奈米醫療無人機",
+ 	 	 	 	"eng": "Advance Nano medic drone"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "可以派遣數千台進階奈米無人機來治療附近的玩家。",
+ 	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
+ 	 	 	}
+ 	 	},
+ 	 	"healingArea7": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "高級奈米醫療無人機",
+ 	 	 	 	"eng": "High Quality Nano medic drone"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "可以派遣數千台高級奈米無人機來治療周圍的玩家。",
+ 	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
+ 	 	 	}
+ 	 	},
+ 	 	"healingArea8": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "稀有奈米醫療無人機",
+ 	 	 	 	"eng": "Rare Nano medic drone"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "可以派遣數千台稀有奈米無人機來治療附近的玩家。",
+ 	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
+ 	 	 	}
+ 	 	},
+ 	 	"medicalTechParts": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "醫療科技零件",
+ 	 	 	 	"eng": "Medical Tech Parts"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "使用過的醫療科技的零件，若知道方法，可用來製作醫療用品。",
+ 	 	 	 	"eng": "Bits and pieces of used medical tech. This can be used to craft healing items if you understand how"
+ 	 	 	}
+ 	 	},
+ 	 	"expMemory": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "經驗記憶",
+ 	 	 	 	"eng": "Experience Memory"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "記憶庫含有某人的記憶，使用它可以獲得經驗值。",
+ 	 	 	 	"eng": "Memory bank contains someone's memory. If used you may gain experience from this"
+ 	 	 	}
+ 	 	},
+ 	 	"hashProcessor": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "雜湊處理器",
+ 	 	 	 	"eng": "Hash Processor"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "可以用來當作比特幣挖礦機的專屬硬體， \r\n        但由於超頻使用，處理器很容易會燒毀，\r\n        你可以在[職缺中心]使用它挖取比特幣",
+ 	 	 	 	"eng": "Can be used as a dedicated hardware for BitCoin mining, \r\n        however due to overclocking, the processor is easily burntout,\r\n        You may use this to mine BitCoin at [JOB HUB]"
+ 	 	 	}
+ 	 	},
+ 	 	"afkAcceleration": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "神經突觸加速器",
+ 	 	 	 	"eng": "Synaptic Acceleration Transmitter"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "向所有已連接至電馭網路的用戶散播漏洞，對神經突觸處理器進行超頻，以在短時間內獲得超人般的心智。\r\n        \r\n        使用後會給予所有在線玩家全球加成，10分鐘內完成掛機任務的速度提升5%(可疊加)",
+ 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, overclocking their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +5% speed for 10 minutes (stackable)"
+ 	 	 	}
+ 	 	},
+ 	 	"afkAcceleration2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "稀有神經突觸加速器",
+ 	 	 	 	"eng": "Rare Synaptic Acceleration Transmitter"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "向所有已連接至電馭網路的用戶散播漏洞，對神經突觸處理器進行超頻，以在短時間內獲得超人般的心智。\r\n        \r\n        使用後會給予所有在線玩家全球加成，20分鐘內完成掛機任務的速度提升40%(可疊加)",
+ 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, overclocking their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +40% speed for 20 minutes (stackable)"
+ 	 	 	}
+ 	 	},
+ 	 	"expMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "額葉皮質優化器",
+ 	 	 	 	"eng": "Frontal Cortex Optimization Transmitter"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "向所有已連接至電馭網路的用戶散播漏洞，透過已安裝的電馭裝置來增強他們的額葉皮層，增加使用者的記憶容量。\r\n\r\n        使用後會給予所有在線玩家全球加成，20分鐘內經驗值獲得量提升180%\r\n        ",
+ 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, enhancing their Frontal Cortex integration with cyberwares installed, thus increasing memory capability of the user.\r\n\r\n        When used, gives Global Buff to all players online, increase EXP gained to 180% for 20 minutes\r\n        "
+ 	 	 	}
+ 	 	},
+ 	 	"btcMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "交易漏洞發信器",
+ 	 	 	 	"eng": "Transaction Exploit Transmitter"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "向所有已連接至電馭網路的用戶散播漏洞，暫時替換他們的交易演算法，讓使用者可獲取額外的${currencyName}。\r\n\r\n        使用後會給予所有在線玩家全球加成，20分鐘內比特幣獲取量提升40%(可疊加)\r\n        ",
+ 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, argument their transaction algorithm temporary, allowing user to receive bonus  ${currencyName}.\r\n\r\n        When used, gives Global Buff to all players online, increase BitCoin gained by 40% for 20 minutes (stackable)\r\n        ",
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"currencyName"
+ 	 	 	 	]
+ 	 	 	}
+ 	 	},
+ 	 	"aiCore": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "AI核心",
+ 	 	 	 	"eng": "AI Core"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "商用神經運算單元(NPU)，自带通用型人工智能。 \r\n        可用於部署人工智能機器人清理地下城",
+ 	 	 	 	"eng": "Commercially used Neural Processing Unit (NPU). Comes with general purpose AI. \r\n        You can use this to deploy a farming bot to dungeon for you."
+ 	 	 	}
+ 	 	},
+ 	 	"ammo1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "能量電池",
+ 	 	 	 	"eng": "Energy Cell"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "便攜式能量裝置，可用作特殊武器的消耗型彈藥",
+ 	 	 	 	"eng": "Portable energy storage device, it can be used as consumable ammo for your Special Weapons"
+ 	 	 	}
+ 	 	},
+ 	 	"ammo2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "反物質電池",
+ 	 	 	 	"eng": "Anti Matter Charge"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "高科技、微型化、一次性的反物質能量產生器。 \r\n        能釋放大量能量，可用作破壞性武器的彈藥",
+ 	 	 	 	"eng": "High-tech, miniaturized, one-time use, antimatter energy generator. \r\n        This item produces enormous amounts of power. You can use this as ammunition for your destructive weapon. "
+ 	 	 	}
+ 	 	},
+ 	 	"ammoTech1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "彈藥零件",
+ 	 	 	 	"eng": "Ammunition tech parts"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "製造彈藥的零件。常見於黑市。\r\n        若知道方法，可用於製作普通彈藥",
+ 	 	 	 	"eng": "Ammunition tech parts, These can be commonly found circulating the black market. \r\n        You can use these to craft ammunition if you understand how."
+ 	 	 	}
+ 	 	},
+ 	 	"ammoTech2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "軍用彈藥零件",
+ 	 	 	 	"eng": "Military ammunition tech parts"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "軍用級的彈藥零件，被政府、軍方及精英廣泛使用，若知道方法，可用於製作高級彈藥",
+ 	 	 	 	"eng": "Military grade ammunition tech parts, commonly used by government, military and the elites,can be used to craft into usable Ammo if you have the know-how"
+ 	 	 	}
+ 	 	},
+ 	 	"techScrap": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "科技碎片",
+ 	 	 	 	"eng": "Tech Scrap"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "分解裝備獲得的科技碎片，可用於逆向工程獲取列印經驗和其他許多用途。 \r\n        可於[職缺中心]進行逆向工程",
+ 	 	 	 	"eng": "Technology scrap from disassembled equipment, this can be reverse engineered to gain printing xp. \r\n        You can perform reverse engineering in the Job Hub."
+ 	 	 	}
+ 	 	},
+ 	 	"primaryWeapon": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "主武器",
+ 	 	 	 	"eng": "Primary Weapon"
+ 	 	 	}
+ 	 	},
+ 	 	"secondary": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "特殊武器",
+ 	 	 	 	"eng": "Special Weapon"
+ 	 	 	}
+ 	 	},
+ 	 	"tertiary": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "破壞性武器",
+ 	 	 	 	"eng": "Destructive Weapon"
+ 	 	 	}
+ 	 	},
+ 	 	"lootBox1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "已加密容器",
+ 	 	 	 	"eng": "locked container"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "一個帶有生物信息加密鎖的容器，裡面似乎裝著很重要的物品。\r\n        幸運的是，搭載的微處理器使用了過時的韌體，有著破解的可能，可以去[終端機]解鎖容器",
+ 	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
+ 	 	 	}
+ 	 	},
+ 	 	"lootBox2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "稀有已加密容器",
+ 	 	 	 	"eng": "locked rare container"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "一個帶有生物信息加密鎖的容器，裡面似乎裝著很重要的物品。\r\n        幸運的是，搭載的微處理器使用了過時的韌體，有著破解的可能，可以去[終端機]解鎖容器",
+ 	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
+ 	 	 	}
+ 	 	},
+ 	 	"lootBox3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "傳奇已加密容器",
+ 	 	 	 	"eng": "locked legendary container"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "一個帶有生物信息加密鎖的容器，裡面似乎裝著很重要的物品。\r\n        幸運的是，搭載的微處理器使用了過時的韌體，有著破解的可能，可以去[終端機]解鎖該容器",
+ 	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
+ 	 	 	}
+ 	 	},
+ 	 	"clanDungeonKey": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "公會入侵指令發信器",
+ 	 	 	 	"eng": "Gang Invasion Order Transmitter"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "一個簡單的發信器，可以與你的公會加密頻道綁定並提供入侵指令。\r\n         啟動公會地下城需要此物品",
+ 	 	 	 	"eng": "A simple transmitter device that can be bind to your gang encrypted channel and give out invasion order.\r\n        This item is required to activate Gang Dungeons"
+ 	 	 	}
+ 	 	},
+ 	 	"clanResource": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "補給箱[公會]",
+ 	 	 	 	"eng": "Supply Crate [Gang]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "包含一些公會所需的雜物和資源，以保持公會正常運作，\r\n         點擊使用來將其發送到你的公會總部",
+ 	 	 	 	"eng": "Contains misc items and resources for a gang to stay functional,\r\n        Click use to send it to your gang headquarters"
+ 	 	 	}
+ 	 	},
+ 	 	"clanExp": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "已加密的公會記憶碎片",
+ 	 	 	 	"eng": "encrypted gang memory shard"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "記憶碎片包含加密的公會機密， \r\n         你可以在公會總部解密以獲得有用的情報(需加入公會)",
+ 	 	 	 	"eng": "A memory shard contains encrypted gang secrets, \r\n        decrypt this in your gang headquarters to gain useful intel (requires to be in a gang)"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeActivator": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "設備校準核心",
+ 	 	 	 	"eng": "Equipment Calibration Core"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "黑市記憶碎片內含高度加密的算法和升級設備過程中至關重要的原理圖",
+ 	 	 	 	"eng": "A black market memory shard contains highly encrypted algorithm and schematic that is crucial in the process of upgrading equipments"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser0": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "校準AI碎片(5％)",
+ 	 	 	 	"eng": "Calibration AI Shard (5%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "內含先進AI的碎片，旨在協助升級設備。\r\n         使用後，5分鐘內將破壞性故障的可能性降低5％(可疊加)",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 5% (stackable) for 5 minutes."
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "校準AI碎片(10％)",
+ 	 	 	 	"eng": "Calibration AI Shard (10%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "內含先進AI的碎片，旨在協助升級設備。\r\n         使用後，5分鐘內將破壞性故障的可能性降低10％(可疊加)",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 10% (stackable) for 5 minutes."
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "校準AI碎片(50％)",
+ 	 	 	 	"eng": "Calibration AI Shard (50%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "內含先進AI的碎片，旨在協助升級設備。\r\n         使用後，5分鐘內將破壞性故障的可能性降低50％(可疊加)，此效果將適用於所有在線玩家",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 50% (stackable) for 5 minutes. This effect will apply to all players online"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "校準AI碎片(100％)",
+ 	 	 	 	"eng": "Calibration AI Shard (100%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "內含先進AI的碎片，旨在協助升級設備。\r\n         使用後，5分鐘內將破壞性故障的可能性降低100％(可疊加)，此效果將適用於所有在線玩家",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 100% (stackable) for 5 minutes. This effect will apply to all players online"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeNoBreak": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "校準保護奈米機器人",
+ 	 	 	 	"eng": "Calibration Safety Nano Bots"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "實驗型奈米機器人設計用於減少和消除校準失敗時的破壞性效果， \r\n         使用後，5分鐘內所有校準都不會破壞物品",
+ 	 	 	 	"eng": "Experimental nano machines designed to reduces and negate the destructive effect when failing calibration, \r\n        when this is activated, all calibration fails will not destroy the item for 5 minutes (Applies to all players)"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "老舊袋子",
+ 	 	 	 	"eng": "Old Pouch"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "一個被遺忘的古老袋子， \r\n         在袋子的一邊有一隻奇怪的青蛙圖畫，它有著大大的嘴巴和鮮紅的嘴唇， \r\n         不知道那些古代不祥圖畫有什麼含義，但它很方便放一些小東西\r\n         裝備時增加背包空間",
+ 	 	 	 	"eng": "A forgotten ancient pouch, \r\n        there is a weird cartoon frog with big mouth and red lips drawing at the side of it,\r\n        the meaning of the ancient ominous drawing is unknown, but it is handy for keep some small object in it.\r\n        increase inventory space when equipped."
+ 	 	 	}
+ 	 	},
+ 	 	"backpack2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "腰包",
+ 	 	 	 	"eng": "Fanny Pack"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "酷炫且時髦的腰包，有一個數十年前的傳奇人物「The Rock」的簽名。\r\n         裝備時增加背包空間",
+ 	 	 	 	"eng": "Cool and fashionable Fanny Pack, signed by a legend called The Rock himself from decades ago.\r\n        increase inventory space when equipped."
+ 	 	 	}
+ 	 	},
+ 	 	"backpack3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "探險家背包",
+ 	 	 	 	"eng": "Explorer's Backpack"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "一個紫色的「探險家」舊幼兒園背包，上面掛著一個姓名標籤上面寫著它的前一位擁有者叫做「Dora」，您背上它看起來很讚。\r\n         裝備時增加背包空間",
+ 	 	 	 	"eng": "An old Kindergarten looking Purple 'Explorer' Backpack, it has a name tag with the previous owner's name \"Dora\" written on it, you look fabulous wearing it.\r\n        increase inventory space when equipped"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack4": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "公事包",
+ 	 	 	 	"eng": "Employee Office Case"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "一個標準的公事包，有一個標籤上面印著白色的「Arasaka」\r\n         雖然它有一些用於存儲文件的高科技隔間和插槽，但它並不是很適合存放武器\r\n         裝備時增加背包空間",
+ 	 	 	 	"eng": "An standard issue office case, it has a label with whit print with \"Arasaka\" on it, \r\n        while it is specious and has some high tech compartment and slots for document storage, it is not not very suitable for carrying weapons\r\n        increase inventory space when equipped"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack5": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "自主存儲單位",
+ 	 	 	 	"eng": "Autonomous Storage Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "軍用機器人設計可為你攜帶裝備並自動跟隨你，\r\n         利用他六條強壯的腿、仿蜘蛛的移動方式和搭載的進階人工智慧，\r\n         它可以迅速且安靜的跟隨著你並且避免妨礙到你執行任務",
+ 	 	 	 	"eng": "An military used bot designed to carry your equipments and follows you autonomously,\r\n        with it's six strong legs that imitates the movement of spiders and a advance onboard AI, \r\n        it can follow you swiftly and quietly while it avoids get in the way of whatever mission you are performing"
+ 	 	 	}
+ 	 	},
+ 	 	"healing9": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "傳奇奈米醫生機器人",
+ 	 	 	 	"eng": "Legendary Nano Medic Bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "可注射的奈米機器人，屬於進階軍用配備，可在戰鬥中恢復傷口。",
+ 	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
+ 	 	 	}
+ 	 	},
+ 	 	"healing10": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "史詩奈米醫生機器人",
+ 	 	 	 	"eng": "Epic Nano Medic Bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "可注射的奈米機器人，屬於進階軍用配備，可在戰鬥中恢復傷口。",
+ 	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
+ 	 	 	}
+ 	 	},
+ 	 	"healingArea9": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "傳奇奈米醫療無人機",
+ 	 	 	 	"eng": "Legendary Nano medic drone"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "可以派遣數千台傳奇奈米無人機來治療附近的玩家。",
+ 	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
+ 	 	 	}
+ 	 	},
+ 	 	"healingArea10": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "史詩奈米醫療無人機",
+ 	 	 	 	"eng": "Epic Nano medic drone"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "可以派遣數千台史詩奈米無人機來治療附近的玩家。",
+ 	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser2personal": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "校準AI碎片(50％)[活動]",
+ 	 	 	 	"eng": "Calibration AI Shard (50%) [EVENT]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "內含先進AI的碎片，旨在協助升級設備。\r\n         使用後，5分鐘內將破壞性故障的可能性降低50％，這只對自己有效。\r\n         你可以在你的幫派總部校準物品, 首先必須加入或創立一個幫派。",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 50% for 5 minutes. this only affect yourself.\r\n        You can calibrate items in your Gang Headquarters, you must join or start a gang first."
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitPirate": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "聊天漏洞發信機[PIRATE]",
+ 	 	 	 	"eng": "Chat exploit transmitter [PIRATE]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "攔截全球聊天包並加以修改，執行中間人攻擊的漏洞利用模組。\r\n         將全球聊天的所有對話轉換為 PIRATE, 這會影響所有玩家10分鐘",
+ 	 	 	 	"eng": "A exploit module that intercepts global chat packages and modifies it, performing Man-In-The-Middle attack.\r\n        Transforms all speech at global chat to Pirate Speak. This effects all players for 10 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitLeet": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "聊天漏洞發射機[1337]",
+ 	 	 	 	"eng": "Chat exploit transmitter [1337]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "攔截全球聊天包並加以修改，執行中間人攻擊的漏洞利用模組。\r\n         將全球聊天的所有對話轉換為 l33t Sp34k，這會影響所有玩家10分鐘",
+ 	 	 	 	"eng": "A exploit module that intercepts global chat packages and modifies it, performing Man-In-The-Middle attack.\r\n        Transforms all speech at global chat to l33t Sp34k. This effects all players for 10 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitUwU": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "聊天漏洞發射機[uwu]",
+ 	 	 	 	"eng": "Chat exploit transmitter [UwU]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "攔截全球聊天包並加以修改，執行中間人攻擊的漏洞利用模組。\r\n          將全球聊天的所有對話轉換為 uwu，這會影響所有玩家10分鐘",
+ 	 	 	 	"eng": "A expwoit moduwe that intewcepts gwobaw chat packages and modifies it, pewfowming man-in-the-middwe attack.\r\n         twansfowms aww speech at gwobaw chat to uwu speak. This effects aww pwayews fow 10 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeResetShard": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "出廠重置碎片",
+ 	 	 	 	"eng": "Factory reset shard"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "存儲預設設定和算法的碎片，可用於將裝備恢復出廠設定",
+ 	 	 	 	"eng": "A shard stores default settings and algorithm for equipments, this is used for factory-resetting your equipments"
+ 	 	 	}
+ 	 	},
+ 	 	"timeSkipPersonal": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "個人神經突觸加速器",
+ 	 	 	 	"eng": "Personal Synaptic Accelerator"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "使用後，掛機任務用時減少60分鐘。\r\n         必須在掛機畫面上使用",
+ 	 	 	 	"eng": "When used, skip 60 minutes on AFK tasks.\r\n        must be used at AFK screen"
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitLove": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "聊天漏洞發射機[Love]",
+ 	 	 	 	"eng": "Chat exploit transmitter [Love]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "你得到了一些愛，你也得到了一些愛！每個人都得到一些愛！\r\n         使用後，每個人都相愛 \r\n         這會影響所有玩家10分鐘",
+ 	 	 	 	"eng": "You get some love, and you get some love! everyone gets some love!.\r\n        When used everyone loves each other\r\n        This effects all players fow 10 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitProtect": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "網路隧道 VPN",
+ 	 	 	 	"eng": "CyberTunnel VPN"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "擔心你在瀏覽網路空間時老大哥在窺探你？\r\n         你的對講機總是被惡意攻擊？\r\n         使用 CyberTunnel VPN 來保護和加密你的 Netrunning 體驗！\r\n        \r\n         啟動後，忽略任何聊天漏洞1小時",
+ 	 	 	 	"eng": "Worried the Big Brother spying on you while you browse the cyberspace?\r\n        your intercoms always get hacked by malicious attacks? \r\n        use CyberTunnel VPN to protect and encrypt your netrunning experience! \r\n        \r\n        Once activated, ignores any chat exploit for 1 hour"
+ 	 	 	}
+ 	 	},
+ 	 	"hackTool": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "協議漏洞碎片",
+ 	 	 	 	"eng": "Protocol Breach Shard"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "包含高級漏洞的碎片。\r\n         可用於入侵系統，例如香格里拉數據堡壘",
+ 	 	 	 	"eng": "A shard that contains advance exploits. \r\n        Can be used to breach systems such as Shangri-la Data Fortress"
+ 	 	 	}
+ 	 	},
+ 	 	"christmasGift": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "神秘的容器",
+ 	 	 	 	"eng": "Mysterious Container"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "具有紅色、綠色裝飾和「Cybersanta™」標誌的加密容器。",
+ 	 	 	 	"eng": "An encrypted container with red, green decoration and a 'CyberSanta™' logo on the side of it."
+ 	 	 	}
+ 	 	},
+ 	 	"rngInterferer": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "RNG干擾",
+ 	 	 	 	"eng": "RNG Interferer"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"epicChance",
+ 	 	 	 	 	"legendaryChance",
+ 	 	 	 	 	"maxStack"
+ 	 	 	 	],
+ 	 	 	 	"trans": "利用漏洞增加高階物品掉落機率的碎片。在解鎖傳奇容器（最多叠加${maxStack}次）20分鐘時，增加了傳奇（${legendaryChance}％）和史詩（${epicChance}％）物品的額外掉落機率。 在聖誕節季節期間獲得神秘容器的額外機率。",
+ 	 	 	 	"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (stack up to ${maxStack} times) for 20 minutes. Extra chance to get Mystery Container during Christmas season."
+ 	 	 	},
+ 	 	 	"descriptionv2": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"epicChance",
+ 	 	 	 	 	"legendaryChance",
+ 	 	 	 	 	"maxStack",
+ 	 	 	 	 	"time"
+ 	 	 	 	],
+ 	 	 	 	"trans": "利用漏洞增加高階物品掉落機率的碎片。在解鎖傳奇容器（最多叠加${maxStack}次）以獲得${time}分鐘時，可以獲得傳奇（${legendaryChance}％）和epic（${epicChance}％）物品的額外掉落機率。 在聖誕節季節期間獲得神秘容器的額外機率。",
+ 	 	 	 	"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (stack up to ${maxStack} times) for ${time} minutes. Extra chance to get Mystery Container during Christmas season."
+ 	 	 	},
+ 	 	 	"descriptionv3": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"epicChance",
+ 	 	 	 	 	"legendaryChance",
+ 	 	 	 	 	"maxStack",
+ 	 	 	 	 	"time"
+ 	 	 	 	],
+ 	 	 	 	"trans": "一個高科技晶片，可增加高階物品隨機生成的機率。 在解鎖傳奇容器（不可堆疊）以獲得${time}分鐘，獲得傳奇（${legendaryChance}％）和史詩（${epicChance}％）物品的額外機率。 *重要提示：只有在此加成處於啟用狀態時開始解鎖容器的動作，才會產生作用。",
+ 	 	 	 	"eng": "A shard that contains advance exploits designed to increase random drop chance of high tier items. Gains additional drop chance of Legendary (${legendaryChance}%) and Epic (${epicChance}%) items when unlocking Legendary containers (Not stackable) for ${time} minute (Applies to all players). *IMPORTANT: The buff will only apply when the unlocking process is started while the buff is active*."
+ 	 	 	}
+ 	 	},
+ 	 	"flashGrenade": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "閃光手榴彈",
+ 	 	 	 	"eng": "Flash Grenade"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"escape"
+ 	 	 	 	],
+ 	 	 	 	"trans": "閃光手榴彈可用於盲目。 增加你的逃脫機率${escape}％",
+ 	 	 	 	"eng": "A flash grenade that can be used to blind enemies. increasing your chance of escape by ${escape}%"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser0v1": {
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"percent",
+ 	 	 	 	 	"duration"
+ 	 	 	 	],
+ 	 	 	 	"trans": "包含高階AI的碎片，用來協助升級設備。 使用時，在${duration}分鐘將破壞性故障的可能性減少${percent}% ${duration} 分鐘（可堆疊）",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments. When used, decreases the chance of destructive failure by ${percent}% (stackable) for ${duration} minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaserAll": {
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"percent",
+ 	 	 	 	 	"maxStack",
+ 	 	 	 	 	"duration"
+ 	 	 	 	],
+ 	 	 	 	"trans": "包含高階AI的碎片，用來協助升級設備。 使用時，在${duration}分鐘將破壞性故障的可能性減少{percent}％（可堆疊${maxStack}次）減少破壞性失敗的可能性。此效果將適用於所有在線玩家",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments. When used, decreases the chance of destructive failure by ${percent}% (stackable for ${maxStack} times) for ${duration} minutes.This effect will apply to all players online"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser4": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"percent"
+ 	 	 	 	],
+ 	 	 	 	"trans": "校準AI碎片（${percent}％）",
+ 	 	 	 	"eng": "Calibration AI Shard (${percent}%)"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"action": {
+ 	 	"autoFarm": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "部署掛機機器人",
+ 	 	 	 	"eng": "Deploy farm bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "[掛機]\r\n          放置人工智能機器人代替你清理地下城。這將會消耗一個人工智能核心，通常一個核心僅能進行一趟清理。",
+ 	 	 	 	"eng": "[AFK Exp Farm]\r\n        Deploys an AI to dungeon for you. This will use up an AI Core, they usually only just manage the one trip."
+ 	 	 	},
+ 	 	 	"tut": {
+ 	 	 	 	"trans": "你可以在掛機時使用人工智能核心自動清理敵人",
+ 	 	 	 	"eng": "You can use your AI Core to Auto-Farm enemies while you AFK"
+ 	 	 	}
+ 	 	},
+ 	 	"increasePrint": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "至分子列印工廠工作",
+ 	 	 	 	"eng": "work in printing factory"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "無須消耗科技碎片即可獲得分子列印經驗，這或許可以幫助你提升分子列印等級。",
+ 	 	 	 	"eng": "Improve Printing Rank without sacrificing tech scrap, this may help to increase the level of your prints."
+ 	 	 	}
+ 	 	},
+ 	 	"increaseMedical": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "駭入人體改造診所",
+ 	 	 	 	"eng": "Hack a Body Mod Clinic"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "從附近的人體改造診所下載機密資訊，以製作更高品質的醫療機器人及無人機。",
+ 	 	 	 	"eng": "Download useful data from a local body mod clinic to craft higher quality medical bots and drones."
+ 	 	 	}
+ 	 	},
+ 	 	"increaseAmmo": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "改造彈藥",
+ 	 	 	 	"eng": "Improve Ammunition"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "製作各式各樣的彈藥，尋找更有效率的製作方式。",
+ 	 	 	 	"eng": "Tinker with ammunition, to find more effective ways of crafting it."
+ 	 	 	}
+ 	 	},
+ 	 	"reverseEngineer": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "對科技碎片進行逆向工程",
+ 	 	 	 	"eng": "Reverse Engineer Scraps"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "對科技碎片進行逆向工程以提升你的列印等級。\r\n         這需要消耗你一些科技碎片。",
+ 	 	 	 	"eng": "Reverse engineer tech scrap to improve your Print Rank. \r\n        You’ll need to sacrifice some of your tech scrap."
+ 	 	 	}
+ 	 	},
+ 	 	"reverseMining": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "啟動加密貨幣挖礦",
+ 	 	 	 	"eng": "initiate crypto mining"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "進行加密貨幣挖礦可獲得比特幣，但因為超頻計算，使得雜湊處理器裡的量子處理單元(QPU)經常燒毀。",
+ 	 	 	 	"eng": "Engaging in crypto mining will earn you Bitcoins, however due to the intense use of the Hash Processors, the Quantum Processing Unit, otherwise known as the QPU, will often burn out."
+ 	 	 	}
+ 	 	},
+ 	 	"scavenge": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"zoneName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "在${zoneName}搜索物資",
+ 	 	 	 	"eng": "Scavenge in ${zoneName}"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"zoneName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "[掛機蒐集資源]\r\n                    在${zoneName}附近搜索有用的物資。\r\n                    誰知道呢，說不定會找到寶物喔！",
+ 	 	 	 	"eng": "[AFK Resource Gather]\r\n                    Search around in ${zoneName} and scavenge for useful items.\r\n                    Who knows, maybe you'll get lucky!"
+ 	 	 	}
+ 	 	},
+ 	 	"clanResource": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "收集公會資源",
+ 	 	 	 	"eng": "Gather Gang Resource"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "幫助收集和管理你公會所需的資源",
+ 	 	 	 	"eng": "Help gather and manage needed resources for your gang"
+ 	 	 	}
+ 	 	},
+ 	 	"clanDecryptShard": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "解密記憶碎片",
+ 	 	 	 	"eng": "Decrypt memory shard"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "解密記憶碎片以檢索有用的情報",
+ 	 	 	 	"eng": "Decrypt a memory shard to retrieve useful intel."
+ 	 	 	}
+ 	 	},
+ 	 	"clanOccupation": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "加強佔領香格里拉",
+ 	 	 	 	"eng": "Reinforce occupation at Shangri-la"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "幫助加強並建立對香格里拉市的控制",
+ 	 	 	 	"eng": "Help reinforce and establish greater control of Shangri-la city."
+ 	 	 	}
+ 	 	},
+ 	 	"gambling1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "玩MEGA彈珠盤遊戲",
+ 	 	 	 	"eng": "Play MEGA Pachinko Game"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Konnichiwa!! ^___^\r\n        來玩MEGA彈珠盤吧！ 有機會贏取巨額史詩獎勵\r\n        限時優惠，現在每局只需5000比特幣！！！ <3<3<3\r\n        ##特別鳴謝Militech贊助本次活動##",
+ 	 	 	 	"eng": "Konnichiwa!! ^___^\r\n        Come play the MEGA Pachinko! With chance to win HUGE EPIC rewards\r\n        only 5000 btc per session, LIMITED TIME OFFER!!! <3<3<3\r\n        ##Special thanks for Militech for sponsoring this event##"
+ 	 	 	}
+ 	 	},
+ 	 	"topClanExclusive": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "收取保護費",
+ 	 	 	 	"eng": "Collect Protection Fees"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "賄賂政府官員和SLPD，並從香格里拉的店主和市民身上收取保護費。 也許你能從他們身上獲得一些史詩物品？（佔領排行榜前2名的公會專屬）",
+ 	 	 	 	"eng": "Bribe government officials and the SLPD to collect protection fees from business owners and citizens in Shangri-La. Maybe you’ll get some EPIC items from them? (Exclusive to the Top 2 Gangs on the Occupation Leaderboard"
+ 	 	 	}
+ 	 	},
+ 	 	"globalQuest": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "駭入SL數據堡壘",
+ 	 	 	 	"eng": "Hack SL Data Fortress"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "發起針對香格里拉數據堡壘的網路空間聯合攻擊。\r\n如果攻擊成功，有可能迫使SL數據堡壘將漏洞傳輸給所有透過電馭網路連接的用戶。",
+ 	 	 	 	"eng": "Launch a collaborative attack in cyberspace targeting the Shangri-La Data Fortress.\r\nIf the attack succeeds, it’s possible to force the Data Fortress to transmit exploits to all cybernetically connected users."
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"tier": {
+ 	 	"trash": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "廢棄",
+ 	 	 	 	"eng": "trash"
+ 	 	 	}
+ 	 	},
+ 	 	"common": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "普通",
+ 	 	 	 	"eng": "common"
+ 	 	 	}
+ 	 	},
+ 	 	"highQuality": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "高級",
+ 	 	 	 	"eng": "high quality"
+ 	 	 	}
+ 	 	},
+ 	 	"rare": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "稀有",
+ 	 	 	 	"eng": "rare"
+ 	 	 	}
+ 	 	},
+ 	 	"legendary": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "傳奇",
+ 	 	 	 	"eng": "legendary"
+ 	 	 	}
+ 	 	},
+ 	 	"epic": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "史詩",
+ 	 	 	 	"eng": "epic"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"dungeon": {
+ 	 	"normal": {
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"expMultiplier",
+ 	 	 	 	 	"keyFragmentDisplayName",
+ 	 	 	 	 	"maxLevel"
+ 	 	 	 	],
+ 	 	 	 	"trans": "建議等級：　${maxLevel}\r\n                    ${expMultiplier}倍經驗！\r\n                    掉落 ${keyFragmentDisplayName}",
+ 	 	 	 	"eng": "Recommended Level:　${maxLevel}\r\n                    ${expMultiplier}x times more EXP!\r\n                    Drops ${keyFragmentDisplayName}"
+ 	 	 	},
+ 	 	 	"startName": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"zoneName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "探索 ${zoneName}",
+ 	 	 	 	"eng": "Explore ${zoneName}"
+ 	 	 	},
+ 	 	 	"tut": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"zoneName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "你準備好了嗎？你可以透過最簡單的普通地下城來測試你的實力！\r\n                        記得購買醫療用品！在地下城戰鬥後不會自動恢復生命",
+ 	 	 	 	"eng": "Are you ready? you can test your strength out with normal dungeon, the easiest one.\r\n                        Remember to bring healing item! you won't heal after fights in dungeon"
+ 	 	 	}
+ 	 	},
+ 	 	"challenge": {
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"maxLevel",
+ 	 	 	 	 	"keyFragmentDisplayName",
+ 	 	 	 	 	"expMultiplier"
+ 	 	 	 	],
+ 	 	 	 	"trans": "建議等級：　${maxLevel}+組隊\r\n                    ${expMultiplier}倍經驗！\r\n                    挑戰地下城，額外戰利品及經驗值\r\n                    掉落 ${keyFragmentDisplayName}\r\n                    等級過低不建議進入",
+ 	 	 	 	"eng": "Recommended Level:　${maxLevel}+ with co-op\r\n                    ${expMultiplier}x more EXP!\r\n                    Challenge mode dungeon, extra loot and exp.\r\n                    Drops ${keyFragmentDisplayName}\r\n                    Not advised to enter if your level is too low"
+ 	 	 	},
+ 	 	 	"tut": {
+ 	 	 	 	"trans": "你覺得自己足夠強大嗎？嘗試挑戰地下城，\r\n                        在深處會有強大的頭目及大量戰利品等著你！\r\n                        建議與其他玩家一同探索。",
+ 	 	 	 	"eng": "Are you strong enough? try it out on Challenge Dungeon,\r\n                        there is a strong boss and tons of loot at the end waiting for you!\r\n                        Its recommended to attempt this with other players."
+ 	 	 	},
+ 	 	 	"startName": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"zoneName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "攻擊 ${zoneName}",
+ 	 	 	 	"eng": "attack ${zoneName}"
+ 	 	 	}
+ 	 	},
+ 	 	"gang": {
+ 	 	 	"startName": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"zoneName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "入侵 ${zoneName}",
+ 	 	 	 	"eng": "invade ${zoneName}"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"maxLevel",
+ 	 	 	 	 	"keyFragmentDisplayName",
+ 	 	 	 	 	"expMultiplier"
+ 	 	 	 	],
+ 	 	 	 	"trans": "推薦級別：${maxLevel} +與其他玩家組隊 \r\n                     ${2.3}倍更多經驗值！4~5倍更強大的敵人！ \r\n                     公會模式地下城，額外的戰利品和經驗值。 \r\n                     *不適合膽小的人*",
+ 	 	 	 	"eng": "Recommended Level:　${maxLevel}+ with co-op\r\n                    ${2.3}x more EXP! and 4~5x stronger enemies!\r\n                    Gang mode dungeon, extra loot and exp.\r\n                    *Not for the faint of heart*"
+ 	 	 	}
+ 	 	},
+ 	 	"buttonTut": {
+ 	 	 	"trans": "你認為自己足夠強大了嗎？ 來地下城中挑戰更強大的敵人吧！ \r\n                         記得購買醫療用品！在地下城戰鬥後不會自動恢復生命",
+ 	 	 	"eng": "Do you think you are strong enough? take on stronger enemies in dungeon!\r\n                        remember to buy some healing item! you won't regen after battle in dungeon"
+ 	 	},
+ 	 	"enemyInRoomDoorError": {
+ 	 	 	"trans": "在房間裡仍然敵人時，你不能進入其他房間",
+ 	 	 	"eng": "You cannot use door while there is still enemy in room"
+ 	 	},
+ 	 	"enemyInCrateDoorError": {
+ 	 	 	"trans": "在附近仍然有敵人時搜索太危險了",
+ 	 	 	"eng": "It is too dangerous to search while there are still enemies nearby"
+ 	 	},
+ 	 	"loading": {
+ 	 	 	"trans": "載入地下城......",
+ 	 	 	"eng": "Loading Dungeon..."
+ 	 	},
+ 	 	"sendInvite": {
+ 	 	 	"trans": "發送邀請到聊天室",
+ 	 	 	"eng": "Send Invite To Chat"
+ 	 	},
+ 	 	"leaveDungeon": {
+ 	 	 	"trans": "離開地下城",
+ 	 	 	"eng": "Leave dungeon"
+ 	 	},
+ 	 	"quest": {
+ 	 	 	"accept": {
+ 	 	 	 	"trans": "接受任務",
+ 	 	 	 	"eng": "Accept Quest"
+ 	 	 	},
+ 	 	 	"decline": {
+ 	 	 	 	"trans": "拒絕任務",
+ 	 	 	 	"eng": "Decline Quest"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"secretKey": {
+ 	 	"name": {
+ 	 	 	"vars": [
+ 	 	 	 	"segmentDisplayName"
+ 	 	 	],
+ 	 	 	"trans": "${segmentDisplayName} 密鑰",
+ 	 	 	"eng": "${segmentDisplayName} Secret Key"
+ 	 	},
+ 	 	"unlockVerb": {
+ 	 	 	"trans": "暴力破解",
+ 	 	 	"eng": "brute-force"
+ 	 	},
+ 	 	"bruteForce": {
+ 	 	 	"title": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"segmentDisplayName",
+ 	 	 	 	 	"segmentMinLevel",
+ 	 	 	 	 	"segmentMaxLevel"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${segmentDisplayName}密鑰（LV ${segmentMinLevel}  -  ${segmentMaxLevel}）",
+ 	 	 	 	"eng": "${segmentDisplayName} Secret Key (lv ${segmentMinLevel} - ${segmentMaxLevel})"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"quest": {
+ 	 	"progression": {
+ 	 	 	"vars": [
+ 	 	 	 	"segmentDisplayName"
+ 	 	 	],
+ 	 	 	"trans": "在${segmentDisplayName}的地下城當中獲取三個不同的密鑰碎片，\r\n                這些碎片是用來製作下個地區的完整密鑰\r\n                前往[市中心]的[終端機]製作完整密鑰",
+ 	 	 	"eng": "Acquire 3 different Key Fragments from each dungeons located in ${segmentDisplayName},\r\n                these are used to create the key to next zone.\r\n                To craft the key, go to terminal in [HUB]",
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"progressionId"
+ 	 	 	 	],
+ 	 	 	 	"trans": "階段-${progressionId}",
+ 	 	 	 	"eng": "Progression-${progressionId}"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"segmentDisplayName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "在${segmentDisplayName}的地下城當中獲取三個不同的密鑰碎片，\r\n                這些碎片是用來製作下個地區的完整密鑰，\r\n                前往[市中心]的[終端機]製作完整密鑰",
+ 	 	 	 	"eng": "Acquire 3 different Key Fragments from each dungeons located in ${segmentDisplayName},\r\n                these are used to create the key to next zone.\r\n                To craft the key, go to terminal in [HUB]"
+ 	 	 	}
+ 	 	},
+ 	 	"random": {
+ 	 	 	"clearChallengeDungeon": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "地下城戰士",
+ 	 	 	 	 	"eng": "dungeon warrior"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"clearDungeonCoOp": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "地下城好夥伴",
+ 	 	 	 	 	"eng": "dungeon friends"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"clearDungeon": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "地下城爬行者",
+ 	 	 	 	 	"eng": "dungeon crawler"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"dealDamage": {
+ 	 	 	 	"trans": "造成傷害",
+ 	 	 	 	"eng": "Deal Damage"
+ 	 	 	},
+ 	 	 	"exp": {
+ 	 	 	 	"trans": "獲得經驗值",
+ 	 	 	 	"eng": "Gain exp"
+ 	 	 	},
+ 	 	 	"joinDungeon": {
+ 	 	 	 	"trans": "加入地下城",
+ 	 	 	 	"eng": "Join Dungeon"
+ 	 	 	},
+ 	 	 	"killEnemy": {
+ 	 	 	 	"trans": "殺死敵人",
+ 	 	 	 	"eng": "Kill enemy"
+ 	 	 	},
+ 	 	 	"getMoney": {
+ 	 	 	 	"trans": "獲得比特幣",
+ 	 	 	 	"eng": "Acquire Bitcoin"
+ 	 	 	},
+ 	 	 	"print": {
+ 	 	 	 	"trans": "分子合成",
+ 	 	 	 	"eng": "Molecular Printing"
+ 	 	 	}
+ 	 	},
+ 	 	"newbie": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "新手有福利",
+ 	 	 	 	"eng": "Newbie with benefit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "擊殺一些敵人來完成整裝並開啓你的旅程吧",
+ 	 	 	 	"eng": "Kill some enemies and get a full set of items for you to start your journey"
+ 	 	 	}
+ 	 	},
+ 	 	"newbie2": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "盟友和朋友",
+ 	 	 	 	"eng": "Allies and Friends"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "歡迎來到 CyberCode Online， \r\n         在線上交朋友對你完成合作任務非常有用， \r\n         如果有任何問題，請別介意在聊天室中諮詢其他玩家 :) \r\n         請記住，如果你在聊天室中發送垃圾內容，你將會被禁言。",
+ 	 	 	 	"eng": "Welcome to CyberCode Online,\r\n        making friends with people online will be very useful for you to complete co-op quests,\r\n        go ahead ask people online if you have got any questions :)\r\n        Remember, if you spam in the chat, you will be muted by moderators."
+ 	 	 	}
+ 	 	},
+ 	 	"newbie3": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "達到分子列印等級3",
+ 	 	 	 	"eng": "Reach printing rank 3"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "使用快取記憶體列印的物品等級由你的列印等級決定， \r\n         升級你的列印等級，以使你可以列印更高等級的物品。 \r\n        \r\n         你可以在[市中心]找到[3D分子列印機]，使用它來列印一些快取記憶體來升級你的列印等級",
+ 	 	 	 	"eng": "The level of itemS you print with Caches are determined by your Printing Rank,\r\n        level up your Printing Rank so you can print higher level items.\r\n        \r\n        You can find Molecular 3D Printer at [Central Hub], use it to print some caches to level up your Printing Rank"
+ 	 	 	}
+ 	 	},
+ 	 	"newbie4": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "開啟寶箱",
+ 	 	 	 	"eng": "Open Crate"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "在地下城中開啟4個寶箱，獲得寶箱中吸引人的戰利品！",
+ 	 	 	 	"eng": "Open 4 crates in dungeon to get them sweet loots!"
+ 	 	 	}
+ 	 	},
+ 	 	"abandonConfirm": {
+ 	 	 	"trans": "你確定要放棄這個任務嗎？",
+ 	 	 	"eng": "Are you sure you want to abandon this quest?"
+ 	 	},
+ 	 	"mobileQuestPage": {
+ 	 	 	"requires": {
+ 	 	 	 	"trans": "需求",
+ 	 	 	 	"eng": "requires"
+ 	 	 	}
+ 	 	},
+ 	 	"questType": {
+ 	 	 	"normal": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "普通任務",
+ 	 	 	 	 	"eng": "normal"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"social": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "社交任務",
+ 	 	 	 	 	"eng": "social"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"dungeon": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "地下城",
+ 	 	 	 	 	"eng": "dungeon"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"market": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "市場商人",
+ 	 	 	 	"eng": "Market merchant"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "你可以向在玩家市場的玩家出售和購買物品，來試試在玩家市場添加物品吧",
+ 	 	 	 	"eng": "You can sell and purchase items from players in the player market, try it out by adding an item to the player market"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"ui": {
+ 	 	"header": {
+ 	 	 	"playerOnline": {
+ 	 	 	 	"trans": "線上玩家",
+ 	 	 	 	"eng": "players online"
+ 	 	 	},
+ 	 	 	"online": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"skipCount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "跳過中${skipCount}",
+ 	 	 	 	"eng": "Skipping ${skipCount}"
+ 	 	 	},
+ 	 	 	"skipAvailable": {
+ 	 	 	 	"trans": "可以使用跳過",
+ 	 	 	 	"eng": "Skip Available"
+ 	 	 	}
+ 	 	},
+ 	 	"mobileQuestPage": {
+ 	 	 	"receiveReward": {
+ 	 	 	 	"trans": "點擊以獲取報酬",
+ 	 	 	 	"eng": "Click to receive reward"
+ 	 	 	},
+ 	 	 	"inProgress": {
+ 	 	 	 	"trans": "任務進行中...",
+ 	 	 	 	"eng": "Request in progress..."
+ 	 	 	},
+ 	 	 	"watchAdRefresh": {
+ 	 	 	 	"trans": "觀看廣告更新任務",
+ 	 	 	 	"eng": "Watch an AD to refresh quest"
+ 	 	 	},
+ 	 	 	"rewards": {
+ 	 	 	 	"trans": "獎勵",
+ 	 	 	 	"eng": "rewards"
+ 	 	 	},
+ 	 	 	"rewardAvailable": {
+ 	 	 	 	"trans": "點擊收集獎勵",
+ 	 	 	 	"eng": "Click to collect reward"
+ 	 	 	},
+ 	 	 	"viewDetails": {
+ 	 	 	 	"trans": "點擊查看詳細資訊",
+ 	 	 	 	"eng": "Click to view details"
+ 	 	 	}
+ 	 	},
+ 	 	"map": {
+ 	 	 	"interactable": {
+ 	 	 	 	"trans": "互動列表",
+ 	 	 	 	"eng": "Interactable"
+ 	 	 	},
+ 	 	 	"travel": {
+ 	 	 	 	"trans": "旅行",
+ 	 	 	 	"eng": "Travel"
+ 	 	 	},
+ 	 	 	"hiddenNpcTip": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"hiddenCount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${hiddenCount}個可以在這裡的可互動元素，升級以解鎖它們。",
+ 	 	 	 	"eng": "${hiddenCount} more interactables can be unlocked at this location, level up to unlock them."
+ 	 	 	},
+ 	 	 	"travelHiddenLinks": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"hiddenCount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "還有${hiddenCount}個旅行選項可以解鎖",
+ 	 	 	 	"eng": "${hiddenCount} more travel options can be unlocked"
+ 	 	 	}
+ 	 	},
+ 	 	"playerDetails": {
+ 	 	 	"alias": {
+ 	 	 	 	"trans": "暱稱",
+ 	 	 	 	"eng": "Alias"
+ 	 	 	},
+ 	 	 	"title": {
+ 	 	 	 	"trans": "稱號",
+ 	 	 	 	"eng": "title"
+ 	 	 	},
+ 	 	 	"gearScore": {
+ 	 	 	 	"trans": "裝備評級",
+ 	 	 	 	"eng": "Gear Score"
+ 	 	 	},
+ 	 	 	"location": {
+ 	 	 	 	"trans": "地點",
+ 	 	 	 	"eng": "location"
+ 	 	 	},
+ 	 	 	"onlineStatus": {
+ 	 	 	 	"trans": "系統連線",
+ 	 	 	 	"eng": "system link"
+ 	 	 	},
+ 	 	 	"streetCred": {
+ 	 	 	 	"trans": "街頭聲望",
+ 	 	 	 	"eng": "Street Cred"
+ 	 	 	},
+ 	 	 	"status": {
+ 	 	 	 	"trans": "狀態",
+ 	 	 	 	"eng": "Status"
+ 	 	 	},
+ 	 	 	"numOfMember": {
+ 	 	 	 	"trans": "會員數",
+ 	 	 	 	"eng": "Number of members"
+ 	 	 	},
+ 	 	 	"gangAction": {
+ 	 	 	 	"label": {
+ 	 	 	 	 	"trans": "公會指令",
+ 	 	 	 	 	"eng": "Gang Actions"
+ 	 	 	 	},
+ 	 	 	 	"kick": {
+ 	 	 	 	 	"trans": "踢出",
+ 	 	 	 	 	"eng": "Kick"
+ 	 	 	 	},
+ 	 	 	 	"transferLeadership": {
+ 	 	 	 	 	"trans": "轉移會長",
+ 	 	 	 	 	"eng": "Transfer Leadership"
+ 	 	 	 	},
+ 	 	 	 	"editPermissions": {
+ 	 	 	 	 	"trans": "權限",
+ 	 	 	 	 	"eng": "Permissions"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"playerActions": {
+ 	 	 	 	"label": {
+ 	 	 	 	 	"trans": "玩家指令",
+ 	 	 	 	 	"eng": "Player Actions"
+ 	 	 	 	},
+ 	 	 	 	"sendPrivateMsg": {
+ 	 	 	 	 	"trans": "寄送私人訊息",
+ 	 	 	 	 	"eng": "Send private message"
+ 	 	 	 	},
+ 	 	 	 	"sendGift": {
+ 	 	 	 	 	"trans": "寄送禮物",
+ 	 	 	 	 	"eng": "Send Gift"
+ 	 	 	 	},
+ 	 	 	 	"inviteToGang": {
+ 	 	 	 	 	"trans": "邀請加入公會",
+ 	 	 	 	 	"eng": "Invite to Gang"
+ 	 	 	 	},
+ 	 	 	 	"addToFriend": {
+ 	 	 	 	 	"trans": "加入好友名單",
+ 	 	 	 	 	"eng": "add to Friend List"
+ 	 	 	 	},
+ 	 	 	 	"removeFromFriend": {
+ 	 	 	 	 	"trans": "從好友名單移除",
+ 	 	 	 	 	"eng": "Remove from Friend List"
+ 	 	 	 	},
+ 	 	 	 	"giveStreetCred": {
+ 	 	 	 	 	"trans": "給予街頭聲望",
+ 	 	 	 	 	"eng": "Give Street Cred"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"bio": {
+ 	 	 	 	"trans": "個人簡歷",
+ 	 	 	 	"eng": "Bio"
+ 	 	 	},
+ 	 	 	"bioNotFound": {
+ 	 	 	 	"trans": "已編輯",
+ 	 	 	 	"eng": "REDACTED"
+ 	 	 	},
+ 	 	 	"equipped": {
+ 	 	 	 	"trans": "已裝備",
+ 	 	 	 	"eng": "Equipped"
+ 	 	 	},
+ 	 	 	"inventory": {
+ 	 	 	 	"trans": "背包",
+ 	 	 	 	"eng": "Inventory"
+ 	 	 	},
+ 	 	 	"changePicture": {
+ 	 	 	 	"trans": "自訂個人檔案圖像是贊助者的專屬功能",
+ 	 	 	 	"eng": "Custom profile image is a donator exclusive feature"
+ 	 	 	},
+ 	 	 	"changePictureDescription": {
+ 	 	 	 	"trans": "為您提供最棒的沒有付費取勝（P2W）的遊戲體驗，所有付費功能都只是裝飾性質的，像是個人檔案的圖片及聊天室外框， \n                                                 或是在遊戲中有益於每個玩家的全域增益 :) \n                                                 希望你能享受不需要付費的遊戲體驗！",
+ 	 	 	 	"eng": "To provide the best No Pay-to-Win experience to you, it is necessary that all paid features are cosmetic like profile images & chat frames, \n                                                or global buffs that benefits everyone in game :)\n                                                Hope you enjoy the No Pay-to-Win experience!"
+ 	 	 	},
+ 	 	 	"confirm": {
+ 	 	 	 	"trans": "現在捐款",
+ 	 	 	 	"eng": "Donate now"
+ 	 	 	}
+ 	 	},
+ 	 	"market": {
+ 	 	 	"lookAround": {
+ 	 	 	 	"trans": "四處逛逛",
+ 	 	 	 	"eng": "Look around"
+ 	 	 	},
+ 	 	 	"myStall": {
+ 	 	 	 	"trans": "我的攤位",
+ 	 	 	 	"eng": "My Stall"
+ 	 	 	},
+ 	 	 	"increaseSlot": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"nextSlotSize"
+ 	 	 	 	],
+ 	 	 	 	"trans": "增加倉位至 ${nextSlotSize}",
+ 	 	 	 	"eng": "Increase slot to ${nextSlotSize}"
+ 	 	 	},
+ 	 	 	"stall": {
+ 	 	 	 	"sellItemButton": {
+ 	 	 	 	 	"trans": "販售物品",
+ 	 	 	 	 	"eng": "Put Item On Sale"
+ 	 	 	 	},
+ 	 	 	 	"selectItemForSale": {
+ 	 	 	 	 	"trans": "請選擇你要販售的物品",
+ 	 	 	 	 	"eng": "Please select the item you want to sell"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"increaseSlotDescription": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"nextSlotSize"
+ 	 	 	 	],
+ 	 	 	 	"trans": "花費比特幣來增加你可以同時放入攤位的物品",
+ 	 	 	 	"eng": "Spend Bitcoins to increase how many items you can put in your stall at the same time"
+ 	 	 	},
+ 	 	 	"cantEnterError": {
+ 	 	 	 	"trans": "你至少需要4級才可以造訪市集",
+ 	 	 	 	"eng": "You need to be at least level 4 to access the market"
+ 	 	 	},
+ 	 	 	"levelSelect": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "等級",
+ 	 	 	 	 	"eng": "Level"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"tierSelection": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "稀有性",
+ 	 	 	 	 	"eng": "Rarity"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"noItems": {
+ 	 	 	 	"trans": "目前沒有此類銷售的物品",
+ 	 	 	 	"eng": "there is currently no items on sale for this category"
+ 	 	 	},
+ 	 	 	"buy": {
+ 	 	 	 	"trans": "購買",
+ 	 	 	 	"eng": "Purchase"
+ 	 	 	},
+ 	 	 	"remove": {
+ 	 	 	 	"trans": "消除",
+ 	 	 	 	"eng": "Remove"
+ 	 	 	}
+ 	 	},
+ 	 	"chat": {
+ 	 	 	"chat": {
+ 	 	 	 	"trans": "聊天",
+ 	 	 	 	"eng": "chat"
+ 	 	 	},
+ 	 	 	"gang": {
+ 	 	 	 	"trans": "公會",
+ 	 	 	 	"eng": "gang"
+ 	 	 	},
+ 	 	 	"mail": {
+ 	 	 	 	"trans": "收件箱",
+ 	 	 	 	"eng": "mail"
+ 	 	 	},
+ 	 	 	"noti": {
+ 	 	 	 	"trans": "公告",
+ 	 	 	 	"eng": "noti."
+ 	 	 	},
+ 	 	 	"reconnecting": {
+ 	 	 	 	"trans": "重新建立連接",
+ 	 	 	 	"eng": "Reestablishing connection"
+ 	 	 	},
+ 	 	 	"underlevelChatBlock": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"minLevel"
+ 	 	 	 	],
+ 	 	 	 	"trans": "你至少需要達到等級${minLevel}才能發送聊天訊息",
+ 	 	 	 	"eng": "You need to be at least level ${minLevel} to send chat messages"
+ 	 	 	},
+ 	 	 	"spamBlock": {
+ 	 	 	 	"trans": "請不要發送毫無意義的訊息，垃圾訊息將被禁言。",
+ 	 	 	 	"eng": "Please do not send meaningless message, spams will be muted."
+ 	 	 	},
+ 	 	 	"repeatBlock": {
+ 	 	 	 	"trans": "請不要重複發送相同的訊息，垃圾訊息將被禁言。",
+ 	 	 	 	"eng": "Please do not send the same message repeatedly, spams will be muted."
+ 	 	 	},
+ 	 	 	"shortChatBlock": {
+ 	 	 	 	"trans": "請不要發送太短的訊息，試試更長的句子吧。",
+ 	 	 	 	"eng": "Please do not send short messages, try a longer sentence instead."
+ 	 	 	},
+ 	 	 	"notAtBottom": {
+ 	 	 	 	"trans": "你正在看舊訊息",
+ 	 	 	 	"eng": "You are looking at old messages"
+ 	 	 	},
+ 	 	 	"linksNotAllowed": {
+ 	 	 	 	"trans": "不允許外部連結",
+ 	 	 	 	"eng": "Links are not allowed"
+ 	 	 	},
+ 	 	 	"replyTo": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"playerName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "回復${playerName}",
+ 	 	 	 	"eng": "Replying to ${playerName}"
+ 	 	 	}
+ 	 	},
+ 	 	"profile": {
+ 	 	 	"profile": {
+ 	 	 	 	"trans": "個人檔案",
+ 	 	 	 	"eng": "Profile"
+ 	 	 	},
+ 	 	 	"update": {
+ 	 	 	 	"trans": "更新",
+ 	 	 	 	"eng": "Updates"
+ 	 	 	},
+ 	 	 	"tutorial": {
+ 	 	 	 	"trans": "教學",
+ 	 	 	 	"eng": "tutorial"
+ 	 	 	},
+ 	 	 	"credits": {
+ 	 	 	 	"trans": "工作人員名單",
+ 	 	 	 	"eng": "credits"
+ 	 	 	},
+ 	 	 	"deleteAccount": {
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "刪除帳戶",
+ 	 	 	 	 	"eng": "Delete Account"
+ 	 	 	 	},
+ 	 	 	 	"input": {
+ 	 	 	 	 	"label": {
+ 	 	 	 	 	 	"trans": "刪除帳戶",
+ 	 	 	 	 	 	"eng": "Delete Account"
+ 	 	 	 	 	},
+ 	 	 	 	 	"placeholder": {
+ 	 	 	 	 	 	"trans": "輸入要刪除的角色名稱",
+ 	 	 	 	 	 	"eng": "Enter your character name to delete"
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"tutorial": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "教學",
+ 	 	 	 	"eng": "Tutorial"
+ 	 	 	}
+ 	 	},
+ 	 	"setting": {
+ 	 	 	"language": {
+ 	 	 	 	"trans": "語言",
+ 	 	 	 	"eng": "Language"
+ 	 	 	},
+ 	 	 	"langWarning": {
+ 	 	 	 	"trans": "這個語言包是開源且由玩家所提供，文字可能含有錯誤且不全的翻譯，如果方便的話可以至我們的 Github 頁面參與翻譯",
+ 	 	 	 	"eng": "This language pack is open source and contributed by our players, the text may not be fully translated and could contain mistakes. please feel free to edit and contribute from our Github page"
+ 	 	 	},
+ 	 	 	"playBackgroundMusic": {
+ 	 	 	 	"trans": "靜音背景音樂",
+ 	 	 	 	"eng": "Mute background music"
+ 	 	 	},
+ 	 	 	"restartRequired": {
+ 	 	 	 	"trans": "儲存後應用程式將會自動重啟",
+ 	 	 	 	"eng": "App will self restart after save"
+ 	 	 	},
+ 	 	 	"save": {
+ 	 	 	 	"trans": "儲存",
+ 	 	 	 	"eng": "save"
+ 	 	 	},
+ 	 	 	"langGithub": {
+ 	 	 	 	"trans": "協助翻譯遊戲",
+ 	 	 	 	"eng": "Help with translating the game"
+ 	 	 	},
+ 	 	 	"receiveClanNotification": {
+ 	 	 	 	"trans": "接收公會通知",
+ 	 	 	 	"eng": "Receive Gang Notification"
+ 	 	 	},
+ 	 	 	"receiveGlobalNotification": {
+ 	 	 	 	"trans": "接收全球增益通知",
+ 	 	 	 	"eng": "Receive Global Buff Notification"
+ 	 	 	},
+ 	 	 	"disableAttackBar": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "停用攻擊時間條",
+ 	 	 	 	 	"eng": "Disable Attack Timing Bar"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "停用攻擊時間條後不會出現額外傷害加成",
+ 	 	 	 	 	"eng": "Disabling attack timing bar will not grant extra damage"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"forceMobileMode": {
+ 	 	 	 	"trans": "啟用 CyberPunk 模式",
+ 	 	 	 	"eng": "Enable Cyberpunk Mode"
+ 	 	 	},
+ 	 	 	"dangerZone": {
+ 	 	 	 	"trans": "危險地區",
+ 	 	 	 	"eng": "Danger Zone"
+ 	 	 	},
+ 	 	 	"enableBackgroundMusic": {
+ 	 	 	 	"trans": "背景音樂",
+ 	 	 	 	"eng": "background music"
+ 	 	 	},
+ 	 	 	"enableSoundEffects": {
+ 	 	 	 	"trans": "聲音特效",
+ 	 	 	 	"eng": "sound effects"
+ 	 	 	},
+ 	 	 	"blockGifts": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "停用接收禮物",
+ 	 	 	 	 	"eng": "Disable receiving gifts"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"disableVictoryScreen": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "停用勝利畫面",
+ 	 	 	 	 	"eng": "Disable Victory Screen"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"disableSkipRespectNoti": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "停用時光飛逝致敬通知",
+ 	 	 	 	 	"eng": "Disable Skip Respect Notification"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"disableChatEffect": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "停用聊天室效果",
+ 	 	 	 	 	"eng": "Disable Chat Effect"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "如果聊天介面在時光飛逝期間會卡頓，可以考慮停用效果",
+ 	 	 	 	 	"eng": "Disable if chat tab lags during skips"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"captcha": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "輸入系統密碼以繼續",
+ 	 	 	 	"eng": "Enter system passcode to proceed"
+ 	 	 	}
+ 	 	},
+ 	 	"deathScreen": {
+ 	 	 	"topTitleLeft": {
+ 	 	 	 	"trans": "致命傷害",
+ 	 	 	 	"eng": "fatal injury"
+ 	 	 	},
+ 	 	 	"topTitleRight": {
+ 	 	 	 	"trans": "SL醫療中心",
+ 	 	 	 	"eng": "SL Medical Center"
+ 	 	 	},
+ 	 	 	"title": {
+ 	 	 	 	"trans": "休息中",
+ 	 	 	 	"eng": "Flatlined"
+ 	 	 	},
+ 	 	 	"subTitleSmall": {
+ 	 	 	 	"trans": "緊急錯誤：神經鏈路斷開連接",
+ 	 	 	 	"eng": "Critical Error: Neural Link Disconnected"
+ 	 	 	},
+ 	 	 	"progressBarTitle": {
+ 	 	 	 	"trans": "重新建立連接",
+ 	 	 	 	"eng": "Re-establishing connection"
+ 	 	 	}
+ 	 	},
+ 	 	"setBio": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "輸入你的個人簡歷",
+ 	 	 	 	"eng": "Enter your bio"
+ 	 	 	}
+ 	 	},
+ 	 	"clan": {
+ 	 	 	"selectDepositAmount": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "請輸入你要存入的金額",
+ 	 	 	 	 	"eng": "Please enter amount you want to deposit"
+ 	 	 	 	},
+ 	 	 	 	"detail": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"amount"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${amount}比特幣將存入你的公會帳戶，這將無法撤回",
+ 	 	 	 	 	"eng": "${amount} bitcoin will be deposit into your gang account, this cannot be reversed"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"deposit": {
+ 	 	 	 	"trans": "存入比特幣",
+ 	 	 	 	"eng": "Deposit Bitcoin"
+ 	 	 	},
+ 	 	 	"level": {
+ 	 	 	 	"trans": "公會等級",
+ 	 	 	 	"eng": "Gang Level"
+ 	 	 	},
+ 	 	 	"resource": {
+ 	 	 	 	"trans": "資源",
+ 	 	 	 	"eng": "Resource"
+ 	 	 	},
+ 	 	 	"funding": {
+ 	 	 	 	"trans": "資金",
+ 	 	 	 	"eng": "funding"
+ 	 	 	},
+ 	 	 	"memberCount": {
+ 	 	 	 	"trans": "成員",
+ 	 	 	 	"eng": "members"
+ 	 	 	},
+ 	 	 	"nextUpkeepDate": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"nextUpkeepDate"
+ 	 	 	 	],
+ 	 	 	 	"trans": "下一次保養日期：${nextUpkeepDate}",
+ 	 	 	 	"eng": "Next upkeep Date: ${nextUpkeepDate}"
+ 	 	 	},
+ 	 	 	"insufficientError": {
+ 	 	 	 	"trans": "資源關鍵",
+ 	 	 	 	"eng": "resource critical"
+ 	 	 	},
+ 	 	 	"insufficientFound": {
+ 	 	 	 	"trans": "資金不足",
+ 	 	 	 	"eng": "Insufficient Funds"
+ 	 	 	},
+ 	 	 	"insufficientResource": {
+ 	 	 	 	"trans": "資源不足",
+ 	 	 	 	"eng": "Insufficient Resources"
+ 	 	 	},
+ 	 	 	"members": {
+ 	 	 	 	"trans": "公會成員",
+ 	 	 	 	"eng": "Members"
+ 	 	 	},
+ 	 	 	"editMotto": {
+ 	 	 	 	"modal": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "請輸入公會的座右銘",
+ 	 	 	 	 	 	"eng": "Please enter your gang motto"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "編輯公會座右銘",
+ 	 	 	 	 	"eng": "Edit Gang Motto"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"updateImage": {
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "更新公會圖像",
+ 	 	 	 	 	"eng": "Update Gang Image"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"occupationPoint": {
+ 	 	 	 	"trans": "控制香格里拉",
+ 	 	 	 	"eng": "Control over Shangri-la"
+ 	 	 	},
+ 	 	 	"occupation": {
+ 	 	 	 	"noClan": {
+ 	 	 	 	 	"trans": "沒有公會佔據這個地區",
+ 	 	 	 	 	"eng": "No gang has occupied this area yet"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"equipmentDisplay": {
+ 	 	 	"empty": {
+ 	 	 	 	"trans": "空的",
+ 	 	 	 	"eng": "Empty"
+ 	 	 	}
+ 	 	},
+ 	 	"fab": {
+ 	 	 	"dungeonList": {
+ 	 	 	 	"trans": "地下城列表",
+ 	 	 	 	"eng": "Dungeon List"
+ 	 	 	},
+ 	 	 	"links": {
+ 	 	 	 	"trans": "連結",
+ 	 	 	 	"eng": "links"
+ 	 	 	},
+ 	 	 	"premiumShop": {
+ 	 	 	 	"trans": "高級商店",
+ 	 	 	 	"eng": "Premium Shop"
+ 	 	 	},
+ 	 	 	"friendList": {
+ 	 	 	 	"trans": "好友列表",
+ 	 	 	 	"eng": "Friend List"
+ 	 	 	},
+ 	 	 	"leaderBoard": {
+ 	 	 	 	"trans": "排行榜",
+ 	 	 	 	"eng": "Leaderboard"
+ 	 	 	},
+ 	 	 	"skipQueue": {
+ 	 	 	 	"trans": "跳過隊列",
+ 	 	 	 	"eng": "Skip Queue"
+ 	 	 	},
+ 	 	 	"settings": {
+ 	 	 	 	"trans": "設定",
+ 	 	 	 	"eng": "Settings"
+ 	 	 	},
+ 	 	 	"apps": {
+ 	 	 	 	"trans": "所有應用程式",
+ 	 	 	 	"eng": "All Apps"
+ 	 	 	},
+ 	 	 	"tutorial": {
+ 	 	 	 	"trans": "教學",
+ 	 	 	 	"eng": "Tutorial"
+ 	 	 	}
+ 	 	},
+ 	 	"machineCrafting": {
+ 	 	 	"titleBox": {
+ 	 	 	 	"tile": {
+ 	 	 	 	 	"trans": "系統閒置",
+ 	 	 	 	 	"eng": "system idle"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "請插入物品",
+ 	 	 	 	 	"eng": "Please inset an item"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"selectItemButton": {
+ 	 	 	 	"trans": "回收物品",
+ 	 	 	 	"eng": "Recycle Item"
+ 	 	 	},
+ 	 	 	"selectAmount": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "請選擇金額",
+ 	 	 	 	 	"eng": "Please select amount"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeStr"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "這將需要${timeStr}",
+ 	 	 	 	 	"eng": "This will take ${timeStr}"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"modal": {
+ 	 	 	"upgradeFailed": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "錯誤",
+ 	 	 	 	 	"eng": "Error"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "毀損性失敗率累計",
+ 	 	 	 	 	"eng": "Destructive failure accrued"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"upgradeSuccess": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "校準成功",
+ 	 	 	 	 	"eng": "Calibration Success"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "沒有檢測到錯誤",
+ 	 	 	 	 	"eng": "No error detected"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"leaveDungeon": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "你確定要離開地下城嗎？",
+ 	 	 	 	 	"eng": "Are you sure you want to leave this dungeon?"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "你將無法再次進入此地下城",
+ 	 	 	 	 	"eng": "You will not be able to enter this dungeon instance again"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"changePicture": {
+ 	 	 	 	"confirm": {
+ 	 	 	 	 	"trans": "我明白",
+ 	 	 	 	 	"eng": "I understand"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"equipmentUpgrade": {
+ 	 	 	"notActivated": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "核心未找到",
+ 	 	 	 	 	"eng": "Core not found"
+ 	 	 	 	},
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "請插入校準核心",
+ 	 	 	 	 	"eng": "Please insert Calibration Core"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"activate": {
+ 	 	 	 	"trans": "插入核心",
+ 	 	 	 	"eng": "Insert Core"
+ 	 	 	},
+ 	 	 	"activating": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "加工",
+ 	 	 	 	 	"eng": "Processing"
+ 	 	 	 	},
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "解密碎片",
+ 	 	 	 	 	"eng": "Decrypting shard"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "您可以留下此頁面並以後回來",
+ 	 	 	 	 	"eng": "You may leave this page and come back later"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"noEquipment": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "找不到設備",
+ 	 	 	 	 	"eng": "equipment not found"
+ 	 	 	 	},
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "選擇要繼續的設備",
+ 	 	 	 	 	"eng": "Select an equipment to continue"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"haveEquipment": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "符合兼容的物品",
+ 	 	 	 	 	"eng": "Compatible Item Identified"
+ 	 	 	 	},
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "所有系統準備好",
+ 	 	 	 	 	"eng": "All system ready"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"failureRate": {
+ 	 	 	 	"trans": "受破壞的機率",
+ 	 	 	 	"eng": "Chance of destructive failure"
+ 	 	 	},
+ 	 	 	"selectEquipmentTitle": {
+ 	 	 	 	"trans": "請選擇要校準的物品",
+ 	 	 	 	"eng": "Please select an item to calibrate"
+ 	 	 	},
+ 	 	 	"upgradeButton": {
+ 	 	 	 	"trans": "校準",
+ 	 	 	 	"eng": "Calibrate"
+ 	 	 	},
+ 	 	 	"increaseSuccessButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "增加成功率",
+ 	 	 	 	 	"eng": "Increase Success Rate"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"preventDestructionButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "防爆",
+ 	 	 	 	 	"eng": "Prevent Destruction"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"failureRateNoBreak": {
+ 	 	 	 	"trans": "安全失敗的機會",
+ 	 	 	 	"eng": "Chance of safe failure"
+ 	 	 	},
+ 	 	 	"activateDescription": {
+ 	 	 	 	"trans": "校准設備需要校準核心",
+ 	 	 	 	"eng": "A Calibration Core is required to calibrate equipment"
+ 	 	 	}
+ 	 	},
+ 	 	"itemInbox": {
+ 	 	 	"getAllItems": {
+ 	 	 	 	"trans": "收取所有物品",
+ 	 	 	 	"eng": "Get All Items"
+ 	 	 	},
+ 	 	 	"expireDate": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"date"
+ 	 	 	 	],
+ 	 	 	 	"trans": "到期日為${date}",
+ 	 	 	 	"eng": "Expires in ${date}"
+ 	 	 	},
+ 	 	 	"title": {
+ 	 	 	 	"trans": "物品收件箱",
+ 	 	 	 	"eng": "Item Inbox"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "一旦有足夠的空間，這裡的物品將自動移動到你的背包。",
+ 	 	 	 	"eng": "Items here will be automatically moved to your inventory once you have enough space."
+ 	 	 	},
+ 	 	 	"empty": {
+ 	 	 	 	"trans": "你的物品收件箱中沒有物品",
+ 	 	 	 	"eng": "There is no item in your item inbox"
+ 	 	 	}
+ 	 	},
+ 	 	"linkPage": {
+ 	 	 	"forum": {
+ 	 	 	 	"trans": "官方論壇",
+ 	 	 	 	"eng": "Official Forum"
+ 	 	 	}
+ 	 	},
+ 	 	"noPrintableCaches": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "未找到裝備快取記憶體",
+ 	 	 	 	"eng": "Equipment Cache not found"
+ 	 	 	},
+ 	 	 	"subTitle": {
+ 	 	 	 	"trans": "從敵人和地下城中收集快取記憶體來列印你的新裝備",
+ 	 	 	 	"eng": "gather the caches from enemies and dungeons to print your new weapons and armor"
+ 	 	 	}
+ 	 	},
+ 	 	"bank": {
+ 	 	 	"balance": {
+ 	 	 	 	"trans": "結餘",
+ 	 	 	 	"eng": "balance"
+ 	 	 	},
+ 	 	 	"deposit": {
+ 	 	 	 	"trans": "存款",
+ 	 	 	 	"eng": "Deposit"
+ 	 	 	},
+ 	 	 	"withdraw": {
+ 	 	 	 	"trans": "提款",
+ 	 	 	 	"eng": "Withdraw"
+ 	 	 	},
+ 	 	 	"upgradeSlot": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"upgradeToSlot"
+ 	 	 	 	],
+ 	 	 	 	"trans": "升級到${upgradeToSlot}插槽",
+ 	 	 	 	"eng": "UPGRADE TO ${upgradeToSlot} SLOTS"
+ 	 	 	},
+ 	 	 	"takeItemFromVault": {
+ 	 	 	 	"trans": "提取物品",
+ 	 	 	 	"eng": "Withdraw Item"
+ 	 	 	},
+ 	 	 	"putItemToVault": {
+ 	 	 	 	"trans": "儲存物品",
+ 	 	 	 	"eng": "Deposit Item"
+ 	 	 	},
+ 	 	 	"modal": {
+ 	 	 	 	"selectDeposit": {
+ 	 	 	 	 	"trans": "你想存入多少錢？",
+ 	 	 	 	 	"eng": "How much would you like to deposit?"
+ 	 	 	 	},
+ 	 	 	 	"selectWithdraw": {
+ 	 	 	 	 	"trans": "你想提取多少錢？",
+ 	 	 	 	 	"eng": "How much would you like to withdraw?"
+ 	 	 	 	},
+ 	 	 	 	"selectDepositItem": {
+ 	 	 	 	 	"trans": "你想把多少個物品存進保險庫？",
+ 	 	 	 	 	"eng": "How many would you like to put in the vault?"
+ 	 	 	 	},
+ 	 	 	 	"selectWithdrawItem": {
+ 	 	 	 	 	"trans": "你想從保險庫提取多少個物品？",
+ 	 	 	 	 	"eng": "How many would you like to withdraw from the bank?"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"noBalance": {
+ 	 	 	 	"trans": "當你沒有結餘時，你不能進行提款。",
+ 	 	 	 	"eng": "You can't withdraw when you have no balance."
+ 	 	 	},
+ 	 	 	"depositDesc": {
+ 	 	 	 	"trans": "將比特幣存進銀行",
+ 	 	 	 	"eng": "Put Bitcoins into bank"
+ 	 	 	},
+ 	 	 	"withdrawDesc": {
+ 	 	 	 	"trans": "將比特幣從銀行中提取",
+ 	 	 	 	"eng": "Take Bitcoins out of bank"
+ 	 	 	},
+ 	 	 	"putItemToVaultDesc": {
+ 	 	 	 	"trans": "將物品放入你的保險庫中",
+ 	 	 	 	"eng": "Put items into your vault"
+ 	 	 	},
+ 	 	 	"takeItemFromVaultDesc": {
+ 	 	 	 	"trans": "從你的保險庫中取出物品",
+ 	 	 	 	"eng": "Take items out from your vault"
+ 	 	 	},
+ 	 	 	"upgradeSlotDesc": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"upgradeToSlot"
+ 	 	 	 	],
+ 	 	 	 	"trans": "增加你可以存儲在保險庫中的最大物品到${upgradeToSlot}",
+ 	 	 	 	"eng": "Increase the max amount of items you can store in vault to ${upgradeToSlot}"
+ 	 	 	}
+ 	 	},
+ 	 	"generalCaptcha": {
+ 	 	 	"story": {
+ 	 	 	 	"trans": "你找到了一個上鎖的舊保險箱，上面似乎有一張寫有文字的便利貼。",
+ 	 	 	 	"eng": "You found an old locked safe box, there seems like a post-it with some text written on it."
+ 	 	 	},
+ 	 	 	"title": {
+ 	 	 	 	"trans": "解鎖所需的PIN碼",
+ 	 	 	 	"eng": "Pin code required to unlock"
+ 	 	 	},
+ 	 	 	"inputLabel": {
+ 	 	 	 	"trans": "PIN碼",
+ 	 	 	 	"eng": "Pin Code"
+ 	 	 	},
+ 	 	 	"inputPlaceholder": {
+ 	 	 	 	"trans": "輸入PIN碼",
+ 	 	 	 	"eng": "Enter pin code"
+ 	 	 	}
+ 	 	},
+ 	 	"list": {
+ 	 	 	"longPressToMultiSelect": {
+ 	 	 	 	"trans": "長按以選擇多個項目",
+ 	 	 	 	"eng": "Long press to multi-select"
+ 	 	 	}
+ 	 	},
+ 	 	"inventory": {
+ 	 	 	"items": {
+ 	 	 	 	"trans": "物品",
+ 	 	 	 	"eng": "items"
+ 	 	 	},
+ 	 	 	"secretKeys": {
+ 	 	 	 	"trans": "密鑰",
+ 	 	 	 	"eng": "secret keys"
+ 	 	 	},
+ 	 	 	"equipped": {
+ 	 	 	 	"trans": "裝備欄",
+ 	 	 	 	"eng": "Equipped"
+ 	 	 	},
+ 	 	 	"inventory": {
+ 	 	 	 	"trans": "背包",
+ 	 	 	 	"eng": "Inventory"
+ 	 	 	},
+ 	 	 	"itemInbox": {
+ 	 	 	 	"trans": "物品收件箱",
+ 	 	 	 	"eng": "Item Inbox"
+ 	 	 	},
+ 	 	 	"crafting": {
+ 	 	 	 	"trans": "製作",
+ 	 	 	 	"eng": "Crafting"
+ 	 	 	},
+ 	 	 	"autoScrap": {
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "自動回收",
+ 	 	 	 	 	"eng": "Auto Scrap"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"itemDisplay": {
+ 	 	 	"broken": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "發生故障",
+ 	 	 	 	 	"eng": "Malfunctioned"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "需要全面的修復",
+ 	 	 	 	 	"eng": "Extensive repair required"
+ 	 	 	 	},
+ 	 	 	 	"instruction": {
+ 	 	 	 	 	"trans": "這個物品被破壞了，將它帶到裝備商人那兒進行維修",
+ 	 	 	 	 	"eng": "This item is broken, bring it to Weapon Smith for repair"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"areaEffect": {
+ 	 	 	 	"trans": "[AOE]效果領域，此物品的效果將施加於與你戰鬥的盟友。",
+ 	 	 	 	"eng": "[AOE] Area of Effect, the effect of this item will apply allies in combat with you."
+ 	 	 	},
+ 	 	 	"equip": {
+ 	 	 	 	"trans": "裝備",
+ 	 	 	 	"eng": "Equip"
+ 	 	 	},
+ 	 	 	"unequip": {
+ 	 	 	 	"trans": "卸下",
+ 	 	 	 	"eng": "Unequip"
+ 	 	 	},
+ 	 	 	"use": {
+ 	 	 	 	"trans": "使用",
+ 	 	 	 	"eng": "Use"
+ 	 	 	},
+ 	 	 	"unlock": {
+ 	 	 	 	"trans": "開鎖",
+ 	 	 	 	"eng": "Unlock"
+ 	 	 	},
+ 	 	 	"lock": {
+ 	 	 	 	"trans": "鎖定",
+ 	 	 	 	"eng": "Lock"
+ 	 	 	},
+ 	 	 	"upgradeModuleTitle": {
+ 	 	 	 	"trans": "升級模組${index}",
+ 	 	 	 	"eng": "upgrade slot ${index}",
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"index"
+ 	 	 	 	]
+ 	 	 	},
+ 	 	 	"lockDescription": {
+ 	 	 	 	"trans": "防止意外賣出或摧毀",
+ 	 	 	 	"eng": "Prevents accidental selling or destroying"
+ 	 	 	},
+ 	 	 	"attachableUpgradesTitle": {
+ 	 	 	 	"trans": "可連接升級",
+ 	 	 	 	"eng": "Attachable Upgrades"
+ 	 	 	},
+ 	 	 	"cantEquip": {
+ 	 	 	 	"trans": "你的等級太低無法使用此裝備",
+ 	 	 	 	"eng": "Your level is too low for this item"
+ 	 	 	},
+ 	 	 	"noAttachableUpgrades": {
+ 	 	 	 	"trans": "您目前沒有任何升級模組",
+ 	 	 	 	"eng": " You currently do not have any upgrade modules"
+ 	 	 	}
+ 	 	},
+ 	 	"secretKey": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "密鑰",
+ 	 	 	 	"eng": "Secret Keys"
+ 	 	 	},
+ 	 	 	"noKeysTitle": {
+ 	 	 	 	"trans": "你沒有任何密鑰",
+ 	 	 	 	"eng": "You don't have any secret keys"
+ 	 	 	},
+ 	 	 	"noKeysSubtitle": {
+ 	 	 	 	"trans": "你可以從地下城中獲取密鑰",
+ 	 	 	 	"eng": "You can obtain secret keys from Dungeons"
+ 	 	 	}
+ 	 	},
+ 	 	"npc": {
+ 	 	 	"notUnlocked": {
+ 	 	 	 	"trans": "這尚未解鎖，請嘗試升級你的角色",
+ 	 	 	 	"eng": "This is not unlocked yet, try leveling up your character"
+ 	 	 	},
+ 	 	 	"repairItems": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"repairFee"
+ 	 	 	 	],
+ 	 	 	 	"trans": "修復所有物品（${repairFee}比特幣）",
+ 	 	 	 	"eng": " Repair all items for (${repairFee} Bitcoin)"
+ 	 	 	},
+ 	 	 	"buyUnit": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "購買 Unit",
+ 	 	 	 	 	"eng": "Buy Unit"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"molecularPrinter": {
+ 	 	 	 	"printLevelDisplay": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	 	"level"
+ 	 	 	 	 	 	],
+ 	 	 	 	 	 	"trans": "印刷級別${level}設備",
+ 	 	 	 	 	 	"eng": "printing level ${level} equipments"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "設備印刷基於您的印刷等級，透過列印更多項目升級您的印刷等級",
+ 	 	 	 	 	 	"eng": "equipment printing is based on your printing rank, level up your printing rank by printing more items"
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"travel": {
+ 	 	 	"notUnlocked": {
+ 	 	 	 	"trans": "你還尚未解鎖這個區域",
+ 	 	 	 	"eng": "You have not unlocked this area yet"
+ 	 	 	}
+ 	 	},
+ 	 	"itemDetails": {
+ 	 	 	"factoryReset": {
+ 	 	 	 	"confirmation": {
+ 	 	 	 	 	"trans": "執行此操作將重置物品上的所有校準，也使其可以再次進行交易。 \n       你確定要繼續嗎？",
+ 	 	 	 	 	"eng": "Doing this will reset all calibration on your item. It will also make it tradable again. \n      Are you sure you want to proceed?"
+ 	 	 	 	},
+ 	 	 	 	"trans": "出廠重置",
+ 	 	 	 	"eng": "Factory Reset"
+ 	 	 	},
+ 	 	 	"quality": {
+ 	 	 	 	"trans": "品質",
+ 	 	 	 	"eng": "quality"
+ 	 	 	},
+ 	 	 	"itemUpgradeButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "升級",
+ 	 	 	 	 	"eng": "upgrade"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"apps": {
+ 	 	 	"dailyReward": {
+ 	 	 	 	"trans": "每日獎勵",
+ 	 	 	 	"eng": "Daily Reward"
+ 	 	 	},
+ 	 	 	"coupon": {
+ 	 	 	 	"trans": "兌換優惠碼",
+ 	 	 	 	"eng": "Claim Coupon"
+ 	 	 	},
+ 	 	 	"referral": {
+ 	 	 	 	"trans": "推薦計劃",
+ 	 	 	 	"eng": "Referral Program"
+ 	 	 	},
+ 	 	 	"skipQueue": {
+ 	 	 	 	"trans": "跳過隊列",
+ 	 	 	 	"eng": "Skip Queue"
+ 	 	 	},
+ 	 	 	"block-list": {
+ 	 	 	 	"trans": "黑名單",
+ 	 	 	 	"eng": "Block List"
+ 	 	 	}
+ 	 	},
+ 	 	"gang": {
+ 	 	 	"confirmKickMember": {
+ 	 	 	 	"trans": "你確定要從公會中踢除這位成員嗎？",
+ 	 	 	 	"eng": "are you sure you want to kick this player from your gang?"
+ 	 	 	},
+ 	 	 	"memberContribution": {
+ 	 	 	 	"resource": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"resourceContribution"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${resourceContribution}資源",
+ 	 	 	 	 	"eng": "${resourceContribution} Resource"
+ 	 	 	 	},
+ 	 	 	 	"occupation": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"occupationContribution"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${occupationContribution}佔用點",
+ 	 	 	 	 	"eng": "${occupationContribution} occupation point"
+ 	 	 	 	},
+ 	 	 	 	"fund": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"moneyContribution"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${moneyContribution}資金",
+ 	 	 	 	 	"eng": "${moneyContribution} funding"
+ 	 	 	 	},
+ 	 	 	 	"exp": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"expContribution"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${expContribution} 經驗值",
+ 	 	 	 	 	"eng": "${expContribution} exp"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"coupon": {
+ 	 	 	"inputLabel": {
+ 	 	 	 	"trans": "優惠碼",
+ 	 	 	 	"eng": "Coupon"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "如果你在我們任何一個活動中得到了優惠碼，可以在此進行兌換。",
+ 	 	 	 	"eng": "If you have a coupon from one of our events, you can claim it here."
+ 	 	 	},
+ 	 	 	"placeholder": {
+ 	 	 	 	"trans": "在這裡貼上或輸入你的優惠碼",
+ 	 	 	 	"eng": "Paste or enter your coupon here"
+ 	 	 	},
+ 	 	 	"confirm": {
+ 	 	 	 	"trans": "啟用優惠碼",
+ 	 	 	 	"eng": "Activate Coupon"
+ 	 	 	}
+ 	 	},
+ 	 	"dailyReward": {
+ 	 	 	"day": {
+ 	 	 	 	"trans": "天",
+ 	 	 	 	"eng": "Day"
+ 	 	 	},
+ 	 	 	"canClaim": {
+ 	 	 	 	"trans": "可以使用",
+ 	 	 	 	"eng": "Available"
+ 	 	 	},
+ 	 	 	"claimed": {
+ 	 	 	 	"trans": "已兌換",
+ 	 	 	 	"eng": "Claimed"
+ 	 	 	},
+ 	 	 	"cantClaimYet": {
+ 	 	 	 	"trans": "已鎖定",
+ 	 	 	 	"eng": "Locked"
+ 	 	 	},
+ 	 	 	"nextLoginWindow": {
+ 	 	 	 	"trans": "下一個登入日",
+ 	 	 	 	"eng": "Next Login Period"
+ 	 	 	}
+ 	 	},
+ 	 	"shop": {
+ 	 	 	"purchase": {
+ 	 	 	 	"trans": "購買",
+ 	 	 	 	"eng": "purchase"
+ 	 	 	},
+ 	 	 	"sell": {
+ 	 	 	 	"trans": "銷售",
+ 	 	 	 	"eng": "sell"
+ 	 	 	}
+ 	 	},
+ 	 	"porofile": {
+ 	 	 	"deleteAccount": {
+ 	 	 	 	"modal": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "你確定要刪除你的帳戶嗎？這個動作將無法撤回，所有資料將被刪除。",
+ 	 	 	 	 	 	"eng": "Are you sure you want to delete your account? This is irreversible, all account information will be removed."
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"job": {
+ 	 	 	"cantEnterError": {
+ 	 	 	 	"trans": "你需要達到至少2級才能訪問香格里拉商業區",
+ 	 	 	 	"eng": "You need to be at least level 2 to access the job hub"
+ 	 	 	}
+ 	 	},
+ 	 	"landing": {
+ 	 	 	"subtile": {
+ 	 	 	 	"trans": "CyberPunk 多人文字冒險遊戲",
+ 	 	 	 	"eng": "Cyberpunk Text-based MMORPG"
+ 	 	 	},
+ 	 	 	"description1": {
+ 	 	 	 	"trans": "Cyber Code Online 是一款線上遊戲，需要一個帳戶來儲存角色資料。",
+ 	 	 	 	"eng": "CyberCode Online is an online game, an account is needed to store game data."
+ 	 	 	},
+ 	 	 	"description2": {
+ 	 	 	 	"trans": "請註冊或使用現有帳戶登入",
+ 	 	 	 	"eng": "please register or login with existing account"
+ 	 	 	},
+ 	 	 	"asusDescription": {
+ 	 	 	 	"trans": "ASUS手機（Zenfone，Rog）可能有螢幕無法點擊的BUG，如有此狀況，請嘗試關開手機螢幕，或者回桌面再返回遊戲。 如持續有問題請反應至ching.huang.dexter@gmail.com",
+ 	 	 	 	"eng": "ASUS phone (Zenfone, ROG) has bug with screen being not clickable, in the case, please try turning your screen off and on again, or put this app to background and resume it again. this should fix the issue :)"
+ 	 	 	}
+ 	 	},
+ 	 	"login": {
+ 	 	 	"loginButton": {
+ 	 	 	 	"trans": "登入",
+ 	 	 	 	"eng": "Login"
+ 	 	 	},
+ 	 	 	"forgotPassword": {
+ 	 	 	 	"trans": "忘記密碼？",
+ 	 	 	 	"eng": "Forgot Password?"
+ 	 	 	},
+ 	 	 	"registerPageButton": {
+ 	 	 	 	"trans": "註冊？",
+ 	 	 	 	"eng": "Create Account?"
+ 	 	 	}
+ 	 	},
+ 	 	"register": {
+ 	 	 	"registerButton": {
+ 	 	 	 	"trans": "註冊",
+ 	 	 	 	"eng": "Create Account"
+ 	 	 	},
+ 	 	 	"loginPageButton": {
+ 	 	 	 	"trans": "有帳戶嗎？",
+ 	 	 	 	"eng": "Have account?"
+ 	 	 	}
+ 	 	},
+ 	 	"basicInfo": {
+ 	 	 	"emptyError": {
+ 	 	 	 	"trans": "請輸入你的角色名稱以繼續。",
+ 	 	 	 	"eng": "Please enter your character name to continue."
+ 	 	 	},
+ 	 	 	"playerNameInput": {
+ 	 	 	 	"label": {
+ 	 	 	 	 	"trans": "角色名稱",
+ 	 	 	 	 	"eng": "Character Name"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "如果你使用冒犯的或不適當的名稱，你將會被禁言",
+ 	 	 	 	 	"eng": "you will be muted if you use an offensive or inappropriate name."
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"welcomeTo": {
+ 	 	 	 	"trans": "歡迎來到",
+ 	 	 	 	"eng": "Welcome to"
+ 	 	 	},
+ 	 	 	"setCharacterNameTitle": {
+ 	 	 	 	"trans": "命名你的角色",
+ 	 	 	 	"eng": "Name your character"
+ 	 	 	},
+ 	 	 	"hasRefererCheckbox": {
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "是否有推薦人（可選）",
+ 	 	 	 	 	"eng": "Only check if you have a referer (Optional)"
+ 	 	 	 	},
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "我有一個推薦者",
+ 	 	 	 	 	"eng": "I have a referer"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"refererModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "誰推薦了你？",
+ 	 	 	 	 	"eng": "Who referred you?"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "請搜尋並選擇推薦你的玩家",
+ 	 	 	 	 	"eng": "Please search and select the player who referred you"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"referral": {
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"name"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "你已將${name}設定為你的推薦人",
+ 	 	 	 	 	"eng": "You have set ${name} as your referer"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"welcomeMsg": {
+ 	 	 	 	"trans": "最棒的多人文字冒險遊戲",
+ 	 	 	 	"eng": "the best text-based mmorpg"
+ 	 	 	},
+ 	 	 	"confirm": {
+ 	 	 	 	"trans": "創建角色",
+ 	 	 	 	"eng": "Create Character"
+ 	 	 	},
+ 	 	 	"confirmModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"name"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "將角色命名為“${name}”？",
+ 	 	 	 	 	"eng": "set character name to \"${name}\"?"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "你將來無法更改",
+ 	 	 	 	 	"eng": "You cannot change this in the future"
+ 	 	 	 	},
+ 	 	 	 	"confirmButton": {
+ 	 	 	 	 	"trans": "確認",
+ 	 	 	 	 	"eng": "I am sure"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"timeSkip": {
+ 	 	 	"unitTimeSkipButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeSkipMinutes",
+ 	 	 	 	 	 	"timeSkipCost"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "全域時光飛逝（${timeSkipMinutes} 分鐘，費用: ${timeSkipCost}Unit）",
+ 	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "「全域時光飛逝」使你跳過掛機等待時間，並立即完成掛機作業。 \n     此效果將適用於所有正在執行掛機作業的玩家",
+ 	 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all player performing AFK task"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"itemTimeSkipButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemSkipMinutes"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "免費跳過（${itemSkipMinutes} 分鐘）",
+ 	 	 	 	 	"eng": "Free time skip (${itemSkipMinutes} Min)"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeSkipItemName",
+ 	 	 	 	 	 	"itemSkipMinutes"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "使用你的${timeSkipItemName}來跳過${itemSkipMinutes}分鐘",
+ 	 	 	 	 	"eng": "Use one of your ${timeSkipItemName} to skip ${itemSkipMinutes} minutes"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"inProgressBox": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "「全域時光飛逝」正在進行中",
+ 	 	 	 	 	"eng": "Global Skip in progress"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"skippingPlayerCount"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "正在加速${skippingPlayerCount}用戶..",
+ 	 	 	 	 	"eng": "Accelerating ${skippingPlayerCount} users.."
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "「全域時光飛逝」使你跳過掛機等待時間，並立即完成掛機作業。 \n     此效果將適用於執行掛機作業的所有玩家",
+ 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all players performing an AFK task"
+ 	 	 	},
+ 	 	 	"confirmModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "確認使用時光飛逝？",
+ 	 	 	 	 	"eng": "Confirm use skip?"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "「全域時光飛逝」將跳過所有執行掛機作業的玩家的等待時間",
+ 	 	 	 	 	"eng": "Global Skip will skip the waiting time for all players performing AFK task"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"afkTask": {
+ 	 	 	"abort": {
+ 	 	 	 	"trans": "中止",
+ 	 	 	 	"eng": "Abort"
+ 	 	 	},
+ 	 	 	"newbieTip": {
+ 	 	 	 	"trans": "即使你關閉遊戲，任務也會持續進行",
+ 	 	 	 	"eng": "The task will continue even if you close the game"
+ 	 	 	},
+ 	 	 	"abortWarning": {
+ 	 	 	 	"trans": "中止搜尋將不會收到任何獎勵，且消耗的材料將不返還",
+ 	 	 	 	"eng": "By aborting this you won\\'t receive any reward and the material used won\\'t be returned"
+ 	 	 	},
+ 	 	 	"marketShortcut": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "市集",
+ 	 	 	 	 	"eng": "Amadon"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"abortWarningTitle": {
+ 	 	 	 	"trans": "你確定要中止嗎？",
+ 	 	 	 	"eng": "Are you sure you want to abort?"
+ 	 	 	}
+ 	 	},
+ 	 	"quest": {
+ 	 	 	"globalQuest": {
+ 	 	 	 	"progressTitle": {
+ 	 	 	 	 	"trans": "破解SL數據中心",
+ 	 	 	 	 	"eng": "SL-Data Fortress Breach"
+ 	 	 	 	},
+ 	 	 	 	"infoBox": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "網路空間攻擊正在進行中",
+ 	 	 	 	 	 	"eng": "Cyberspace hacking in progress"
+ 	 	 	 	 	},
+ 	 	 	 	 	"subtitle": {
+ 	 	 	 	 	 	"trans": "與其他玩家一起破解SL數據中心以獲得全場增益",
+ 	 	 	 	 	 	"eng": "Join forces with other Netrunners to breach the SL-Data Fortress to grant all players with buff"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"completeBox": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "破解完成",
+ 	 	 	 	 	 	"eng": "Breach operation completed"
+ 	 	 	 	 	},
+ 	 	 	 	 	"subtitle": {
+ 	 	 	 	 	 	"trans": "遠程漏洞部署，請稍候...",
+ 	 	 	 	 	 	"eng": "Remote exploit deploying, please wait..."
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"battle": {
+ 	 	 	"attackButton": {
+ 	 	 	 	"primary": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "主武器",
+ 	 	 	 	 	 	"eng": "primary"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"secondary": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "特殊武器",
+ 	 	 	 	 	 	"eng": "special"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"tertiary": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "破壞性武器",
+ 	 	 	 	 	 	"eng": "Destruct."
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"backToPreviusLoc": {
+ 	 	 	"longPressBackToCity": {
+ 	 	 	 	"trans": "長按返回城市",
+ 	 	 	 	"eng": "Long press to go back to city"
+ 	 	 	}
+ 	 	},
+ 	 	"dungeon": {
+ 	 	 	"public": {
+ 	 	 	 	"trans": "公開的地下城",
+ 	 	 	 	"eng": "Public dungeon"
+ 	 	 	},
+ 	 	 	"password": {
+ 	 	 	 	"trans": "受密碼保護的地下城",
+ 	 	 	 	"eng": "Password protected dungeon"
+ 	 	 	},
+ 	 	 	"enterDungeon": {
+ 	 	 	 	"trans": "進入地下城",
+ 	 	 	 	"eng": "Enter Dungeon"
+ 	 	 	},
+ 	 	 	"listButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "地下城",
+ 	 	 	 	 	"eng": "Dungeons"
+ 	 	 	 	},
+ 	 	 	 	"des": {
+ 	 	 	 	 	"trans": "在地下城中，每次戰鬥後，你無法自動恢復生命，且敵人將更加強大，但你會得到更多的經驗值和戰利品",
+ 	 	 	 	 	"eng": "In dungeons, you will not heal after each fight, and enemies are stronger, but there are more exp and loots"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"noHealingPrompt": {
+ 	 	 	 	"trans": "或許可以先買一些醫療用品？",
+ 	 	 	 	"eng": "Maybe buy some healing item first?",
+ 	 	 	 	"des": {
+ 	 	 	 	 	"trans": "似乎你背包中沒有準備止痛藥，在進入地下城之前建議你先從城市中的雜貨店購買止痛藥，因為在地下城中戰鬥後將使你無法自動恢復生命",
+ 	 	 	 	 	"eng": "Seems like you dont have any Pain Away with you, purchase it from Trinoky Mart in the city first before entering dungeons, since you will not regen after battles in dungeon"
+ 	 	 	 	},
+ 	 	 	 	"cancel": {
+ 	 	 	 	 	"trans": "之後",
+ 	 	 	 	 	"eng": "Later"
+ 	 	 	 	},
+ 	 	 	 	"confirm": {
+ 	 	 	 	 	"trans": "回到城市",
+ 	 	 	 	 	"eng": "Back to city"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"underMaintenance": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "地下城維護中",
+ 	 	 	 	 	"eng": "Dungeons Under Maintenance"
+ 	 	 	 	},
+ 	 	 	 	"des": {
+ 	 	 	 	 	"trans": "目前地下城正在維護中，Dexter 正在努力盡快讓它們回復正常！",
+ 	 	 	 	 	"eng": "Dungeons are currently under maintenance, Dexter is working on bringing them back as soon as possible!"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"combat": {
+ 	 	 	"enemyIsDeadTitle": {
+ 	 	 	 	"trans": "你在這裡什麼也沒找到",
+ 	 	 	 	"eng": "You found nothing here"
+ 	 	 	},
+ 	 	 	"equipmentBrokenMsg": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"equipmentName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${equipmentName}已損壞，請在城市中找到裝備商人修復武器",
+ 	 	 	 	"eng": "${equipmentName} is broken, repair it at the Weapon Smith in the City"
+ 	 	 	}
+ 	 	},
+ 	 	"dungeonLobby": {
+ 	 	 	"noDungeon": {
+ 	 	 	 	"trans": "目前沒有公開的地下城",
+ 	 	 	 	"eng": "There is currently no public dungeon"
+ 	 	 	},
+ 	 	 	"showCanJoinOnly": {
+ 	 	 	 	"trans": "只顯示我可以加入的地下城",
+ 	 	 	 	"eng": "Only show dungeons I can join"
+ 	 	 	},
+ 	 	 	"playerCount": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"playerCount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${playerCount}位玩家在線",
+ 	 	 	 	"eng": "${playerCount} player(s) connected"
+ 	 	 	}
+ 	 	},
+ 	 	"localCombat": {
+ 	 	 	"nearByEnemiesButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "附近的敵人",
+ 	 	 	 	 	"eng": "Nearby Enemies"
+ 	 	 	 	},
+ 	 	 	 	"desc": {
+ 	 	 	 	 	"trans": "在街上掃描附近的敵人，地下城外的敵人更弱，更容易被擊敗。但從他們身上得到的經驗值更少",
+ 	 	 	 	 	"eng": "Scans for nearby enemies on the street, enemies outside dungeons are weaker and easier to defeat. However they also drop less exp"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"playerStatus": {
+ 	 	 	"occupiedBy": {
+ 	 	 	 	"trans": "被佔用",
+ 	 	 	 	"eng": "Occupied by"
+ 	 	 	},
+ 	 	 	"topGang": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"gangName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "被${gangName}佔領",
+ 	 	 	 	 	"eng": "Occupied by ${gangName}"
+ 	 	 	 	},
+ 	 	 	 	"occupationPoints": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"points"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${points}控制點",
+ 	 	 	 	 	"eng": "${points} Occupation Control"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"craftingPage": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "合成",
+ 	 	 	 	"eng": "Crafting"
+ 	 	 	},
+ 	 	 	"onlyShowCraftable": {
+ 	 	 	 	"trans": "隱藏無法合成的物品",
+ 	 	 	 	"eng": "Hide recipes that you can\\'t craft"
+ 	 	 	}
+ 	 	},
+ 	 	"communityItemLore": {
+ 	 	 	"noLoreButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "創建百科全書",
+ 	 	 	 	 	"eng": "Create Lore"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "此物品沒有社區百科全書，成為第一個為它創建百科全書的人。",
+ 	 	 	 	 	"eng": "There is no community lore for this item yet, be the first to create one for it."
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"openButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "社區百科全書",
+ 	 	 	 	 	"eng": "Community Lore"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "開啟此物品的社區百科全書",
+ 	 	 	 	 	"eng": "Open the community lore for this item"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"editButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "編輯這個百科全書",
+ 	 	 	 	 	"eng": "edit this lore"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "編輯這個社區百科全書",
+ 	 	 	 	 	"eng": "Edit this community lore"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"equipment": {
+ 	 	 	"lowPrintLevelTip": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "低列印級別",
+ 	 	 	 	 	"eng": "Low Printing Rank"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"lowPrintLevelTip2": {
+ 	 	 	 	"trans": "透過列印更多快取記憶體來增加你的分子列印級別，以打造更強大的武器",
+ 	 	 	 	"eng": "Increase your Printing Rank to create more powerful weapons by printing more caches"
+ 	 	 	},
+ 	 	 	"quickSlots": {
+ 	 	 	 	"trans": "快捷欄",
+ 	 	 	 	"eng": "Quick Slots"
+ 	 	 	},
+ 	 	 	"equipped": {
+ 	 	 	 	"trans": "裝備",
+ 	 	 	 	"eng": "Equipped"
+ 	 	 	}
+ 	 	},
+ 	 	"quickSlot": {
+ 	 	 	"unbindModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "解除綁定快捷欄？",
+ 	 	 	 	 	"eng": "Unbind quick slot?"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"bindModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "選擇可用物品以綁定到快捷欄",
+ 	 	 	 	 	"eng": "Select a usable item to bind to a quick slot"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"tutorialPage": {
+ 	 	 	"rules": {
+ 	 	 	 	"trans": "規則",
+ 	 	 	 	"eng": "rules"
+ 	 	 	},
+ 	 	 	"faq": {
+ 	 	 	 	"trans": "常見問題",
+ 	 	 	 	"eng": "faq"
+ 	 	 	},
+ 	 	 	"referral": {
+ 	 	 	 	"trans": "邀請",
+ 	 	 	 	"eng": "referral"
+ 	 	 	},
+ 	 	 	"equipment": {
+ 	 	 	 	"trans": "裝備",
+ 	 	 	 	"eng": "equipment"
+ 	 	 	},
+ 	 	 	"inventory": {
+ 	 	 	 	"trans": "背包",
+ 	 	 	 	"eng": "inventory"
+ 	 	 	},
+ 	 	 	"combat": {
+ 	 	 	 	"trans": "戰鬥",
+ 	 	 	 	"eng": "combat"
+ 	 	 	},
+ 	 	 	"dungeon": {
+ 	 	 	 	"trans": "地下城",
+ 	 	 	 	"eng": "dungeon"
+ 	 	 	},
+ 	 	 	"social": {
+ 	 	 	 	"trans": "社交",
+ 	 	 	 	"eng": "social"
+ 	 	 	},
+ 	 	 	"keys": {
+ 	 	 	 	"trans": "密鑰",
+ 	 	 	 	"eng": "keys"
+ 	 	 	},
+ 	 	 	"profile": {
+ 	 	 	 	"trans": "個人檔案",
+ 	 	 	 	"eng": "profile"
+ 	 	 	},
+ 	 	 	"locations": {
+ 	 	 	 	"trans": "站點",
+ 	 	 	 	"eng": "locations"
+ 	 	 	},
+ 	 	 	"quests": {
+ 	 	 	 	"trans": "任務",
+ 	 	 	 	"eng": "quests"
+ 	 	 	},
+ 	 	 	"resources": {
+ 	 	 	 	"trans": "資源",
+ 	 	 	 	"eng": "resources"
+ 	 	 	},
+ 	 	 	"account": {
+ 	 	 	 	"trans": "帳戶",
+ 	 	 	 	"eng": "account"
+ 	 	 	},
+ 	 	 	"timeSkip": {
+ 	 	 	 	"trans": "時光飛逝",
+ 	 	 	 	"eng": "time skip"
+ 	 	 	},
+ 	 	 	"calibration": {
+ 	 	 	 	"trans": "校準",
+ 	 	 	 	"eng": "calibration"
+ 	 	 	},
+ 	 	 	"enemyGangsAndMark": {
+ 	 	 	 	"trans": "敵人幫派和設備標記",
+ 	 	 	 	"eng": "Enemy Gangs and Equipment Marks"
+ 	 	 	}
+ 	 	},
+ 	 	"tipsBox": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "高手提示",
+ 	 	 	 	"eng": "Pro Tips"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "點擊獲取新提示",
+ 	 	 	 	"eng": "Click to get new tips"
+ 	 	 	}
+ 	 	},
+ 	 	"unit": {
+ 	 	 	"buy": {
+ 	 	 	 	"trans": "商店（買）",
+ 	 	 	 	"eng": "Shop (buy)"
+ 	 	 	}
+ 	 	},
+ 	 	"communityContentBox": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "社群創作內容",
+ 	 	 	 	"eng": "Community Content"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "此內容由玩家所提供。 點擊此處貢獻您自己的內容。",
+ 	 	 	 	"eng": "This content is contributed by the community. click here to contribute your own content."
+ 	 	 	}
+ 	 	},
+ 	 	"actionList": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "行動",
+ 	 	 	 	"eng": "Actions"
+ 	 	 	}
+ 	 	},
+ 	 	"chatPreview": {
+ 	 	 	"notConnected": {
+ 	 	 	 	"trans": "聊天系統未連接",
+ 	 	 	 	"eng": "chat system not connected"
+ 	 	 	}
+ 	 	},
+ 	 	"suspended": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "暫停",
+ 	 	 	 	"eng": "Suspended"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "由於可疑活動，系統已自動暫停您的帳戶",
+ 	 	 	 	"eng": "Your account has been suspended automatically by the system due to Unusual Activity"
+ 	 	 	},
+ 	 	 	"content": {
+ 	 	 	 	"trans": "如果您有任何疑問，請隨時透過官方 Discord 直接聯絡 Dexter（浮動選單 -> 連結中找到）或電子郵件至 ching.huang.dexter@gmail.com",
+ 	 	 	 	"eng": "If you have any questions please feel free to contact Dexter directly via official Discord (Link can be found in Floating Menu -> Links) or email to ching.huang.dexter@gmail.com"
+ 	 	 	}
+ 	 	},
+ 	 	"richInput": {
+ 	 	 	"searchOfflineSearchbox": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "搜尋所有玩家",
+ 	 	 	 	 	"eng": "Search all players"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"minigame": {
+ 	 	 	"colors": {
+ 	 	 	 	"win": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "解密成功",
+ 	 	 	 	 	 	"eng": "Decryption successful"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "處理中",
+ 	 	 	 	 	 	"eng": "processing"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "您找到了一個帶有彩色鍵盤的鎖定的戰略盒，您應該能夠用正確的顏色序列解鎖它。",
+ 	 	 	 	 	"eng": "You found a locked loot box with color keypad, you should be able to unlock it with the correct sequence of colors."
+ 	 	 	 	},
+ 	 	 	 	"progress": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "解鎖進展",
+ 	 	 	 	 	 	"eng": "Unlock progress"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"countdownSubtitle": {
+ 	 	 	 	 	"trans": "秒",
+ 	 	 	 	 	"eng": "seconds"
+ 	 	 	 	},
+ 	 	 	 	"colorBox": {
+ 	 	 	 	 	"trans": "點擊以下顏色",
+ 	 	 	 	 	"eng": "Click on this color below"
+ 	 	 	 	},
+ 	 	 	 	"lose": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "解密失敗",
+ 	 	 	 	 	 	"eng": "Decryption failed"
+ 	 	 	 	 	},
+ 	 	 	 	 	"description": {
+ 	 	 	 	 	 	"trans": "單擊正確的顏色序列以解鎖",
+ 	 	 	 	 	 	"eng": "Click on the correct color sequence to unlock"
+ 	 	 	 	 	},
+ 	 	 	 	 	"button": {
+ 	 	 	 	 	 	"title": {
+ 	 	 	 	 	 	 	"trans": "再試一次",
+ 	 	 	 	 	 	 	"eng": "Try Again"
+ 	 	 	 	 	 	}
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"supportUkraine": {
+ 	 	 	"description": {
+ 	 	 	 	"trans": "烏克蘭，俄羅斯和整個世界的人們都在受苦，只因為一個人的野心。\r\n用愛聊天漏洞，不要戰爭。",
+ 	 	 	 	"eng": "People of Ukraine, Russia and the whole world are suffering because one man's ambition.\\n Make love exploit, not war."
+ 	 	 	}
+ 	 	},
+ 	 	"rangeSelector": {
+ 	 	 	"selectMinValue": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "選擇最小值",
+ 	 	 	 	 	"eng": "Select min value"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"selectMaxValue": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "選擇最大值",
+ 	 	 	 	 	"eng": "Select max value"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"block": {
+ 	 	 	"player": {
+ 	 	 	 	"success": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"playerName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "你已經阻止了${playerName}",
+ 	 	 	 	 	"eng": "You have blocked ${playerName}"
+ 	 	 	 	},
+ 	 	 	 	"unblock": {
+ 	 	 	 	 	"trans": "解鎖",
+ 	 	 	 	 	"eng": "Unblock"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"list": {
+ 	 	 	 	"empty": {
+ 	 	 	 	 	"trans": "你沒有被封鎖的玩家。",
+ 	 	 	 	 	"eng": "You have no blocked players."
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"unblockModal": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"playerName"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "封鎖${playerName}",
+ 	 	 	 	 	"eng": "Unblock ${playerName}"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"npcSellPage": {
+ 	 	 	"autoSell": {
+ 	 	 	 	"trans": "自動販賣",
+ 	 	 	 	"eng": "Auto Sell"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"misc": {
+ 	 	"missing": {
+ 	 	 	"trans": "缺少",
+ 	 	 	"eng": "missing"
+ 	 	},
+ 	 	"name": {
+ 	 	 	"trans": "名稱",
+ 	 	 	"eng": "Name"
+ 	 	},
+ 	 	"tag": {
+ 	 	 	"trans": "標籤",
+ 	 	 	"eng": "Tag"
+ 	 	},
+ 	 	"donate": {
+ 	 	 	"trans": "贊助",
+ 	 	 	"eng": "Donate"
+ 	 	},
+ 	 	"noSecretKey": {
+ 	 	 	"trans": "缺少密鑰",
+ 	 	 	"eng": " No secret key"
+ 	 	},
+ 	 	"globalEffects": {
+ 	 	 	"trans": "全球效應",
+ 	 	 	"eng": "Global Effects"
+ 	 	},
+ 	 	"confirm": {
+ 	 	 	"trans": "確認",
+ 	 	 	"eng": "Confirm"
+ 	 	},
+ 	 	"requires": {
+ 	 	 	"trans": "需要",
+ 	 	 	"eng": "Requires"
+ 	 	},
+ 	 	"receives": {
+ 	 	 	"trans": "收到",
+ 	 	 	"eng": "Receives"
+ 	 	},
+ 	 	"amount": {
+ 	 	 	"trans": "數量",
+ 	 	 	"eng": "Amount"
+ 	 	},
+ 	 	"shield": {
+ 	 	 	"trans": "護盾",
+ 	 	 	"eng": "Shield"
+ 	 	},
+ 	 	"health": {
+ 	 	 	"trans": "生命值",
+ 	 	 	"eng": "Health"
+ 	 	},
+ 	 	"statusEffect": {
+ 	 	 	"trans": "狀態效果",
+ 	 	 	"eng": "Status Effects"
+ 	 	},
+ 	 	"notTradable": {
+ 	 	 	"trans": "不可交易",
+ 	 	 	"eng": "not tradable"
+ 	 	},
+ 	 	"itemUpgradeCapacity": {
+ 	 	 	"trans": "校準容量",
+ 	 	 	"eng": "Collaboration Capacity"
+ 	 	},
+ 	 	"systemStandby": {
+ 	 	 	"trans": "系統待機",
+ 	 	 	"eng": "System standby"
+ 	 	},
+ 	 	"send": {
+ 	 	 	"trans": "發送",
+ 	 	 	"eng": "send"
+ 	 	},
+ 	 	"password": {
+ 	 	 	"trans": "密碼",
+ 	 	 	"eng": "Password"
+ 	 	},
+ 	 	"close": {
+ 	 	 	"trans": "關閉",
+ 	 	 	"eng": "close"
+ 	 	},
+ 	 	"back": {
+ 	 	 	"trans": "返回",
+ 	 	 	"eng": "back"
+ 	 	},
+ 	 	"dungeons": {
+ 	 	 	"trans": "地下城",
+ 	 	 	"eng": "dungeons"
+ 	 	},
+ 	 	"enemies": {
+ 	 	 	"trans": "敵人",
+ 	 	 	"eng": "Enemies"
+ 	 	},
+ 	 	"moderators": {
+ 	 	 	"trans": "管理員",
+ 	 	 	"eng": "moderators"
+ 	 	},
+ 	 	"level": {
+ 	 	 	"trans": "等級",
+ 	 	 	"eng": "level"
+ 	 	},
+ 	 	"requirements": {
+ 	 	 	"trans": "要求",
+ 	 	 	"eng": "Requirements"
+ 	 	},
+ 	 	"characterNameError": {
+ 	 	 	"hasSpace": {
+ 	 	 	 	"trans": "名稱不能包含空格，可以用“_”替換空格",
+ 	 	 	 	"eng": "Name cannot contain spaces, you may replace the space with \"_\""
+ 	 	 	},
+ 	 	 	"tooShort": {
+ 	 	 	 	"trans": "名稱必須包含至少4個字元",
+ 	 	 	 	"eng": "Name must be at least 4 characters long"
+ 	 	 	},
+ 	 	 	"tooLong": {
+ 	 	 	 	"trans": "名稱長度必須少於16個字元",
+ 	 	 	 	"eng": "Name must be less or equal to 16 characters long"
+ 	 	 	},
+ 	 	 	"invalidChar": {
+ 	 	 	 	"trans": "名稱只能包含英文字母，數字和“_”",
+ 	 	 	 	"eng": "Name can only contain English letters, numbers and \"_\""
+ 	 	 	}
+ 	 	},
+ 	 	"escape": {
+ 	 	 	"trans": "逃脫",
+ 	 	 	"eng": "escape"
+ 	 	},
+ 	 	"equipped": {
+ 	 	 	"trans": "已裝備",
+ 	 	 	"eng": "Equipped"
+ 	 	},
+ 	 	"purchase": {
+ 	 	 	"trans": "購買",
+ 	 	 	"eng": "Purchase"
+ 	 	},
+ 	 	"inputPlaceholder": {
+ 	 	 	"trans": "輸入文字以開始聊天",
+ 	 	 	"eng": "Enter message to start chatting"
+ 	 	},
+ 	 	"okay": {
+ 	 	 	"trans": "好的",
+ 	 	 	"eng": "okay"
+ 	 	},
+ 	 	"durability": {
+ 	 	 	"trans": "耐久度",
+ 	 	 	"eng": "Durability"
+ 	 	},
+ 	 	"quickSlot": {
+ 	 	 	"trans": "快捷欄",
+ 	 	 	"eng": "Quick Slot"
+ 	 	},
+ 	 	"craft": {
+ 	 	 	"trans": "合成",
+ 	 	 	"eng": "craft"
+ 	 	},
+ 	 	"ok": {
+ 	 	 	"trans": "好的",
+ 	 	 	"eng": "OK"
+ 	 	},
+ 	 	"use": {
+ 	 	 	"trans": "採用",
+ 	 	 	"eng": "use"
+ 	 	}
+ 	},
+ 	"statsType": {
+ 	 	"health": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "生命值",
+ 	 	 	 	"eng": "Health"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "增加最大生命值",
+ 	 	 	 	"eng": "Increases maximum health"
+ 	 	 	}
+ 	 	},
+ 	 	"armor": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "護甲",
+ 	 	 	 	"eng": "Armor"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "減少從敵人接收到的傷害",
+ 	 	 	 	"eng": "Decreases damage taken from enemies"
+ 	 	 	}
+ 	 	},
+ 	 	"healthRegen": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "恢復生命",
+ 	 	 	 	"eng": "Health regen"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "戰鬥結束後恢復的生命量",
+ 	 	 	 	"eng": "Amount of health regenerated after the end of combat"
+ 	 	 	}
+ 	 	},
+ 	 	"damage": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "傷害",
+ 	 	 	 	"eng": "Damage"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "影響造成的傷害量",
+ 	 	 	 	"eng": "Directly influences the amount of damage dealt by you"
+ 	 	 	}
+ 	 	},
+ 	 	"critChance": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "暴擊機率",
+ 	 	 	 	"eng": "Crit chance"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "影響觸發暴擊的機率",
+ 	 	 	 	"eng": "Chance of you executing a critical attack"
+ 	 	 	}
+ 	 	},
+ 	 	"critDamage": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "暴擊傷害",
+ 	 	 	 	"eng": "Crit damage"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "影響對敵人造成的暴擊傷害加成",
+ 	 	 	 	"eng": "Influence the critical attack damage you deal to the enemy"
+ 	 	 	}
+ 	 	},
+ 	 	"maxShield": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "最大護盾",
+ 	 	 	 	"eng": "MaxShield"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "提升護盾容量",
+ 	 	 	 	"eng": "Increases your shield capacity"
+ 	 	 	}
+ 	 	},
+ 	 	"description": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "增加你的護盾量",
+ 	 	 	 	"eng": "Increases inventory capacity"
+ 	 	 	}
+ 	 	},
+ 	 	"escape": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "逃脫機率",
+ 	 	 	 	"eng": "Escape"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "在地下城內逃離敵人的概率",
+ 	 	 	 	"eng": "Chances of you escaping from a dungeon enemy"
+ 	 	 	}
+ 	 	},
+ 	 	"stunChance": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "暈眩機率",
+ 	 	 	 	"eng": "Stun chance"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "造成傷害時擊暈敵人的概率， \r\n    導致其該回合無法還擊",
+ 	 	 	 	"eng": "Chance of you stunning your enemy when dealing damage, \r\n    causing them not able to respond to your attack"
+ 	 	 	}
+ 	 	},
+ 	 	"evade": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "閃避",
+ 	 	 	 	"eng": "Evade"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "你躲避敵人攻擊的機率",
+ 	 	 	 	"eng": "Chance of you dodging an enemies attack"
+ 	 	 	}
+ 	 	},
+ 	 	"bargain": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "討價還價",
+ 	 	 	 	"eng": "Bargain"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "影響你從NPC及商店購買或販售的價格",
+ 	 	 	 	"eng": "Influences the price when buying and selling from npc's or stores."
+ 	 	 	}
+ 	 	},
+ 	 	"pocket": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "背包",
+ 	 	 	 	"eng": "Pocket"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "提高背包上限",
+ 	 	 	 	"eng": "Increases inventory capacity"
+ 	 	 	}
+ 	 	},
+ 	 	"damageMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "傷害加成",
+ 	 	 	 	"eng": "Damage multiplier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "增加傷害百分比",
+ 	 	 	 	"eng": "Increases damage by percentage"
+ 	 	 	}
+ 	 	},
+ 	 	"defenceMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "防禦加成",
+ 	 	 	 	"eng": "Defence multiplier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "減少受到傷害的百分比",
+ 	 	 	 	"eng": "Decreases damage received by percentage"
+ 	 	 	}
+ 	 	},
+ 	 	"stunEvade": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "暈眩閃躲",
+ 	 	 	 	"eng": "Stun evade"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "減少被暈眩的機率",
+ 	 	 	 	"eng": "Decreases chance of getting stunned"
+ 	 	 	}
+ 	 	},
+ 	 	"shieldMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "護盾加成",
+ 	 	 	 	"eng": "Shield multiplier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "增加護盾百分比",
+ 	 	 	 	"eng": "Increase strength of shield by percentage"
+ 	 	 	}
+ 	 	},
+ 	 	"healMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "治療加成",
+ 	 	 	 	"eng": "Healing multiplier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "增加治療百分比",
+ 	 	 	 	"eng": "Increases the potency of your heals"
+ 	 	 	}
+ 	 	},
+ 	 	"timeReduction": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "時間減免",
+ 	 	 	 	"eng": "Time reduction"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "減少掛機任務所需的時間",
+ 	 	 	 	"eng": "Reduce AFK task required time"
+ 	 	 	}
+ 	 	},
+ 	 	"expMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "經驗值加成",
+ 	 	 	 	"eng": "Exp multiplier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "增加獲得的經驗值",
+ 	 	 	 	"eng": "Increase EXP you receive"
+ 	 	 	}
+ 	 	},
+ 	 	"btcMultiplier": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "比特幣加成",
+ 	 	 	 	"eng": "BTC multiplier"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "增加獲得的比特幣",
+ 	 	 	 	"eng": "Increase Bitcoins you receive"
+ 	 	 	}
+ 	 	},
+ 	 	"maxHealth": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "最大生命值",
+ 	 	 	 	"eng": "Max Health"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "生命值上限",
+ 	 	 	 	"eng": "Maximum health capacity"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChance": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "校準機會",
+ 	 	 	 	"eng": "Calibration Chance"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "校準物品時減少物品受破壞的機率",
+ 	 	 	 	"eng": "Reduces chance of destructive failure when calibrating items"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeNoBreak": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "校準保護",
+ 	 	 	 	"eng": "Calibration Safety"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "校準失敗時物品不會受到破壞",
+ 	 	 	 	"eng": "Calibration fails will not destroy the item"
+ 	 	 	}
+ 	 	},
+ 	 	"containerEpicDrop": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "史詩機會",
+ 	 	 	 	"eng": "Epic Chance"
+ 	 	 	}
+ 	 	},
+ 	 	"rngInterferer": {
+ 	 	 	"description": {
+ 	 	 	 	"trans": "增加解鎖容器的額外的史詩掉落機率",
+ 	 	 	 	"eng": "Additional epic drop chance from containers"
+ 	 	 	}
+ 	 	},
+ 	 	"m1Dmg": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "野獸幫剋星",
+ 	 	 	 	"eng": "Animals Nemesis"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "增加對「野獸幫」幫派敵人造成的傷害",
+ 	 	 	 	"eng": "Increases damage to Enemies of Animals gang"
+ 	 	 	}
+ 	 	},
+ 	 	"m2Dmg": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "巫毒小子剋星",
+ 	 	 	 	"eng": "Voodoo Nemesis"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "增加對「巫毒小子」幫派敵人造成的傷害",
+ 	 	 	 	"eng": "Increases damage to Enemies of Voodoo Boys gang"
+ 	 	 	}
+ 	 	},
+ 	 	"m3Dmg": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "流浪者剋星",
+ 	 	 	 	"eng": "Scavengers Nemesis"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "增加對「流浪者」幫派敵人造成的傷害",
+ 	 	 	 	"eng": "Increases damage to Enemies of Scavengers gang"
+ 	 	 	}
+ 	 	},
+ 	 	"m1V": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "致命",
+ 	 	 	 	"eng": "Lethal"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "「流浪者」幫派敵人將對你造成更多的傷害",
+ 	 	 	 	"eng": "Enemies of Scavengers gang deals increased damage to you"
+ 	 	 	}
+ 	 	},
+ 	 	"m2V": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "干擾",
+ 	 	 	 	"eng": "Disruptor"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "「野獸幫」幫派敵人將對你造成更多的傷害",
+ 	 	 	 	"eng": "Enemies of Animals gang deals increased damage to you"
+ 	 	 	}
+ 	 	},
+ 	 	"m3V": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "自製",
+ 	 	 	 	"eng": "Makeshift"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "「巫毒小子」幫派敵人將對你造成更多的傷害",
+ 	 	 	 	"eng": "Enemies of Voodoo Boys gang deals increased damage to you"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"craft": {
+ 	 	"maxAmountText": {
+ 	 	 	"vars": [
+ 	 	 	 	"verb",
+ 	 	 	 	"amount"
+ 	 	 	],
+ 	 	 	"trans": "你可以${verb} ${amount}次",
+ 	 	 	"eng": "You can ${verb} ${amount} times"
+ 	 	},
+ 	 	"timeRequiredText": {
+ 	 	 	"vars": [
+ 	 	 	 	"verb",
+ 	 	 	 	"timeStr"
+ 	 	 	],
+ 	 	 	"trans": "${verb}所需的時間：${timeStr}",
+ 	 	 	"eng": "Time required to ${verb}: ${timeStr}"
+ 	 	}
+ 	},
+ 	"recipe": {
+ 	 	"unlockLootBox1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "解鎖容器",
+ 	 	 	 	"eng": "Unlock Container"
+ 	 	 	}
+ 	 	},
+ 	 	"unlock": {
+ 	 	 	"trans": "解鎖",
+ 	 	 	"eng": "Unlock"
+ 	 	},
+ 	 	"unlockLootBox2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "解鎖稀有容器",
+ 	 	 	 	"eng": "Unlock Rare Container"
+ 	 	 	}
+ 	 	},
+ 	 	"unlockLootBox3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "解鎖傳奇容器",
+ 	 	 	 	"eng": "Unlock Legendary Container"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "老舊袋子",
+ 	 	 	 	"eng": "Old Pouch"
+ 	 	 	}
+ 	 	},
+ 	 	"trade": {
+ 	 	 	"trans": "交易",
+ 	 	 	"eng": "Trade"
+ 	 	},
+ 	 	"backpack2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "腰包",
+ 	 	 	 	"eng": "Fanny Pack"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "探險家背包",
+ 	 	 	 	"eng": "Explorer's Backpack"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack4": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "公事包",
+ 	 	 	 	"eng": "Employee Office Case"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack5": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "自主存儲單位",
+ 	 	 	 	"eng": "Autonomous Storage Unit"
+ 	 	 	}
+ 	 	},
+ 	 	"ammo1": {
+ 	 	 	"vars": [
+ 	 	 	 	"minLevel"
+ 	 	 	],
+ 	 	 	"trans": "能量電池（LV ${minLevel}）",
+ 	 	 	"eng": "Energy Cell (lv${minLevel})"
+ 	 	},
+ 	 	"ammo2": {
+ 	 	 	"vars": [
+ 	 	 	 	"minLevel"
+ 	 	 	],
+ 	 	 	"trans": "反物質電池（LV ${minLevel}）",
+ 	 	 	"eng": "Anti Matter Charge (lv${minLevel})"
+ 	 	},
+ 	 	"christmasGift": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "解鎖神秘的容器",
+ 	 	 	 	"eng": "Unlock Mysterious Container"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"market": {
+ 	 	"priceConfirm": {
+ 	 	 	"vars": [
+ 	 	 	 	"amountStr",
+ 	 	 	 	"priceStr",
+ 	 	 	 	"itemName"
+ 	 	 	],
+ 	 	 	"trans": "你以每件商品的價格為${priceStr}的價格銷售${amountStr} ${itemName}",
+ 	 	 	"eng": "You are selling ${amountStr} ${itemName}(s), at the price of ${priceStr} Per Item"
+ 	 	},
+ 	 	"totalConfirm": {
+ 	 	 	"vars": [
+ 	 	 	 	"total"
+ 	 	 	],
+ 	 	 	"trans": "如果所有物品都被售出，你將獲得${total}比特幣",
+ 	 	 	"eng": "If all items are sold, you will earn ${total} BitCoins"
+ 	 	},
+ 	 	"sellAmountModalTitle": {
+ 	 	 	"trans": "你想出售多少？",
+ 	 	 	"eng": "How many would you like to sell?"
+ 	 	},
+ 	 	"amountSelectModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "你想購買多少？",
+ 	 	 	 	"eng": "How many would you like to purchase?"
+ 	 	 	},
+ 	 	 	"totalPrice": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"total"
+ 	 	 	 	],
+ 	 	 	 	"trans": "它將花費共計${total}比特幣",
+ 	 	 	 	"eng": "it will cost ${total} Bitcoin total"
+ 	 	 	}
+ 	 	},
+ 	 	"notEnoughMoney": {
+ 	 	 	"trans": "比特幣不足",
+ 	 	 	"eng": "Insufficient bitcoin"
+ 	 	}
+ 	},
+ 	"modal": {
+ 	 	"levelUp": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "升級",
+ 	 	 	 	"eng": "LEVEL UP"
+ 	 	 	},
+ 	 	 	"subTitle": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"levelName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "恭喜你，你已經升級了你的${levelName}！",
+ 	 	 	 	"eng": "Congratulation, you have leveled up your ${levelName}!"
+ 	 	 	},
+ 	 	 	"fromTo": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"from",
+ 	 	 	 	 	"to"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${from} => ${to}",
+ 	 	 	 	"eng": "${from} => ${to}"
+ 	 	 	}
+ 	 	},
+ 	 	"review": {
+ 	 	 	"title1": {
+ 	 	 	 	"trans": "我是 Dexter，這款遊戲的開發者，我希望了解您目前的體驗感受",
+ 	 	 	 	"eng": "I'm Dexter, the developer of this game, and I hope to know your experience so far."
+ 	 	 	},
+ 	 	 	"title2": {
+ 	 	 	 	"trans": "您會給多少顆星？",
+ 	 	 	 	"eng": "How many stars would you give?"
+ 	 	 	},
+ 	 	 	"badReview": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "我很抱歉，請告訴我可以如何改善遊戲",
+ 	 	 	 	 	"eng": "I am so sorry, please let me know where I can improve"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"goodReview": {
+ 	 	 	 	"title1": {
+ 	 	 	 	 	"trans": "哇，非常感謝您！這令我我感到很榮幸，請務必在我們的商店頁面留下留言 :)",
+ 	 	 	 	 	"eng": "Wow, thanks so much! I'm honored, please make it official by leaving them on our store page :)"
+ 	 	 	 	},
+ 	 	 	 	"title2": {
+ 	 	 	 	 	"trans": "您的好評將會是非常大的幫助，並為我們的社區帶來更多玩家！",
+ 	 	 	 	 	"eng": "Your good review is going to help me much and bring more players into our community!"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"dontAskMeAgain": {
+ 	 	 	 	"trans": "不要再問我",
+ 	 	 	 	"eng": "Don't ask me again"
+ 	 	 	},
+ 	 	 	"reviewLater": {
+ 	 	 	 	"trans": "稍後評論",
+ 	 	 	 	"eng": "review later"
+ 	 	 	}
+ 	 	},
+ 	 	"contributionModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "玩家貢獻內容",
+ 	 	 	 	"eng": "Player contributed content"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "你可以透過編輯 GitHub 頁面中的配置文件來貢獻這樣的內容和更多。",
+ 	 	 	 	"eng": "You can contribute to content like this and many more too by editing the config files in our GitHub page."
+ 	 	 	},
+ 	 	 	"confirm": {
+ 	 	 	 	"trans": "前往 GitHub",
+ 	 	 	 	"eng": "Go to GitHub"
+ 	 	 	},
+ 	 	 	"cancel": {
+ 	 	 	 	"trans": "好的",
+ 	 	 	 	"eng": "ok"
+ 	 	 	}
+ 	 	},
+ 	 	"playerSearch": {
+ 	 	 	"searchPlayerHint": {
+ 	 	 	 	"trans": "輸入要搜尋的玩家名稱",
+ 	 	 	 	"eng": "Enter player name to search"
+ 	 	 	},
+ 	 	 	"noPlayerFound": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"search"
+ 	 	 	 	],
+ 	 	 	 	"trans": "找不到名為“${search}”的玩家",
+ 	 	 	 	"eng": "No player with named \"${search}\" found"
+ 	 	 	}
+ 	 	},
+ 	 	"resultScreen": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "勝利",
+ 	 	 	 	"eng": "Victory"
+ 	 	 	},
+ 	 	 	"subTitle": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"levelName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "恭喜你，你已經升級了你的${levelName}！",
+ 	 	 	 	"eng": "Congratulation, you have leveled up your ${levelName}!"
+ 	 	 	},
+ 	 	 	"fromTo": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"from",
+ 	 	 	 	 	"to"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${from} => ${to}",
+ 	 	 	 	"eng": "${from} => ${to}"
+ 	 	 	}
+ 	 	},
+ 	 	"newbieTutorial": {
+ 	 	 	"welcomeMsg": {
+ 	 	 	 	"trans": "歡迎來到最棒的的多人文字冒險遊戲",
+ 	 	 	 	"eng": "Welcome to the best Text MMORPG"
+ 	 	 	},
+ 	 	 	"noShowToggle": {
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "你可以在個人檔案 > 教學的選項下查看完整教學",
+ 	 	 	 	 	"eng": "You can see the full tutorial at Profile > Tutorial tab"
+ 	 	 	 	},
+ 	 	 	 	"label": {
+ 	 	 	 	 	"trans": "不再顯示",
+ 	 	 	 	 	"eng": "Don't show this again"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"closeButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "關閉",
+ 	 	 	 	 	"eng": "Close"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"chatRuleModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "請在開始聊天之前同意以下規則",
+ 	 	 	 	"eng": "Please agree to the rules below before start chatting"
+ 	 	 	},
+ 	 	 	"rule1": {
+ 	 	 	 	"trans": "禁止洗版或無意義的訊息。",
+ 	 	 	 	"eng": "No spamming or meaningless message."
+ 	 	 	},
+ 	 	 	"rule2": {
+ 	 	 	 	"trans": "禁止人身攻擊或威脅。",
+ 	 	 	 	"eng": "No personal attacks or threats."
+ 	 	 	},
+ 	 	 	"rule4": {
+ 	 	 	 	"trans": "禁止不適當的語言。",
+ 	 	 	 	"eng": "No inappropriate language."
+ 	 	 	},
+ 	 	 	"footer": {
+ 	 	 	 	"trans": "如果你違反任何規則，你將被禁言",
+ 	 	 	 	"eng": "You will be MUTED if you breach any of the rules"
+ 	 	 	},
+ 	 	 	"footer2": {
+ 	 	 	 	"trans": "可以在配置文件 > 教學 > 規則中找到完整的規則列表",
+ 	 	 	 	"eng": "Full list of rules can be found in Profile > Tutorials > Rules"
+ 	 	 	},
+ 	 	 	"disagreeButtonButton": {
+ 	 	 	 	"trans": "不",
+ 	 	 	 	"eng": "No"
+ 	 	 	},
+ 	 	 	"confirmButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "我同意",
+ 	 	 	 	 	"eng": "I Agree"
+ 	 	 	 	},
+ 	 	 	 	"agreed": {
+ 	 	 	 	 	"trans": "我不會亂洗版",
+ 	 	 	 	 	"eng": "I won't spam"
+ 	 	 	 	},
+ 	 	 	 	"notAgree": {
+ 	 	 	 	 	"trans": "我不同意",
+ 	 	 	 	 	"eng": "I don't agree"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"agreeToggle": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "我知道了，我永遠不會洗版或違反任何聊天室規則",
+ 	 	 	 	 	"eng": "I understand and I will never spam or break any of the chat rules"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"chatMessage": {
+ 	 	 	"openPlayerProfile": {
+ 	 	 	 	"trans": "查看個人檔案",
+ 	 	 	 	"eng": "View Profile"
+ 	 	 	},
+ 	 	 	"openPlayerGang": {
+ 	 	 	 	"trans": "查看公會",
+ 	 	 	 	"eng": "View Gang"
+ 	 	 	},
+ 	 	 	"sendGift": {
+ 	 	 	 	"trans": "送禮物",
+ 	 	 	 	"eng": "Send Gift"
+ 	 	 	},
+ 	 	 	"sendPrivateMessage": {
+ 	 	 	 	"trans": "發送私人訊息",
+ 	 	 	 	"eng": "Send Private Message"
+ 	 	 	},
+ 	 	 	"reply": {
+ 	 	 	 	"trans": "回覆",
+ 	 	 	 	"eng": "Reply"
+ 	 	 	},
+ 	 	 	"block": {
+ 	 	 	 	"trans": "封鎖",
+ 	 	 	 	"eng": "Block"
+ 	 	 	}
+ 	 	},
+ 	 	"promotion": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "收到廣播通知",
+ 	 	 	 	"eng": "Broadcast Received"
+ 	 	 	},
+ 	 	 	"dontShowAgain": {
+ 	 	 	 	"trans": "不要再次顯示這次廣播",
+ 	 	 	 	"eng": "Don\\'t show this broadcast again"
+ 	 	 	}
+ 	 	},
+ 	 	"languagePrompt": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "非官方翻譯",
+ 	 	 	 	"eng": "Unofficial translation"
+ 	 	 	},
+ 	 	 	"description1": {
+ 	 	 	 	"trans": "由於這款遊戲僅由一個人製作，因此正確翻譯所有語言是非常困難的，但我正在努力添加更多翻譯 :)",
+ 	 	 	 	"eng": "As this game is made by only one person, it's very difficult translate all languages correctly, but I am working on adding more translations :)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "你可以在設定頁面上隨時更改語言",
+ 	 	 	 	"eng": "You can change language anytime at the settings page"
+ 	 	 	},
+ 	 	 	"dontShowAgain": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "不再顯示此內容",
+ 	 	 	 	 	"eng": "Don't show this again"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"goToSettings": {
+ 	 	 	 	"trans": "改為英語",
+ 	 	 	 	"eng": "Change to English"
+ 	 	 	},
+ 	 	 	"confirmButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "我明白",
+ 	 	 	 	 	"eng": "I understand"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "使用非官方翻譯",
+ 	 	 	 	 	"eng": "Use unofficial translation"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"updateModal": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "已安裝更新",
+ 	 	 	 	"eng": "An update has been installed"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "請點擊「重新啟動」繼續",
+ 	 	 	 	"eng": "Please click reload to continue"
+ 	 	 	},
+ 	 	 	"reloadButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "重新啟動",
+ 	 	 	 	 	"eng": "Reload"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"equipmentQuickMenu": {
+ 	 	 	"unequip": {
+ 	 	 	 	"trans": "卸下裝備",
+ 	 	 	 	"eng": "unequip"
+ 	 	 	},
+ 	 	 	"viewDetails": {
+ 	 	 	 	"trans": "查看詳情",
+ 	 	 	 	"eng": "View Details"
+ 	 	 	},
+ 	 	 	"swap": {
+ 	 	 	 	"trans": "更換裝備",
+ 	 	 	 	"eng": "replace equipment"
+ 	 	 	}
+ 	 	},
+ 	 	"unitDonationConfirm": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "確認捐贈",
+ 	 	 	 	"eng": "Confirm donation"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"amount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "這將從您的帳戶中捐贈${amount}單位",
+ 	 	 	 	"eng": "This will donate ${amount} Unit from your account"
+ 	 	 	},
+ 	 	 	"notEnough": {
+ 	 	 	 	"trans": "你沒有足夠的單位捐贈。",
+ 	 	 	 	"eng": "You do not have enough Unit to donate."
+ 	 	 	}
+ 	 	},
+ 	 	"block": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "你確定要封鎖這個玩家嗎？",
+ 	 	 	 	"eng": "Are you sure you want to block this player?"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"cosmetic": {
+ 	 	"exampleText": {
+ 	 	 	"vars": [
+ 	 	 	 	"tierName"
+ 	 	 	],
+ 	 	 	"trans": "示例聊天框 ${tierName} 等級",
+ 	 	 	"eng": "example chat frame of ${tierName} Tier"
+ 	 	}
+ 	},
+ 	"reward": {
+ 	 	"gangResource": {
+ 	 	 	"vars": [
+ 	 	 	 	"clanResource"
+ 	 	 	],
+ 	 	 	"trans": "${clanResource}公會資源",
+ 	 	 	"eng": "${clanResource} gang resource"
+ 	 	},
+ 	 	"gangExp": {
+ 	 	 	"vars": [
+ 	 	 	 	"clanExp"
+ 	 	 	],
+ 	 	 	"trans": "${clanExp} 公會經驗值",
+ 	 	 	"eng": "${clanExp} gang exp"
+ 	 	},
+ 	 	"gangFunding": {
+ 	 	 	"vars": [
+ 	 	 	 	"clanMoney"
+ 	 	 	],
+ 	 	 	"trans": "${clanMoney}公會資金",
+ 	 	 	"eng": "${clanMoney} gang funding"
+ 	 	},
+ 	 	"unknown": {
+ 	 	 	"trans": "未知的物品",
+ 	 	 	"eng": "Unknown Items"
+ 	 	},
+ 	 	"gangOccupationPoint": {
+ 	 	 	"vars": [
+ 	 	 	 	"clanOccupationPoint"
+ 	 	 	],
+ 	 	 	"trans": "${clanOccupationPoint}佔領控制",
+ 	 	 	"eng": "${clanOccupationPoint} Occupation Control"
+ 	 	},
+ 	 	"globalQuestPoint": {
+ 	 	 	"vars": [
+ 	 	 	 	"globalQuestPoint"
+ 	 	 	],
+ 	 	 	"trans": "${globalQuestPoint} SL數據堡壘破解進度",
+ 	 	 	"eng": "${globalQuestPoint} SL Data Fortress breach progress"
+ 	 	}
+ 	},
+ 	"cost": {
+ 	 	"requireGang": {
+ 	 	 	"trans": "你需要加入公會",
+ 	 	 	"eng": "Requires you to be in a gang"
+ 	 	},
+ 	 	"requireTopGang": {
+ 	 	 	"trans": "需要在佔領排行榜上排名前2名的公會",
+ 	 	 	"eng": "Requires you to be in the Top 2 Gangs on the Occupation Leaderboard"
+ 	 	}
+ 	},
+ 	"statusEffect": {
+ 	 	"pirate": {
+ 	 	 	"trans": "聊天漏洞[PIRATE]",
+ 	 	 	"eng": "Chat Exploit [PIRATE]"
+ 	 	},
+ 	 	"leet": {
+ 	 	 	"trans": "聊天漏洞[1337]",
+ 	 	 	"eng": "Chat Exploit [1337]"
+ 	 	},
+ 	 	"UwU": {
+ 	 	 	"trans": "聊天漏洞[UwU]",
+ 	 	 	"eng": "Chat Exploit [UwU]"
+ 	 	},
+ 	 	"love": {
+ 	 	 	"trans": "聊天漏洞[LOVE]",
+ 	 	 	"eng": "Chat Exploit [LOVE]"
+ 	 	},
+ 	 	"chatExploitProtect": {
+ 	 	 	"trans": "聊天加密",
+ 	 	 	"eng": "Chat Encryption"
+ 	 	},
+ 	 	"synapticAccelerationSmall": {
+ 	 	 	"trans": "突觸加速",
+ 	 	 	"eng": "Synaptic Acceleration"
+ 	 	},
+ 	 	"synapticAccelerationRare": {
+ 	 	 	"trans": "突觸加速（稀有）",
+ 	 	 	"eng": "Synaptic Acceleration (Rare)"
+ 	 	},
+ 	 	"expBonus": {
+ 	 	 	"trans": "額葉皮質增强",
+ 	 	 	"eng": "Frontal Cortex Enhancement"
+ 	 	},
+ 	 	"btcBonus": {
+ 	 	 	"trans": "交易漏洞利用",
+ 	 	 	"eng": "Transaction Exploit"
+ 	 	},
+ 	 	"upgradeChance1": {
+ 	 	 	"trans": "校準精度（普通）",
+ 	 	 	"eng": "Calibration Precision (Common)"
+ 	 	},
+ 	 	"upgradeChance2": {
+ 	 	 	"trans": "校準精度（稀有）",
+ 	 	 	"eng": "Calibration Precision (Rare)"
+ 	 	},
+ 	 	"upgradeChance3": {
+ 	 	 	"trans": "校準精度（傳奇）",
+ 	 	 	"eng": "Calibration Precision (Legendary)"
+ 	 	},
+ 	 	"upgradeChance4": {
+ 	 	 	"trans": "校準精度（史詩）",
+ 	 	 	"eng": "Calibration Precision (Prestige)"
+ 	 	},
+ 	 	"upgradeNoBreak": {
+ 	 	 	"trans": "校準安全奈米機器人",
+ 	 	 	"eng": "Calibration Safety Nano Bot"
+ 	 	},
+ 	 	"rngInterferer": {
+ 	 	 	"trans": "RNG干擾",
+ 	 	 	"eng": "RNG Interference"
+ 	 	},
+ 	 	"flashGrenade": {
+ 	 	 	"trans": "閃光手榴彈",
+ 	 	 	"eng": "Flash Grenade"
+ 	 	}
+ 	},
+ 	"inventory": {
+ 	 	"ui": {
+ 	 	 	"autoScrap": {
+ 	 	 	 	"noItem": {
+ 	 	 	 	 	"trans": "沒有物品可以自動回收",
+ 	 	 	 	 	"eng": "No item to auto scrap"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"useItem": {
+ 	 	 	 	"localFightCantUseItem": {
+ 	 	 	 	 	"trans": "您不能在街頭戰鬥期間使用物品，物品僅在地下城時可用",
+ 	 	 	 	 	"eng": "You cannot use item during street fights, items are only available during dungeons"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"tutorial": {
+ 	 	"localCombatButton": {
+ 	 	 	"trans": "點擊此處掃描街頭敵人",
+ 	 	 	"eng": "Click here to scan for street enemies"
+ 	 	},
+ 	 	"localCombat": {
+ 	 	 	"trans": "在擊敗敵人後將收到經驗值、${currencyName}和戰利品， \n                 試試看吧！",
+ 	 	 	"eng": "you will receive exp, ${currencyName} and loots when you defeat enemies,\n                give it a try now!"
+ 	 	},
+ 	 	"primaryAttack": {
+ 	 	 	"trans": "點擊這裡攻擊敵人",
+ 	 	 	"eng": "Click here to attack the enemy"
+ 	 	},
+ 	 	"statusInv": {
+ 	 	 	"trans": "點擊「拿取全部物品」以獲取所有戰利品",
+ 	 	 	"eng": "Click 'TAKE ALL' to get all the loots"
+ 	 	},
+ 	 	"dungeonQuest": {
+ 	 	 	"trans": "點擊「接受任務」接受任務，可以隨時完成或放棄任務",
+ 	 	 	"eng": "Click 'ACCEPT QUEST' to accept the quest, you may complete or abandon the quest at any time"
+ 	 	},
+ 	 	"localCombatTip": {
+ 	 	 	"trans": "當擊敗敵人時，會獲取經驗值、比特幣和戰利品， \n                 試試看吧！",
+ 	 	 	"eng": "you will receive exp, Bitcoin and loots when you defeat enemies,\n                give it a try now!"
+ 	 	}
+ 	},
+ 	"IAP": {
+ 	 	"currency": {
+ 	 	 	"mostEfficient": {
+ 	 	 	 	"trans": "最划算！",
+ 	 	 	 	"eng": "Most Efficient!"
+ 	 	 	},
+ 	 	 	"paypalExclusive": {
+ 	 	 	 	"trans": "PayPal獨家！",
+ 	 	 	 	"eng": "PayPal Exclusive!"
+ 	 	 	}
+ 	 	},
+ 	 	"paypal": {
+ 	 	 	"paypalBonusTitle": {
+ 	 	 	 	"trans": "所有 PayPal 購買都會得到額外 10％ 的 Unit！ 你只能在網頁版本上使用 PayPal，只需使用瀏覽器登入。",
+ 	 	 	 	"eng": "All PayPal purchases grants 10% additional Units! You may use paypal only on website version, simply login with your browser."
+ 	 	 	},
+ 	 	 	"paypalBonus": {
+ 	 	 	 	"trans": "使用 PayPal 購買，你將會得到額外 10％ 的 Unit",
+ 	 	 	 	"eng": "You will receive additional 10% more Units with paypal purchase"
+ 	 	 	}
+ 	 	},
+ 	 	"purchasing": {
+ 	 	 	"trans": "購買中",
+ 	 	 	"eng": "Purchasing"
+ 	 	},
+ 	 	"total": {
+ 	 	 	"trans": "全部",
+ 	 	 	"eng": "total"
+ 	 	},
+ 	 	"receive": {
+ 	 	 	"trans": "收到",
+ 	 	 	"eng": "Receive"
+ 	 	}
+ 	},
+ 	"itemLore": {
+ 	 	"contribution": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "玩家貢獻內容",
+ 	 	 	 	"eng": "Player contributed content"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "你可以透過在 GitHub 頁面中編輯設定文件來幫忙創建或修改物品的百科全書。",
+ 	 	 	 	"eng": "You can contribute to the lore of items too by editing the config file in our GitHub page."
+ 	 	 	},
+ 	 	 	"confirm": {
+ 	 	 	 	"trans": "前往GitHub",
+ 	 	 	 	"eng": "Go to GitHub"
+ 	 	 	},
+ 	 	 	"cancel": {
+ 	 	 	 	"trans": "好的",
+ 	 	 	 	"eng": "ok"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"itemStack": {
+ 	 	"scrap": {
+ 	 	 	"trans": "回收",
+ 	 	 	"eng": "scrap"
+ 	 	},
+ 	 	"destroy": {
+ 	 	 	"trans": "銷毀",
+ 	 	 	"eng": "destroy"
+ 	 	}
+ 	},
+ 	"statusInventory": {
+ 	 	"takeAll": {
+ 	 	 	"trans": "拿取全部物品",
+ 	 	 	"eng": "Take all"
+ 	 	},
+ 	 	"discard": {
+ 	 	 	"trans": "丟棄",
+ 	 	 	"eng": "Discard"
+ 	 	},
+ 	 	"discardPrompt": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "你確定要丟棄嗎？",
+ 	 	 	 	"eng": "Are you sure you want to discard?"
+ 	 	 	},
+ 	 	 	"confirm": {
+ 	 	 	 	"trans": "丟棄",
+ 	 	 	 	"eng": "Discard"
+ 	 	 	},
+ 	 	 	"warning": {
+ 	 	 	 	"trans": "上面的物品將被丟棄，此動作是無法撤回的。",
+ 	 	 	 	"eng": "The item/items above will be discarded and not be placed into your inventory. This action is irreversible."
+ 	 	 	}
+ 	 	},
+ 	 	"noSpace": {
+ 	 	 	"vars": [
+ 	 	 	 	"item"
+ 	 	 	],
+ 	 	 	"trans": "你的背包中沒有足夠的空間放入${item}",
+ 	 	 	"eng": "There is no enough space in your inventory for ${item}"
+ 	 	}
+ 	},
+ 	"iapCurrency": {
+ 	 	"currency1": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}單位",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "收到 ${unit} 單位",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency2": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}單位",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	}
+ 	 	},
+ 	 	"currency3": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}單位",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "收到${unit}單位（${bonus}獎金）",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency4": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}單位",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "收到${unit}單位（${bonus}獎金）",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency5": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}單位",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "收到${unit}單位（${bonus}獎金）",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency6": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}單位",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "收到${unit}單位（${bonus}獎金）",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency7": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}單位",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "收到${unit}單位（${bonus}獎金）",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency8": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}單位",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "收到${unit}單位（${bonus}獎金）",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	},
+ 	 	"currency9": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${unit}單位",
+ 	 	 	 	"eng": "${unit} Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"unit",
+ 	 	 	 	 	"bonus"
+ 	 	 	 	],
+ 	 	 	 	"trans": "收到${unit}單位（${bonus}獎金）",
+ 	 	 	 	"eng": "Receive ${unit} Unit (${bonus} bonus)"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"skipLike": {
+ 	 	"likeNotification": {
+ 	 	 	"vars": [
+ 	 	 	 	"likerName",
+ 	 	 	 	"amount"
+ 	 	 	],
+ 	 	 	"trans": "${likerName}已向你發送${amount}的敬意",
+ 	 	 	"eng": "${likerName} has send you ${amount} respects for your skip"
+ 	 	}
+ 	},
+ 	"donation": {
+ 	 	"donation1": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "「會員」贊助頭銜",
+ 	 	 	 	 	"eng": "\"Member\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "解鎖自訂個人檔案圖片",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "基本聊天外框（無動畫 & 無特殊顏色）",
+ 	 	 	 	 	"eng": "Basic Chat Frame (no animation & no special color)"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation2": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "「贊助者」贊助頭銜",
+ 	 	 	 	 	"eng": "\"Donator\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "解鎖自訂個人檔案圖片",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "綠色聊天外框（自帶動畫）",
+ 	 	 	 	 	"eng": "Green Chat Frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "綠色個人檔案外框",
+ 	 	 	 	 	"eng": "Green Framed Profile"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation3": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "「精英」贊助頭銜",
+ 	 	 	 	 	"eng": "\"Elite\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "解鎖自訂個人檔案圖片",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "金色聊天外框（自帶動畫）",
+ 	 	 	 	 	"eng": "Gold chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "金色個人檔案外框（自帶動畫）",
+ 	 	 	 	 	"eng": "Gold Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "解鎖自訂個人簡歷",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "配置個人檔案的條形碼裝飾",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "自訂公會座右銘",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "自訂公會圖像",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "未來會有更多的更新",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation4": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "「傳奇」贊助頭銜",
+ 	 	 	 	 	"eng": "\"Legendary\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "解鎖自訂個人檔案圖片",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "紫色聊天外框（自帶動畫）",
+ 	 	 	 	 	"eng": "Purple chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "紫色個人檔案外框（自帶動畫）",
+ 	 	 	 	 	"eng": "Purple Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "解鎖自訂個人簡歷",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "配置個人檔案的條形碼裝飾",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "自訂公會座右銘",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "自訂公會圖像",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "未來會有更多的更新",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation5": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "電馭Potato",
+ 	 	 	 	 	"eng": "Cybernetic Potato"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "「電馭Potato」贊助頭銜",
+ 	 	 	 	 	"eng": "\"Cybernetic Potato\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "解鎖自訂個人檔案圖片",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "成為一個電馭Potato",
+ 	 	 	 	 	"eng": "Become a Cybernetic Potato"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "馬鈴薯聊天外框（自帶動畫）",
+ 	 	 	 	 	"eng": "Potato chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "馬鈴薯個人檔案外框（自帶動畫）",
+ 	 	 	 	 	"eng": "Potato Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "解鎖自訂個人簡歷",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "配置個人檔案的條形碼裝飾",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "自訂公會座右銘",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"10": {
+ 	 	 	 	 	"trans": "自訂公會圖像",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"11": {
+ 	 	 	 	 	"trans": "未來會有更多的更新",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	},
+ 	 	 	 	"12": {
+ 	 	 	 	 	"trans": "我有提到你會變成一個電馭馬鈴薯嗎？",
+ 	 	 	 	 	"eng": "Did I mention you could be a Cybernetic Potato?"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"donation6": {
+ 	 	 	"benefits": {
+ 	 	 	 	"1": {
+ 	 	 	 	 	"trans": "「至尊」贊助頭銜",
+ 	 	 	 	 	"eng": "\"Prestige\" donation title"
+ 	 	 	 	},
+ 	 	 	 	"2": {
+ 	 	 	 	 	"trans": "解鎖自訂個人檔案圖片",
+ 	 	 	 	 	"eng": "Unlock profile picture customization"
+ 	 	 	 	},
+ 	 	 	 	"3": {
+ 	 	 	 	 	"trans": "藍色霓虹聊天外框（自帶動畫）",
+ 	 	 	 	 	"eng": "Blue Neon chat frame (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"4": {
+ 	 	 	 	 	"trans": "藍色霓虹個人檔案外框（自帶動畫）",
+ 	 	 	 	 	"eng": "Blue Neon Framed Profile (with animation)"
+ 	 	 	 	},
+ 	 	 	 	"5": {
+ 	 	 	 	 	"trans": "解鎖自訂個人簡歷",
+ 	 	 	 	 	"eng": "Unlock custom bio"
+ 	 	 	 	},
+ 	 	 	 	"6": {
+ 	 	 	 	 	"trans": "配置個人檔案的條形碼裝飾",
+ 	 	 	 	 	"eng": "Barcode decoration on profile"
+ 	 	 	 	},
+ 	 	 	 	"7": {
+ 	 	 	 	 	"trans": "自訂公會座右銘",
+ 	 	 	 	 	"eng": "Customize gang motto"
+ 	 	 	 	},
+ 	 	 	 	"8": {
+ 	 	 	 	 	"trans": "自訂公會圖像",
+ 	 	 	 	 	"eng": "Customize gang image"
+ 	 	 	 	},
+ 	 	 	 	"9": {
+ 	 	 	 	 	"trans": "未來會有更多的更新",
+ 	 	 	 	 	"eng": "More coming in future update"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"EquipmentSlot": {
+ 	 	"primaryWeapon": {
+ 	 	 	"trans": "主武器",
+ 	 	 	"eng": "primary weapon"
+ 	 	},
+ 	 	"secondaryWeapon": {
+ 	 	 	"trans": "特殊武器",
+ 	 	 	"eng": "special weapon"
+ 	 	},
+ 	 	"tertiaryWeapon": {
+ 	 	 	"trans": "破壞性武器",
+ 	 	 	"eng": "destructive weapon"
+ 	 	},
+ 	 	"helmet": {
+ 	 	 	"trans": "頭盔",
+ 	 	 	"eng": "helmet"
+ 	 	},
+ 	 	"upperArmor": {
+ 	 	 	"trans": "上身裝甲",
+ 	 	 	"eng": "upper armor"
+ 	 	},
+ 	 	"lowerArmor": {
+ 	 	 	"trans": "下身裝甲",
+ 	 	 	"eng": "lower armor"
+ 	 	},
+ 	 	"boots": {
+ 	 	 	"trans": "靴子",
+ 	 	 	"eng": "boots"
+ 	 	},
+ 	 	"backpack": {
+ 	 	 	"trans": "背包",
+ 	 	 	"eng": "backpack"
+ 	 	}
+ 	},
+ 	"dungeonList": {
+ 	 	"newbieTip": {
+ 	 	 	"trans": "在地下城中，每次戰鬥後你不會自動恢復生命值，記得使用你的醫療物品。",
+ 	 	 	"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
+ 	 	}
+ 	},
+ 	"donationPage": {
+ 	 	"message": {
+ 	 	 	"content1": {
+ 	 	 	 	"trans": "您好，親愛的玩家！",
+ 	 	 	 	"eng": "Hello, dear players!"
+ 	 	 	},
+ 	 	 	"content2": {
+ 	 	 	 	"trans": "我是 Dexter，CyberCode Online 的開發者。",
+ 	 	 	 	"eng": "I am Dexter, the developer of CyberCode Online."
+ 	 	 	},
+ 	 	 	"content3": {
+ 	 	 	 	"trans": "如果您有一些閒錢，您可以贊助開發人員繼續開發遊戲，這將會是很大的幫助。",
+ 	 	 	 	"eng": "If you have some spare change it would be very helpful if you could donate to help with continued support and development of the game."
+ 	 	 	},
+ 	 	 	"content4": {
+ 	 	 	 	"trans": "請您在有餘裕的情況下進行捐贈，所有獲益將致力給所有玩家更平衡的遊戲體驗，並不會有任何一名玩家在遊戲中獲得優勢。",
+ 	 	 	 	"eng": "Please only donate if you are comfortable, all benefits are designed to be fair for all players and will not give an edge in gameplay."
+ 	 	 	}
+ 	 	},
+ 	 	"monthlySubscription": {
+ 	 	 	"trans": "每月訂閱",
+ 	 	 	"eng": "Monthly Subscription"
+ 	 	},
+ 	 	"benefits": {
+ 	 	 	"trans": "福利",
+ 	 	 	"eng": "benefits"
+ 	 	},
+ 	 	"TiersTitle": {
+ 	 	 	"trans": "贊助等級",
+ 	 	 	"eng": "Donation Tiers"
+ 	 	},
+ 	 	"unitPrice": {
+ 	 	 	"vars": [
+ 	 	 	 	"price"
+ 	 	 	],
+ 	 	 	"trans": "${price}單位",
+ 	 	 	"eng": "${price} Unit"
+ 	 	},
+ 	 	"permanentDescription": {
+ 	 	 	"trans": "這個頭銜永遠不會過期。\n 它將永遠留在您的帳戶當中。",
+ 	 	 	"eng": "This title will never expire.\\nIt stays with your account forever."
+ 	 	},
+ 	 	"unitPriceDiscountEndDate": {
+ 	 	 	"vars": [
+ 	 	 	 	"date"
+ 	 	 	],
+ 	 	 	"trans": "降價會在${date}結束",
+ 	 	 	"eng": "Discount ends in ${date}"
+ 	 	}
+ 	},
+ 	"Quest": {
+ 	 	"requirement": {
+ 	 	 	"damage": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "造成傷害",
+ 	 	 	 	 	"eng": "Deal damage"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "對任何敵人造成傷害",
+ 	 	 	 	 	"eng": "Deal damage to any enemy"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"money": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "獲得比特幣",
+ 	 	 	 	 	"eng": "Acquire Bitcoins"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "以任何方式獲得比特幣",
+ 	 	 	 	 	"eng": "Acquire Bitcoins in any way"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"exp": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "獲得經驗值",
+ 	 	 	 	 	"eng": "Receive exp"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "以任何方式獲得經驗值",
+ 	 	 	 	 	"eng": "Receive exp from any source"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"enemyKill": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "殺死敵人",
+ 	 	 	 	 	"eng": "Kill enemy"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "殺死任何敵人",
+ 	 	 	 	 	"eng": "Kill any enemy"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"molecularPrint": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "列印裝備",
+ 	 	 	 	 	"eng": "Print equipment"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "使用分子列印機來列印任何快取記憶體",
+ 	 	 	 	 	"eng": "use molecular print to print any item cache"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"joinDungeon": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "加入地下城",
+ 	 	 	 	 	"eng": "Join Dungeon"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "加入其他玩家的地下城",
+ 	 	 	 	 	"eng": "Join other player's dungeon"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"clearChallengeDungeon": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "清理挑戰地下城",
+ 	 	 	 	 	"eng": "Clear challenge dungeon"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "清理地下城（可以和其他人合作清理）",
+ 	 	 	 	 	"eng": "Clear a challenge dungeon (can be co-op)"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"clearDungeon": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "清理地下城",
+ 	 	 	 	 	"eng": "Clear dungeon"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "清理任何地下城（可以和其他人合作清理）",
+ 	 	 	 	 	"eng": "Clear any dungeon (can be co-op)"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"clearDungeonCoOp": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "與朋友清理地下城",
+ 	 	 	 	 	"eng": "Clear dungeon with friends"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "與1名或更多玩家清理任何地下城",
+ 	 	 	 	 	"eng": "Clear any dungeon with 1 or more players"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"globalChat": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "使用全球聊天室",
+ 	 	 	 	 	"eng": "Use global chat"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "與其他玩家聊天時，不允許發送垃圾訊息",
+ 	 	 	 	 	"eng": "Chat with other players, spam not allowed"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"openCrate": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "打開寶箱",
+ 	 	 	 	 	"eng": "Open Crate"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "在地下城中打開寶箱",
+ 	 	 	 	 	"eng": "Open crate in dungeon"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"sellItem": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "成為一名商人",
+ 	 	 	 	 	"eng": "Be a merchant"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "在市場上放置一件物品",
+ 	 	 	 	 	"eng": "Place an item on the market"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"shop": {
+ 	 	"noEnoughSpace": {
+ 	 	 	"trans": "你的背包中沒有空間購買此物品",
+ 	 	 	"eng": "You have no space in your inventory to purchase this item"
+ 	 	},
+ 	 	"noEnoughMoney": {
+ 	 	 	"vars": [
+ 	 	 	 	"CURRENCY"
+ 	 	 	],
+ 	 	 	"trans": "你沒有足夠的${CURRENCY}來購買此物品",
+ 	 	 	"eng": "You do not have enough ${CURRENCY} to purchase this item"
+ 	 	},
+ 	 	"slider": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "你想購買多少？",
+ 	 	 	 	"eng": "How many would you like to purchase?"
+ 	 	 	},
+ 	 	 	"amountDisplay": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"amount",
+ 	 	 	 	 	"itemName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "購買${itemName}的${amount}",
+ 	 	 	 	"eng": "Buying ${amount} of ${itemName}"
+ 	 	 	},
+ 	 	 	"priceDisplay": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"totalPrice",
+ 	 	 	 	 	"CURRENCY"
+ 	 	 	 	],
+ 	 	 	 	"trans": "總價：${totalPrice} ${CURRENCY}",
+ 	 	 	 	"eng": "Total price: ${totalPrice} ${CURRENCY}"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"itemTrait": {
+ 	 	"stun": {
+ 	 	 	"trans": "擊暈",
+ 	 	 	"eng": "of Stunning"
+ 	 	},
+ 	 	"bargain": {
+ 	 	 	"trans": "討價還價",
+ 	 	 	"eng": "of Bargaining"
+ 	 	},
+ 	 	"power": {
+ 	 	 	"trans": "力量",
+ 	 	 	"eng": "of Power"
+ 	 	},
+ 	 	"health": {
+ 	 	 	"trans": "體力",
+ 	 	 	"eng": "of Health"
+ 	 	},
+ 	 	"healthRegen": {
+ 	 	 	"trans": "回復",
+ 	 	 	"eng": "of Life"
+ 	 	},
+ 	 	"maxShield": {
+ 	 	 	"trans": "護盾",
+ 	 	 	"eng": "of Shielding"
+ 	 	},
+ 	 	"sneaky": {
+ 	 	 	"trans": "潛行",
+ 	 	 	"eng": "of Sneaking"
+ 	 	},
+ 	 	"evade": {
+ 	 	 	"trans": "閃避",
+ 	 	 	"eng": "of Evasion"
+ 	 	},
+ 	 	"pocketed": {
+ 	 	 	"trans": "背包",
+ 	 	 	"eng": "with pockets"
+ 	 	},
+ 	 	"criticalChanceArmor": {
+ 	 	 	"trans": "暴擊機率",
+ 	 	 	"eng": "of Crit Chance"
+ 	 	},
+ 	 	"criticalChanceWeapon": {
+ 	 	 	"trans": "暴擊機率",
+ 	 	 	"eng": "of Crit Chance"
+ 	 	},
+ 	 	"criticalDamageArmor": {
+ 	 	 	"trans": "暴擊傷害",
+ 	 	 	"eng": "of Brutality"
+ 	 	},
+ 	 	"healingMultiplier": {
+ 	 	 	"trans": "癒合",
+ 	 	 	"eng": "of Healing"
+ 	 	},
+ 	 	"criticalDamageWeapon": {
+ 	 	 	"trans": "暴擊傷害",
+ 	 	 	"eng": "of Crit Damage"
+ 	 	},
+ 	 	"upgradeHealth": {
+ 	 	 	"trans": "體力",
+ 	 	 	"eng": "of Health"
+ 	 	},
+ 	 	"upgradeDamage": {
+ 	 	 	"trans": "傷害",
+ 	 	 	"eng": "of Damage"
+ 	 	},
+ 	 	"upgradeShield": {
+ 	 	 	"trans": "護盾",
+ 	 	 	"eng": "of Shield"
+ 	 	},
+ 	 	"upgradeSneaky": {
+ 	 	 	"trans": "潛行",
+ 	 	 	"eng": "of Sneaking"
+ 	 	},
+ 	 	"upgradeHealthRegen": {
+ 	 	 	"trans": "回復",
+ 	 	 	"eng": "of Life"
+ 	 	},
+ 	 	"upgradeStun": {
+ 	 	 	"trans": "擊暈",
+ 	 	 	"eng": "of Stun"
+ 	 	},
+ 	 	"upgradeCriticalChance": {
+ 	 	 	"trans": "暴擊機率",
+ 	 	 	"eng": "of Crit Chance"
+ 	 	},
+ 	 	"upgradeCriticalDamage": {
+ 	 	 	"trans": "暴擊傷害",
+ 	 	 	"eng": "of Crit Damage"
+ 	 	},
+ 	 	"upgradeEvade": {
+ 	 	 	"trans": "閃避",
+ 	 	 	"eng": "of Evade"
+ 	 	},
+ 	 	"upgradePocketed": {
+ 	 	 	"trans": "擴張",
+ 	 	 	"eng": "of Expansion"
+ 	 	}
+ 	},
+ 	"procedural": {
+ 	 	"equipmentName": {
+ 	 	 	"nameParts": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"part1",
+ 	 	 	 	 	"part2",
+ 	 	 	 	 	"name"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${part1}${part2}${name}",
+ 	 	 	 	"eng": "${part1} ${part2} ${name}"
+ 	 	 	},
+ 	 	 	"withTrait": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"tierPart",
+ 	 	 	 	 	"name",
+ 	 	 	 	 	"traitFix"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${tierPart}${traitFix}${name}",
+ 	 	 	 	"eng": "${tierPart} ${name} ${traitFix}"
+ 	 	 	},
+ 	 	 	"noTrait": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"tierPart",
+ 	 	 	 	 	"name",
+ 	 	 	 	 	""
+ 	 	 	 	],
+ 	 	 	 	"trans": "${tierPart}${name}",
+ 	 	 	 	"eng": "${tierPart} ${name}"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"misc,durability": {
+ 	 	"trans": "耐久",
+ 	 	"eng": "durability"
+ 	},
+ 	"equipmentMarks": {
+ 	 	"mark1": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "致命",
+ 	 	 	 	"eng": "Lethal"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "對「野獸幫」幫派敵人造成更多的傷害。 自「流浪者」幫派敵人受到更多的傷害。",
+ 	 	 	 	"eng": "deals increased damage to Animals gang. receives increased damage from Scavengers gang."
+ 	 	 	}
+ 	 	},
+ 	 	"mark2": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "干擾",
+ 	 	 	 	"eng": "Disruptor"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "對「巫毒小子」幫派敵人造成更多的傷害。 自「野獸幫」幫派敵人受到更多的傷害。",
+ 	 	 	 	"eng": "deals increased damage to Voodoo Boys gang. receives increased damage from Animals gang."
+ 	 	 	}
+ 	 	},
+ 	 	"mark3": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "自製",
+ 	 	 	 	"eng": "Makeshift"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "對「流浪者」幫派敵人造成更多的傷害。 自「巫毒小子」幫派敵人受到更多的傷害。",
+ 	 	 	 	"eng": "deals increased damage to Scavengers gang. receives increased damage from Voodoo Boys gang."
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"npcGangs": {
+ 	 	"gang1": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "野獸幫",
+ 	 	 	 	"eng": "Animals"
+ 	 	 	}
+ 	 	},
+ 	 	"gang2": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "巫毒小子",
+ 	 	 	 	"eng": "Voodoo boys"
+ 	 	 	}
+ 	 	},
+ 	 	"gang3": {
+ 	 	 	"displayName": {
+ 	 	 	 	"trans": "流浪者",
+ 	 	 	 	"eng": "Scavengers"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"donationType": {
+ 	 	"donation1": {
+ 	 	 	"trans": "會員",
+ 	 	 	"eng": "Member"
+ 	 	},
+ 	 	"donation2": {
+ 	 	 	"trans": "贊助者",
+ 	 	 	"eng": "Donator"
+ 	 	},
+ 	 	"donation3": {
+ 	 	 	"trans": "精英",
+ 	 	 	"eng": "Elite"
+ 	 	},
+ 	 	"donation4": {
+ 	 	 	"trans": "傳奇玩家",
+ 	 	 	"eng": "Legendary"
+ 	 	},
+ 	 	"donation5": {
+ 	 	 	"trans": "電馭馬鈴薯",
+ 	 	 	"eng": "Cybernetic Potato"
+ 	 	},
+ 	 	"donation6": {
+ 	 	 	"trans": "至尊",
+ 	 	 	"eng": "Prestige"
+ 	 	},
+ 	 	"moderator": {
+ 	 	 	"trans": "聊天管理",
+ 	 	 	"eng": "Moderator"
+ 	 	},
+ 	 	"admin": {
+ 	 	 	"trans": "作者",
+ 	 	 	"eng": "Admin"
+ 	 	}
+ 	},
+ 	"combat": {
+ 	 	"log": {
+ 	 	 	"enemyAttack": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"enemyName",
+ 	 	 	 	 	"value"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${enemyName}攻擊您，受到了${value}傷害",
+ 	 	 	 	"eng": "${enemyName} attacked you, received ${value} damage"
+ 	 	 	},
+ 	 	 	"playerAttack": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"enemyName",
+ 	 	 	 	 	"value"
+ 	 	 	 	],
+ 	 	 	 	"trans": "您攻擊${enemyName}，受到${value}傷害",
+ 	 	 	 	"eng": "You attacked ${enemyName}, dealing ${value} damage"
+ 	 	 	}
+ 	 	}
+ 	}
+}
